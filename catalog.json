@@ -1,0 +1,3555 @@
+{
+  "format": "zoids-vs3-assets-catalog-v1",
+  "created_utc": "2026-10-23T18:48:09.613442+00:00",
+  "release_scope": "Zoid model exports, including low-detail variants; not a complete game asset library",
+  "format_note": "GLB 2.0 with embedded textures. Separate texture files reproduce embedded image bytes exactly.",
+  "validation_scope": "Read-only structural checks of GLB headers, chunk and buffer bounds, accessors, finite numeric attributes, triangle indices, node and skin references, embedded images, material texture references, and animation references. Not visual validation, full glTF conformance certification, engine import testing, or animation correctness validation.",
+  "summary": {
+    "candidate_glbs": 92,
+    "included_glbs": 92,
+    "unique_glb_hashes": 92,
+    "excluded": 0,
+    "embedded_images": 102,
+    "model_bytes": 75204812,
+    "texture_bytes": 16793691,
+    "max_model_bytes": 4671680,
+    "unique_source_ids": 87,
+    "low_detail_variants": 5
+  },
+  "assets": [
+    {
+      "id": "zoid__a01",
+      "display_name": "A01",
+      "source_asset": "zoid/a01.dat",
+      "source_sha256": "1be4227a9b23cf050001e198478f4c5b5e8b4b30518da62e95699d1a6dd4439b",
+      "model": {
+        "path": "models/zoid__a01/zoid__a01.glb",
+        "bytes": 4671680,
+        "sha256": "21bf35ac974d9f69b6cdd2e4806688d94f39c1ca32fb14e23d87dcf9f7cdf793"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a01/textures/texture_00.png",
+          "bytes": 154121,
+          "sha256": "2ca6f8d1fbdea0317c7c8c7da935782727bc8a3ea2794527a53e81b7b6f40416",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 3,
+        "vertices": 4831,
+        "triangles": 2354,
+        "nodes": 115,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [
+          {
+            "name": "a01_anim_000",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_001",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_002",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_003",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_004",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_005",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_006",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_007",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_008",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_009",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_010",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_011",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_012",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_013",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_014",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_015",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_016",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_017",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_018",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_019",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_020",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_021",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_022",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_023",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_024",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_025",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_026",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_027",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_028",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_029",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_030",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_031",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_032",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_033",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_034",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_035",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_036",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_037",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_038",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_039",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_040",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_041",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_042",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_043",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_044",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_045",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_046",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_047",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_048",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_049",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_050",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_051",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_052",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_053",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_054",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_055",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_056",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_057",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_058",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_059",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_060",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_061",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_062",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_063",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_064",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_065",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_066",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_067",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_068",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_069",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_070",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_071",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_072",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_073",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_074",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_075",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_076",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_077",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_078",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_079",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_080",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_081",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_082",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_083",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_084",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_085",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_086",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_087",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_088",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_089",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_090",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_091",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_092",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_093",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_094",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_095",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_096",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_097",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_098",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_099",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_100",
+            "channels": 333
+          },
+          {
+            "name": "a01_anim_101",
+            "channels": 333
+          }
+        ],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "102 preserved accessory/reference clips; not validated body-motion animations. Use as a model/texture asset, not an authenticated body-animation library."
+    },
+    {
+      "id": "zoid__a02",
+      "display_name": "A02",
+      "source_asset": "zoid/a02.dat",
+      "source_sha256": "a22e1b1ec34909e45f405df9568da1a676939497b25dc33dca7a42bc314082d7",
+      "model": {
+        "path": "models/zoid__a02/zoid__a02.glb",
+        "bytes": 523452,
+        "sha256": "c09303674cc967573bd8c6170cb24c385b8f1aeda5a4560e3ed76e51b5f7bb6f"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a02/textures/texture_00.png",
+          "bytes": 139328,
+          "sha256": "f5a68a71ceb6894387b6ffab5cf3ae4f2139e5843181c8794bcaa12658f01ec1",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__a02/textures/texture_01.png",
+          "bytes": 6472,
+          "sha256": "40f6cb7a0fb792caccf919bbb7a43dfa12060bb9c9c328b0b73bf37ad635808d",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 1
+        },
+        {
+          "path": "models/zoid__a02/textures/texture_02.png",
+          "bytes": 3838,
+          "sha256": "76c746e38f4d85305816c9257b2852d47135fdbb19fe04b8b8abb3868b4a071d",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 2
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 6097,
+        "triangles": 3001,
+        "nodes": 120,
+        "skins": 1,
+        "embedded_images": 3,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a03",
+      "display_name": "A03",
+      "source_asset": "zoid/a03.dat",
+      "source_sha256": "eda58b69eadbdeaec01d4a06c4e8519c9aa2cf8f9aaf94fa214342a1d47d1e5a",
+      "model": {
+        "path": "models/zoid__a03/zoid__a03.glb",
+        "bytes": 693124,
+        "sha256": "ac522c1313a78ed44321bcd101e5050a1a88b5ba0b9d8826597df30be9392aed"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a03/textures/texture_00.png",
+          "bytes": 208710,
+          "sha256": "ee386a59d857fb489099e8cea660010ac043954e7090a0fbdc3fd568ddf5243f",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 8173,
+        "triangles": 3893,
+        "nodes": 118,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a04",
+      "display_name": "A04",
+      "source_asset": "zoid/a04.dat",
+      "source_sha256": "5d845523a2b6ae490d584d4456856518d940ca47f7cf1546054abeeaa837a594",
+      "model": {
+        "path": "models/zoid__a04/zoid__a04.glb",
+        "bytes": 889536,
+        "sha256": "458e017f7b19d38842a98092d2efafb46484dd53281745a5afe25a91e5341ded"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a04/textures/texture_00.png",
+          "bytes": 154035,
+          "sha256": "1eeb526dbbf5b2a06e6655d27c03d3c595707ab060672f7e9db882bc505a3f38",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 12778,
+        "triangles": 6518,
+        "nodes": 98,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a05",
+      "display_name": "A05",
+      "source_asset": "zoid/a05.dat",
+      "source_sha256": "79082d646885a63878a514cb9f4ed7a0a27387bd6bcfc17bf61dfbe3f5dd36d8",
+      "model": {
+        "path": "models/zoid__a05/zoid__a05.glb",
+        "bytes": 854688,
+        "sha256": "e591a51f90a8989a7a01532ffc7b985fcd574b8dda71e7b10c7310ffbffe0063"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a05/textures/texture_00.png",
+          "bytes": 112570,
+          "sha256": "ee62e4461f1f967ac271129cbb598207b7f0945c7622e0330db13879d41c051b",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 13012,
+        "triangles": 5835,
+        "nodes": 95,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a06",
+      "display_name": "A06",
+      "source_asset": "zoid/a06.dat",
+      "source_sha256": "2dda4c7b75511c442faee87ecbf77987c5242c3ea952db0e68ee2a82ca8c5fc9",
+      "model": {
+        "path": "models/zoid__a06/zoid__a06.glb",
+        "bytes": 909240,
+        "sha256": "d3186cac0cf2b7c8bf4b9ef263d6f1799d7fb289a178714a9b5c55aa4674a18d"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a06/textures/texture_00.png",
+          "bytes": 166420,
+          "sha256": "30a628274aef60e8a94116f4b2d20c3ab3d4ccd853ebf1e06c9385d2a7a9bcea",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 12884,
+        "triangles": 6119,
+        "nodes": 116,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a07",
+      "display_name": "A07",
+      "source_asset": "zoid/a07.dat",
+      "source_sha256": "968e8eb08cef306e78ee6ca504111902d733cadbea55782a0739fdafcfbcd592",
+      "model": {
+        "path": "models/zoid__a07/zoid__a07.glb",
+        "bytes": 1254048,
+        "sha256": "834d02725e2c197aa99370d71ae7238f24e63f9c4bbd6f727a2649078f535368"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a07/textures/texture_00.png",
+          "bytes": 158319,
+          "sha256": "24bd30fb9b190daf8316ebf8f322be67a594729be167b85e92ce395de93ff3d8",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 12680,
+        "triangles": 5981,
+        "nodes": 136,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [
+          {
+            "name": "idle",
+            "channels": 378
+          },
+          {
+            "name": "walk_forward",
+            "channels": 378
+          }
+        ],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "Two preserved measured clips, idle and walk_forward. Their references are structurally valid; prior continuity review does not certify them as seamless loops. No new animation playback or visual validation was performed."
+    },
+    {
+      "id": "zoid__a08",
+      "display_name": "A08",
+      "source_asset": "zoid/a08.dat",
+      "source_sha256": "c05ed3dd5cf8a2ecdb3fcb87d9d3a7012336c8bca04fc2a77e14d82f33b48d91",
+      "model": {
+        "path": "models/zoid__a08/zoid__a08.glb",
+        "bytes": 692880,
+        "sha256": "8fa8cb22f4c0f5f5ec67253b6a576c22d80bc4855bf82f3df1379a2fe2939b27"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a08/textures/texture_00.png",
+          "bytes": 147616,
+          "sha256": "e1cf42fe5198aaa2cfb507f0cb4d43708bc90f9c99b2f106c6b901b04c681a6c",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 9290,
+        "triangles": 4425,
+        "nodes": 106,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a09",
+      "display_name": "A09",
+      "source_asset": "zoid/a09.dat",
+      "source_sha256": "4102693a5823b56fb3c2087fe384e52542aae4a023141dfcb865e2143ac5e6d6",
+      "model": {
+        "path": "models/zoid__a09/zoid__a09.glb",
+        "bytes": 892724,
+        "sha256": "2c47bf87fb0ccd1de5efe8765aa67f6183b2c8ba6be603373c68714394cfbfea"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a09/textures/texture_00.png",
+          "bytes": 189785,
+          "sha256": "c75a6fe13024d2a88850ac2f7fd7401795bf45ff980d16bd3f1c0afb19182015",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 8,
+        "vertices": 12043,
+        "triangles": 5849,
+        "nodes": 122,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a10",
+      "display_name": "A10",
+      "source_asset": "zoid/a10.dat",
+      "source_sha256": "5ec4df1f254611b62959972cd9bcd15dccdf3c2cb9406dfbcfe227cec3f20828",
+      "model": {
+        "path": "models/zoid__a10/zoid__a10.glb",
+        "bytes": 958784,
+        "sha256": "b8b4c8cb2d2b8de07ddd594b7d1cc65a7a63f96dc3fc09ffabf17f2a451b4368"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a10/textures/texture_00.png",
+          "bytes": 187223,
+          "sha256": "a93855f71aa6f33c60184782c9e084abf8f7f75941b350390c69a6e5ec85394d",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 18,
+        "vertices": 12951,
+        "triangles": 6349,
+        "nodes": 145,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a11",
+      "display_name": "A11",
+      "source_asset": "zoid/a11.dat",
+      "source_sha256": "489596041a1a26bb0ba036aee44e4d06f3c1e835cc0a9f6bd88ffae8978c549b",
+      "model": {
+        "path": "models/zoid__a11/zoid__a11.glb",
+        "bytes": 894004,
+        "sha256": "349b5bb4b3a388d8c1de8ed5017bf364f5ef571d9cf64022d8567f60d368fe97"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a11/textures/texture_00.png",
+          "bytes": 185317,
+          "sha256": "839420956812e5e9562748155716e13de46f2a9cf2cf3457dcb11198f6c83bb4",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 10,
+        "vertices": 12077,
+        "triangles": 5972,
+        "nodes": 123,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a12",
+      "display_name": "A12",
+      "source_asset": "zoid/a12.dat",
+      "source_sha256": "be7c092df3af05bba9d99d132b63a8ccb5cf19834b8666ab27f98b267bca9fe1",
+      "model": {
+        "path": "models/zoid__a12/zoid__a12.glb",
+        "bytes": 812912,
+        "sha256": "a5a7aa60a53fdb009530168450e84a4d77c1d6f5df837c1d015a85957c6f94ea"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a12/textures/texture_00.png",
+          "bytes": 192826,
+          "sha256": "bca44d338ddb98fed7980c8ec9703778abbf0d3b41d464a3dba80fbfe8706897",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 10475,
+        "triangles": 5252,
+        "nodes": 124,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a13",
+      "display_name": "A13",
+      "source_asset": "zoid/a13.dat",
+      "source_sha256": "351489f48c7c962ee7b76107d1655ffcb17eba1a7055e4cd4a6e9ffc3d2e94a7",
+      "model": {
+        "path": "models/zoid__a13/zoid__a13.glb",
+        "bytes": 917684,
+        "sha256": "64e2603d7ac9bac131650c923735df1f2b34423e966f2868013dc865e8ce07c7"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a13/textures/texture_00.png",
+          "bytes": 169982,
+          "sha256": "ca47d297ff84588e7dd2dce39e9bb57875f3279b7fc934bf7ed2b686b8f6fd24",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 8,
+        "vertices": 12807,
+        "triangles": 6230,
+        "nodes": 132,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a14",
+      "display_name": "A14",
+      "source_asset": "zoid/a14.dat",
+      "source_sha256": "60ed201633ea293c7b6af715f26bd874188a3f98d74be3111308e32983526de7",
+      "model": {
+        "path": "models/zoid__a14/zoid__a14.glb",
+        "bytes": 530080,
+        "sha256": "aa531de3f088b07d3fee8be72159044f5f53a57ef3b332caffd8b1368ff60687"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a14/textures/texture_00.png",
+          "bytes": 137848,
+          "sha256": "deed4489e9976fa16a4ad6c909dd46f0c41e3ffe9060945106510e73dd37b2ce",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 6596,
+        "triangles": 3233,
+        "nodes": 94,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a15",
+      "display_name": "A15",
+      "source_asset": "zoid/a15.dat",
+      "source_sha256": "3e8bc651401f0a4dae73d9d7b95a5f7301bf2f8694431825a6b6ebeb29bf62c9",
+      "model": {
+        "path": "models/zoid__a15/zoid__a15.glb",
+        "bytes": 849080,
+        "sha256": "fb58d7e81bbc34c928bde197e8fc2ad4247cff92bf4a8b3f2dc3a5629b19b7db"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a15/textures/texture_00.png",
+          "bytes": 177739,
+          "sha256": "51a33871cc53628e51770ee4237a7787ec62c10fd9c6ac288c3b70add18a08ca",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 8,
+        "vertices": 11535,
+        "triangles": 5677,
+        "nodes": 105,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a16",
+      "display_name": "A16",
+      "source_asset": "zoid/a16.dat",
+      "source_sha256": "847e9c76b66c209579a27bcf007c723b57a201ff373ee826a1c4b8236cb93611",
+      "model": {
+        "path": "models/zoid__a16/zoid__a16.glb",
+        "bytes": 993376,
+        "sha256": "8e46fcbda9c5540719a1d3b88101f758aeea911d01025965306e4dde7b3b6399"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a16/textures/texture_00.png",
+          "bytes": 198154,
+          "sha256": "58de4294716f1b883d1ef896ffc3d441792188eaf3ca327c545eee566f8ee7cb",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 11,
+        "vertices": 13637,
+        "triangles": 6493,
+        "nodes": 128,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a17",
+      "display_name": "A17",
+      "source_asset": "zoid/a17.dat",
+      "source_sha256": "f225f89387dca0153547d3889de95ef1266f7e9817c904d27a0b0c05b3047e91",
+      "model": {
+        "path": "models/zoid__a17/zoid__a17.glb",
+        "bytes": 917824,
+        "sha256": "14c5d1c4c7149dbbfd884992b4a98e880855169788b93073bb19253ac17dd243"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a17/textures/texture_00.png",
+          "bytes": 176332,
+          "sha256": "a02bcac9def391b03db5d7655d30ae13b941e442edca0a94307f7ea5342511ba",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 12913,
+        "triangles": 6268,
+        "nodes": 119,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a18",
+      "display_name": "A18",
+      "source_asset": "zoid/a18.dat",
+      "source_sha256": "8aca8d429161c6d31abf9724e843fd52f341eda8a2675dd93d24fddc9986424a",
+      "model": {
+        "path": "models/zoid__a18/zoid__a18.glb",
+        "bytes": 816040,
+        "sha256": "bde46c8ce8f8cdc8f0b56ea3fcb97db61a0c675fbf1089306610b5d5ae3d55e1"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a18/textures/texture_00.png",
+          "bytes": 149890,
+          "sha256": "0b74360243940849c6f70e595509f4ffec2d9aee1bd3f42947dfb2a9e527a67d",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 11418,
+        "triangles": 5671,
+        "nodes": 126,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a19",
+      "display_name": "A19",
+      "source_asset": "zoid/a19.dat",
+      "source_sha256": "d3cede14d91a3ff77b27041bcc61d25c1ee5eeb0c45316a50a2667ad7be5e487",
+      "model": {
+        "path": "models/zoid__a19/zoid__a19.glb",
+        "bytes": 835904,
+        "sha256": "6e0bb634d3915e267e2b403d94cae72c9ac8c66276d4e54cc5fb5d79e5b014ed"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a19/textures/texture_00.png",
+          "bytes": 197273,
+          "sha256": "2b466e0645e5ea4531e9367a1f6e5ea635671230c4188d0f34a4dc1693794cf6",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 11,
+        "vertices": 10910,
+        "triangles": 5361,
+        "nodes": 108,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a20",
+      "display_name": "A20",
+      "source_asset": "zoid/a20.dat",
+      "source_sha256": "f5a63438bf0ef893895c8d666dc5ae34f495056f0f70acb548744616d7ed0411",
+      "model": {
+        "path": "models/zoid__a20/zoid__a20.glb",
+        "bytes": 504996,
+        "sha256": "faf8fcdef39238ba3f16488c7ea1a5fe636c8a6f90fbee8a654eb7692ec39e15"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a20/textures/texture_00.png",
+          "bytes": 143428,
+          "sha256": "a6801b495f1228ec2ef1d7ddbf9e8a56fc45d13f2dcd3b2032b94e1bdec785b0",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 5998,
+        "triangles": 2783,
+        "nodes": 95,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a21",
+      "display_name": "A21",
+      "source_asset": "zoid/a21.dat",
+      "source_sha256": "15733bd55917e8cbc2cb3296de3b250e7e67d48b959f225fb4c784395b0471ba",
+      "model": {
+        "path": "models/zoid__a21/zoid__a21.glb",
+        "bytes": 588896,
+        "sha256": "735267b0de2ada06e56dda50a17021c1cb30d383c425f3cba3725dade28e184a"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a21/textures/texture_00.png",
+          "bytes": 154779,
+          "sha256": "2325247e561f5d58ebc6d7d00bfc9b548e8914674646c465bca679abb59f8391",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 7325,
+        "triangles": 3389,
+        "nodes": 95,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a22",
+      "display_name": "A22",
+      "source_asset": "zoid/a22.dat",
+      "source_sha256": "bd3093df4723328ee5b5c0c11eea719066b22ef4a54146019f07a94e796a7a93",
+      "model": {
+        "path": "models/zoid__a22/zoid__a22.glb",
+        "bytes": 947560,
+        "sha256": "7552cbfe1383d336d0eb331d500672df86eaba699d8a0d29eb5c74c08cf12024"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a22/textures/texture_00.png",
+          "bytes": 248113,
+          "sha256": "e9b18b6f7a440ec35c19cc03d3c17fcd4f66307dbce281406204598439518d7d",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 10,
+        "vertices": 11917,
+        "triangles": 5648,
+        "nodes": 127,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a23",
+      "display_name": "A23",
+      "source_asset": "zoid/a23.dat",
+      "source_sha256": "ef1a4984f7db130afac1790a499201816e2c0e919161844dc7ada29fefb55ec6",
+      "model": {
+        "path": "models/zoid__a23/zoid__a23.glb",
+        "bytes": 1039596,
+        "sha256": "df80341656ebc38e5aa0ee1aa224085ea3148cc5198358556e8ae0aa7c7a2e01"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a23/textures/texture_00.png",
+          "bytes": 279694,
+          "sha256": "e9f17d2de6fc0db4daf9c6debb8a66207636558473d49de35f885300219f8e1d",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 14,
+        "vertices": 12913,
+        "triangles": 6136,
+        "nodes": 132,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a24",
+      "display_name": "A24",
+      "source_asset": "zoid/a24.dat",
+      "source_sha256": "39f2f879bb4e4865060be934727238c4538d01e67894af6d5a5864d6546adfcf",
+      "model": {
+        "path": "models/zoid__a24/zoid__a24.glb",
+        "bytes": 889488,
+        "sha256": "34ccf0ead98cec17d48702596230233831d8065a8ec815c30e7bc8aa72f8cbfb"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a24/textures/texture_00.png",
+          "bytes": 146727,
+          "sha256": "655eaf1ea0448428be34416d3f61447b1d0d5e224eec2aae1ed5c5a54a8ae255",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 12884,
+        "triangles": 6119,
+        "nodes": 116,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a25",
+      "display_name": "A25",
+      "source_asset": "zoid/a25.dat",
+      "source_sha256": "ba14f5896293a14a57bef7c2d75290a44f2bcdedd94f7900df965ca229289eeb",
+      "model": {
+        "path": "models/zoid__a25/zoid__a25.glb",
+        "bytes": 700760,
+        "sha256": "14364f06023d42f939c42acc9b6791d6330ae3823b3367da47961be6706549bc"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a25/textures/texture_00.png",
+          "bytes": 183617,
+          "sha256": "130c718c506df7f8f841712042c00d224ac842767d06dae448955b29e505d317",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 8784,
+        "triangles": 4424,
+        "nodes": 102,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a26",
+      "display_name": "A26",
+      "source_asset": "zoid/a26.dat",
+      "source_sha256": "d3d730a1b63e2af8c1280ecadc064e659b0aff1bcd6b9169f78b92b47d5b0a46",
+      "model": {
+        "path": "models/zoid__a26/zoid__a26.glb",
+        "bytes": 704892,
+        "sha256": "a00f6a22e58febde1ffcc5f9b417515d638687d712565c23e3e09072b576518b"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a26/textures/texture_00.png",
+          "bytes": 221899,
+          "sha256": "e1b57fc678e95461983e1a918c5f38237b74aba389b548166b0ba9d0c1b6917e",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 8219,
+        "triangles": 4119,
+        "nodes": 99,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a27",
+      "display_name": "A27",
+      "source_asset": "zoid/a27.dat",
+      "source_sha256": "3723f03dbfcc4f3d74665ded193c518ba480a1698edb6bb604a35ab9281bc9dd",
+      "model": {
+        "path": "models/zoid__a27/zoid__a27.glb",
+        "bytes": 943796,
+        "sha256": "ae98240a931b066863405b08cd317242da7daf3104035c1820e2ac3a4c0dc991"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a27/textures/texture_00.png",
+          "bytes": 247895,
+          "sha256": "dc116f761aabb65e6b6cc9d30418cdf424ad77c1dc9347fc055d0b0ab3a8eb16",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 11929,
+        "triangles": 5975,
+        "nodes": 122,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a28",
+      "display_name": "A28",
+      "source_asset": "zoid/a28.dat",
+      "source_sha256": "4fb2ec0908879c77faaa4b3986740f2c209b5b20cc7a9fcdf57544e819bb54fc",
+      "model": {
+        "path": "models/zoid__a28/zoid__a28.glb",
+        "bytes": 732976,
+        "sha256": "29ae6b0ff5a2aaeedfc88bad53362357b3b4d580d1e3d3840fcda6084fe4d8e4"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a28/textures/texture_00.png",
+          "bytes": 190182,
+          "sha256": "e5cf167900733b63a1c3ec79a2b9d7fbff41b2c4b85cc2b8e2c2ac551c0bcd01",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 9202,
+        "triangles": 4379,
+        "nodes": 114,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a29",
+      "display_name": "A29",
+      "source_asset": "zoid/a29.dat",
+      "source_sha256": "74dc4f9d0cae24d916c88f0fa1025f1bcb5e4db6518e793d6e3711b4c542ed7f",
+      "model": {
+        "path": "models/zoid__a29/zoid__a29.glb",
+        "bytes": 915500,
+        "sha256": "e00b1ad0fa762502b4ef9558ebfcce894786df6aff07891ec236af98724ddc75"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a29/textures/texture_00.png",
+          "bytes": 202590,
+          "sha256": "7ee67b3a5c4aa38a26c898d73fe4eef2d2e4c09400606f7e35215d8f7975d1e3",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 12,
+        "vertices": 12132,
+        "triangles": 6033,
+        "nodes": 125,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a30",
+      "display_name": "A30",
+      "source_asset": "zoid/a30.dat",
+      "source_sha256": "64ce8882542321282d598652d946778dfe8424e0eb60ec2e2cf36b12ac2c38bd",
+      "model": {
+        "path": "models/zoid__a30/zoid__a30.glb",
+        "bytes": 1104144,
+        "sha256": "7f7cc1f112b20596fd5a9a8931b068ca470a24a52573c66a84d1a2799e853995"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a30/textures/texture_00.png",
+          "bytes": 310377,
+          "sha256": "14ee0d1b0671ad9dbd20382703e7429c215a9e8d96a9b9eb9dc30275244c82f0",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 13659,
+        "triangles": 6537,
+        "nodes": 126,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a31",
+      "display_name": "A31",
+      "source_asset": "zoid/a31.dat",
+      "source_sha256": "ff9079b4e58f30b6a9f77eac04f3b62ad00ffd8a31064e05d6e2214e2c11a94a",
+      "model": {
+        "path": "models/zoid__a31/zoid__a31.glb",
+        "bytes": 719732,
+        "sha256": "c5c54f11fd3c9bb67367faf7c38bd57c0ef6c825ee1d596e93487496d029190b"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a31/textures/texture_00.png",
+          "bytes": 107301,
+          "sha256": "59f95ae4ccd99f7cf1caf220b42cd65b91312a89fe1941d5c72cccba7b1bb6d0",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 1,
+        "vertices": 10826,
+        "triangles": 5624,
+        "nodes": 62,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a32",
+      "display_name": "A32",
+      "source_asset": "zoid/a32.dat",
+      "source_sha256": "8c9cdbb9e99347dfa976cca4f24b626cf1c8523cf78441821f89b27621505cba",
+      "model": {
+        "path": "models/zoid__a32/zoid__a32.glb",
+        "bytes": 992088,
+        "sha256": "63ef16cef07f005c51417310091736cdac5383db0eedbba66f7e8e3f517a18d0"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a32/textures/texture_00.png",
+          "bytes": 196921,
+          "sha256": "1d8a1d00ef09213658ba217bf2cc2b3866aa91064524e649db13431468e91df4",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 11,
+        "vertices": 13637,
+        "triangles": 6493,
+        "nodes": 128,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a34",
+      "display_name": "A34",
+      "source_asset": "zoid/a34.dat",
+      "source_sha256": "179d95e0da5cf22d19199b32189163d81b5549b5b1f6ac22eea05a73f47e8b5d",
+      "model": {
+        "path": "models/zoid__a34/zoid__a34.glb",
+        "bytes": 750740,
+        "sha256": "1550c27cad6d5adbf1af30e779568226386a8fb06ab0750b0d72fca1b1b1f385"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a34/textures/texture_00.png",
+          "bytes": 234104,
+          "sha256": "bc498d162f428338ef756dba5093fd4af9d5e5eb78e855b233c02374538f7220",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 8688,
+        "triangles": 4108,
+        "nodes": 124,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a40",
+      "display_name": "A40",
+      "source_asset": "zoid/a40.dat",
+      "source_sha256": "b61426f4af4f3be4fbf171479494ce7625e331968b84595c24e45fe874f2ab32",
+      "model": {
+        "path": "models/zoid__a40/zoid__a40.glb",
+        "bytes": 743292,
+        "sha256": "bf427bbfd69495eecb98751868667b68bfec17cffde3421187e1cb4fab177fd4"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a40/textures/texture_00.png",
+          "bytes": 226688,
+          "sha256": "902fcf82e03b9d95bca5224644aaa0b1d1a227062bcae7bff8faccb6cc24e4c4",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 8688,
+        "triangles": 4108,
+        "nodes": 124,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a41",
+      "display_name": "A41",
+      "source_asset": "zoid/a41.dat",
+      "source_sha256": "ff26f187a6991965f57bc33523fffa240ba6b070ed5f81cefce8cd9e65fc289d",
+      "model": {
+        "path": "models/zoid__a41/zoid__a41.glb",
+        "bytes": 824560,
+        "sha256": "34799f5d9cdb1c35b8d71a8d55f0c8645cf799d058113e9941acf43048d3449b"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a41/textures/texture_00.png",
+          "bytes": 340988,
+          "sha256": "b27e33abc8e9f218836a7119688ebfad98f2767dff84a7cb02d941685c2d95d3",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 8212,
+        "triangles": 4060,
+        "nodes": 104,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a42",
+      "display_name": "A42",
+      "source_asset": "zoid/a42.dat",
+      "source_sha256": "b373e7b21f0a6842a1a76a1a52f6f7d04960130ec54bfd78927ef9b56727e815",
+      "model": {
+        "path": "models/zoid__a42/zoid__a42.glb",
+        "bytes": 927224,
+        "sha256": "ced154e546007204063cfcdaa66ab66af4acac1e1056eca376a15ac53de4597d"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a42/textures/texture_00.png",
+          "bytes": 310600,
+          "sha256": "5083646c915c85881886376b3cd6afa071567bf111ab403049e722f78595a94a",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 10468,
+        "triangles": 5140,
+        "nodes": 125,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a43",
+      "display_name": "A43",
+      "source_asset": "zoid/a43.dat",
+      "source_sha256": "7e3036a552f342d4799f3a26cd16fa2283214ecec9676920d50924bc7844a6a5",
+      "model": {
+        "path": "models/zoid__a43/zoid__a43.glb",
+        "bytes": 840424,
+        "sha256": "2a270ffca94d03e503535987e3ba92e84850b409fc215cc90dcd6c4e43e2c9cf"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a43/textures/texture_00.png",
+          "bytes": 226014,
+          "sha256": "5a553c06f312e3460dfb48e2dd9e8ed6ea5344939f0eb16768e8b3e416b43fff",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 10563,
+        "triangles": 5009,
+        "nodes": 102,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a44",
+      "display_name": "A44",
+      "source_asset": "zoid/a44.dat",
+      "source_sha256": "f89e365c0a5c882b564b426345912d40975a25699a3190008d58482d8e2f1805",
+      "model": {
+        "path": "models/zoid__a44/zoid__a44.glb",
+        "bytes": 1103084,
+        "sha256": "a4dd1f3e329c23c249b9131983fdeeaa205b3a0ef57052c055cffe18b215a88a"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a44/textures/texture_00.png",
+          "bytes": 307822,
+          "sha256": "62ffb74656c56f07ea00d1ef9b96382da4c86f0ec8eb9696e6d4a102d8f8fdcf",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 10,
+        "vertices": 13520,
+        "triangles": 6606,
+        "nodes": 155,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a45",
+      "display_name": "A45",
+      "source_asset": "zoid/a45.dat",
+      "source_sha256": "00cfb8ba99ec07f854606b7df5cec83ed848b5763253a852497fc1f7b8eabfe8",
+      "model": {
+        "path": "models/zoid__a45/zoid__a45.glb",
+        "bytes": 723248,
+        "sha256": "b2e5bcb8bac6febf09fcc92c10754beaa6ea3772d431b53924f200df324d5305"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a45/textures/texture_00.png",
+          "bytes": 326894,
+          "sha256": "c0023d30751e78a7b5078462ad9d48703e71a562e5dbcaba37f7e42a57f117e5",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 6585,
+        "triangles": 3184,
+        "nodes": 106,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a46",
+      "display_name": "A46",
+      "source_asset": "zoid/a46.dat",
+      "source_sha256": "97c8cc7ff748e2ec0fa214b654aade23db97c84feaeb3011b4237b00fe3a2722",
+      "model": {
+        "path": "models/zoid__a46/zoid__a46.glb",
+        "bytes": 871104,
+        "sha256": "a5366477b2b1a65d4db083986f599ced8de7ed19fc1487d7d5bab63731030418"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a46/textures/texture_00.png",
+          "bytes": 356454,
+          "sha256": "af4e9af6ebcb7cbcddb7ac8de2f6ce1aea602e22a9cadd431625838dab839c49",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 8749,
+        "triangles": 4174,
+        "nodes": 95,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a47",
+      "display_name": "A47",
+      "source_asset": "zoid/a47.dat",
+      "source_sha256": "16fecec7179d2b265c020f092567e89cdf9ba83d36298d9d66d4ab5745b5c8f0",
+      "model": {
+        "path": "models/zoid__a47/zoid__a47.glb",
+        "bytes": 818948,
+        "sha256": "68d32556d7c93c1ce0f8631194a52a61bb26f4025b481cdbe1caf1d149b9c1f3"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a47/textures/texture_00.png",
+          "bytes": 642,
+          "sha256": "68eab565821904e63c6a2f1c7a5c99bb144103afc2b1061cd2761d203404bc48",
+          "width": 32,
+          "height": 32,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__a47/textures/texture_01.png",
+          "bytes": 343341,
+          "sha256": "d3a7a3c059ea05433b5d64639c766487a9b077a3dd5d14cf81287e1433671ecb",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 37,
+        "vertices": 7131,
+        "triangles": 3329,
+        "nodes": 165,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a48",
+      "display_name": "A48",
+      "source_asset": "zoid/a48.dat",
+      "source_sha256": "942be35d6a95782e331794aa60dc7da8301d0ea805924bc82f9f3208d4822b7c",
+      "model": {
+        "path": "models/zoid__a48/zoid__a48.glb",
+        "bytes": 992172,
+        "sha256": "3cf148b0d8b9f5de9f2648a2b21c1694c00bc8ad572155ed6816dfc03e1a5a2a"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a48/textures/texture_00.png",
+          "bytes": 317617,
+          "sha256": "c89726842679b264ca541368faa22a06f2d3c9c92a1329ef82c4a2c17715ecdf",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 11640,
+        "triangles": 5115,
+        "nodes": 115,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a49",
+      "display_name": "A49",
+      "source_asset": "zoid/a49.dat",
+      "source_sha256": "f70ca558dd03e6aea30dadbde130341228441e43c839ad8c29bab1dea2c85887",
+      "model": {
+        "path": "models/zoid__a49/zoid__a49.glb",
+        "bytes": 818948,
+        "sha256": "c50886b6ba20a269af24cbc912108d609de72a14f9cea509b38216f7c289735f"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a49/textures/texture_00.png",
+          "bytes": 642,
+          "sha256": "68eab565821904e63c6a2f1c7a5c99bb144103afc2b1061cd2761d203404bc48",
+          "width": 32,
+          "height": 32,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__a49/textures/texture_01.png",
+          "bytes": 343341,
+          "sha256": "d3a7a3c059ea05433b5d64639c766487a9b077a3dd5d14cf81287e1433671ecb",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 37,
+        "vertices": 7131,
+        "triangles": 3329,
+        "nodes": 165,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a50",
+      "display_name": "A50",
+      "source_asset": "zoid/a50.dat",
+      "source_sha256": "30a2f34f4585886ba0ed9e780a1f5fadc5f7b658ff99dcd2eaab6b4ab7123c04",
+      "model": {
+        "path": "models/zoid__a50/zoid__a50.glb",
+        "bytes": 76704,
+        "sha256": "7c753a1e955bf82762e45913a4465318f16b5e2f75e7e65c64a4c90f561c5b0e"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a50/textures/texture_00.png",
+          "bytes": 17257,
+          "sha256": "cb271ca3f72a7e7551a23f5f04910e14cab616c717577f68561940efca87f77d",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 2,
+        "vertices": 982,
+        "triangles": 465,
+        "nodes": 15,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a98",
+      "display_name": "A98",
+      "source_asset": "zoid/a98.dat",
+      "source_sha256": "205826c3eeaffd76a7e14b6de0e322a79b7e335cd62049a770eda7b953108560",
+      "model": {
+        "path": "models/zoid__a98/zoid__a98.glb",
+        "bytes": 855252,
+        "sha256": "51050b877530945530962ebf1d94b49956f648e90dec6a3ebef7eedf3a6921a0"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a98/textures/texture_00.png",
+          "bytes": 45255,
+          "sha256": "74a1e5116618517982bbb0692a3431d1ddc18e43c1297ef6d55a2988490d54c3",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 14185,
+        "triangles": 6887,
+        "nodes": 96,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__a99",
+      "display_name": "A99",
+      "source_asset": "zoid/a99.dat",
+      "source_sha256": "6cb7956c4035d798ddee69b558b7ee71c3095d46f19119713281168c9e38a049",
+      "model": {
+        "path": "models/zoid__a99/zoid__a99.glb",
+        "bytes": 1046048,
+        "sha256": "ddaaf8f3e16623cb931d740375d0f60ecbef0def38d4764559edef03691dad54"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__a99/textures/texture_00.png",
+          "bytes": 8895,
+          "sha256": "9a82400d168cd18b1c54d2dabe0a9a80c2ba2b1893392b4b38cd9b7ab6eaa037",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__a99/textures/texture_01.png",
+          "bytes": 83595,
+          "sha256": "2c1e7f80d310ee84ee28064d716148ed026f54cbca6964e7dd74c39b6c87b153",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 22,
+        "vertices": 16889,
+        "triangles": 8327,
+        "nodes": 134,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b01",
+      "display_name": "B01",
+      "source_asset": "zoid/b01.dat",
+      "source_sha256": "974c648503727c63f3f438c961d957e8c039247f64a009959ba2e6aae92be101",
+      "model": {
+        "path": "models/zoid__b01/zoid__b01.glb",
+        "bytes": 593508,
+        "sha256": "7b5d39d152594b8c00c89f6b96ba7bee396e0fdbf6799aba6f2f893742bca0c7"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b01/textures/texture_00.png",
+          "bytes": 99015,
+          "sha256": "e50f27a473147acfd21cfabef2d0e9f49f6813684ae3078000a25989a9d2a7d2",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 3,
+        "vertices": 8646,
+        "triangles": 3885,
+        "nodes": 68,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b02",
+      "display_name": "B02",
+      "source_asset": "zoid/b02.dat",
+      "source_sha256": "d33cd819798846ca89cb1d94359a17a288b28531b081ae3547ab5c37aefa26ad",
+      "model": {
+        "path": "models/zoid__b02/zoid__b02.glb",
+        "bytes": 800480,
+        "sha256": "2a45afc68a27e9dd30f36e20729306f19f45f8f6f26c67d0cb243cdf6d09f3bc"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b02/textures/texture_00.png",
+          "bytes": 154063,
+          "sha256": "ae9af541b9b2e73ed50397f7555538394336a971d3e9aca31dbc5a9ba5f566f8",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 11108,
+        "triangles": 5396,
+        "nodes": 105,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b03",
+      "display_name": "B03",
+      "source_asset": "zoid/b03.dat",
+      "source_sha256": "286a1bca6fd31a5fc3c64f15cce54f5ccaa0836045483a17aeac2f9541dbb52d",
+      "model": {
+        "path": "models/zoid__b03/zoid__b03.glb",
+        "bytes": 902040,
+        "sha256": "f2763a0745286fa68c890702edc6b04670f5a7271421457f75be9b9cccbe7159"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b03/textures/texture_00.png",
+          "bytes": 247879,
+          "sha256": "ee070b75b61d44b5c95155b47211a0d2eb6e6a0c4a29e66f0b2a9c9bb28a39c1",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 11334,
+        "triangles": 5525,
+        "nodes": 97,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b04",
+      "display_name": "B04",
+      "source_asset": "zoid/b04.dat",
+      "source_sha256": "309d2b2cfc68ae6f0f8c0ff1e9296183b1645425dc2ec876feeba5efd1bc953b",
+      "model": {
+        "path": "models/zoid__b04/zoid__b04.glb",
+        "bytes": 620560,
+        "sha256": "9632852c61a6335cdd7b95a82cdd469d63c183d059309d49a6f16931782500dc"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b04/textures/texture_00.png",
+          "bytes": 140002,
+          "sha256": "d489ace5efee64517c0cbc8152e1daca60963279b4add769703d3e88038e2788",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 8064,
+        "triangles": 4009,
+        "nodes": 110,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b05",
+      "display_name": "B05",
+      "source_asset": "zoid/b05.dat",
+      "source_sha256": "1a1448ddd099dd79dfc220a55fdcb2e5c3ae23697c3b43c772bbd6e6bc59681d",
+      "model": {
+        "path": "models/zoid__b05/zoid__b05.glb",
+        "bytes": 627816,
+        "sha256": "00b445284baddda08f7d5b6e7b15e5aa7e68a9111be76d6067da5a00ab1261ed"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b05/textures/texture_00.png",
+          "bytes": 154682,
+          "sha256": "17f91d57e22698265d430cb74e943c8a4feb33dedc3c5904d59c8e9394967652",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 7912,
+        "triangles": 3726,
+        "nodes": 114,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b06",
+      "display_name": "B06",
+      "source_asset": "zoid/b06.dat",
+      "source_sha256": "e7ae0253eb9f07c6bcca6de233cbdb8b7b4a74f76d5b25140d92e14287948253",
+      "model": {
+        "path": "models/zoid__b06/zoid__b06.glb",
+        "bytes": 931604,
+        "sha256": "bd7507c1383cf480e3005c004b90ee52c84ae99564be22c83941c93606c8d37b"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b06/textures/texture_00.png",
+          "bytes": 169191,
+          "sha256": "af03f83b3af1458abf9a5ef8053a23bf3fb9148a3f79a9ff6716e4f2dd5b4a8e",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 13109,
+        "triangles": 6791,
+        "nodes": 117,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b07",
+      "display_name": "B07",
+      "source_asset": "zoid/b07.dat",
+      "source_sha256": "fe483da0671f309fd88ae5ac1b5adea136453df2e448bd79eab480f0777bdc5f",
+      "model": {
+        "path": "models/zoid__b07/zoid__b07.glb",
+        "bytes": 820624,
+        "sha256": "88989e41a75ea09ec3d4cf477bef46e973ce22f5506ef863082c893b30f3d79b"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b07/textures/texture_00.png",
+          "bytes": 117306,
+          "sha256": "a2064beb1c700c9d3291cfdf72ad92c4ca399bf0407e9d808a24fe1d3a558d7a",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 10,
+        "vertices": 11832,
+        "triangles": 5560,
+        "nodes": 156,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b08",
+      "display_name": "B08",
+      "source_asset": "zoid/b08.dat",
+      "source_sha256": "1f6a10fd949251deb09f492c328127df9e591e3b2d20730a3bdf497d7a9706c4",
+      "model": {
+        "path": "models/zoid__b08/zoid__b08.glb",
+        "bytes": 741076,
+        "sha256": "73f3f055f81429e2103f9677c1c1916801eaecdc53377cab080b733c16c56fcb"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b08/textures/texture_00.png",
+          "bytes": 171609,
+          "sha256": "47dfe2750b7fa3d45b4ea38d0a44ddc3544e5f5c4c28a4ec604108a01318dcd0",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 9598,
+        "triangles": 4663,
+        "nodes": 119,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b09",
+      "display_name": "B09",
+      "source_asset": "zoid/b09.dat",
+      "source_sha256": "76a7701d64c429dd447787d76adc9e9bfba289f8c840c2378e8b3ab5fc744a0d",
+      "model": {
+        "path": "models/zoid__b09/zoid__b09.glb",
+        "bytes": 942440,
+        "sha256": "dc1911841b51c5ec5fbf0f673aa0ba76c38728e420625c305afac7bae341747c"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b09/textures/texture_00.png",
+          "bytes": 204538,
+          "sha256": "b3d9e6f174eb928d9fadd7d0557196c73f0cdf23e990cb3ce473a20362b63912",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 13,
+        "vertices": 12480,
+        "triangles": 6146,
+        "nodes": 136,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b10",
+      "display_name": "B10",
+      "source_asset": "zoid/b10.dat",
+      "source_sha256": "0f6d226f0972c21c0e695bad09594e20d4466f5c18fae32f6f0f3ca9561e9c4d",
+      "model": {
+        "path": "models/zoid__b10/zoid__b10.glb",
+        "bytes": 392788,
+        "sha256": "94a6ef2bba0ec39cccf0371512f61a113da711df4e99d30615da97badf7c8579"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b10/textures/texture_00.png",
+          "bytes": 118248,
+          "sha256": "8601aa45f0d3be947a5b784e7d589582686714a7e7f082ec3180f3eb4ec2ccf3",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 12,
+        "vertices": 4414,
+        "triangles": 2090,
+        "nodes": 74,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b11",
+      "display_name": "B11",
+      "source_asset": "zoid/b11.dat",
+      "source_sha256": "e3687ef554361540c4ee12a9bfd651126ea1d71d44753e24b4d267fe4d299423",
+      "model": {
+        "path": "models/zoid__b11/zoid__b11.glb",
+        "bytes": 552552,
+        "sha256": "891431fe5f04565f9ca2d17e8df00e5ddea9d609418bc5a4a0b59a4fb37adb6a"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b11/textures/texture_00.png",
+          "bytes": 177880,
+          "sha256": "7159d15537ccd654cbdedfea34f31d604c968f0d920b67d0005c50f79be8fbc8",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 6219,
+        "triangles": 3136,
+        "nodes": 101,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b12",
+      "display_name": "B12",
+      "source_asset": "zoid/b12.dat",
+      "source_sha256": "ac74bd7781dbe7cd275bb1b6f41d72b02e6a3bde8ce56d734b041df6a184eec4",
+      "model": {
+        "path": "models/zoid__b12/zoid__b12.glb",
+        "bytes": 848940,
+        "sha256": "4c4481dd60dbf3eaefd67909a6046ce1d9932a4e5c955f1b2c2cd8c73b78181a"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b12/textures/texture_00.png",
+          "bytes": 139467,
+          "sha256": "af3a031036022cc128e59ef78a84975abdad5c0fa6c646ea04c542a189b19ef9",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__b12/textures/texture_01.png",
+          "bytes": 12673,
+          "sha256": "a888ef014f2cc8195a3e3e8fa7a61fc7450fd0c5c183c166b4f1a9990fd13ee6",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 11,
+        "vertices": 11728,
+        "triangles": 5426,
+        "nodes": 149,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b13",
+      "display_name": "B13",
+      "source_asset": "zoid/b13.dat",
+      "source_sha256": "e44b3afdd66a49703b0a0777764d93078c90d8af7d373e5ed88662bf7f2971e8",
+      "model": {
+        "path": "models/zoid__b13/zoid__b13.glb",
+        "bytes": 734744,
+        "sha256": "39b60158f28a8f2aac8d64fddd78a70d90ccb89f4f4bb286c1ae5536b04780c5"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b13/textures/texture_00.png",
+          "bytes": 151942,
+          "sha256": "7a5f5339956574e5dc28b7893963384a971e049232dc1c98342093cb96478b98",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 9912,
+        "triangles": 4751,
+        "nodes": 115,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b14",
+      "display_name": "B14",
+      "source_asset": "zoid/b14.dat",
+      "source_sha256": "08376067a2b3aca36a9aa6b95d27a3564263b6cb5937c96b6b7b4f7768c8a7ed",
+      "model": {
+        "path": "models/zoid__b14/zoid__b14.glb",
+        "bytes": 857356,
+        "sha256": "38045b15536c7fa81cb3492c197922bdf16e842093a9682a066bf9d35f32e6d5"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b14/textures/texture_00.png",
+          "bytes": 240771,
+          "sha256": "bc117515ccd1a3bb7b897378a8d55a6bb2d1e906b920a7c10f9eae439129db4a",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 10487,
+        "triangles": 5087,
+        "nodes": 128,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b15",
+      "display_name": "B15",
+      "source_asset": "zoid/b15.dat",
+      "source_sha256": "4cac7628efb4d997e7f2ecb32c0868dfea2806a927eac0836731b20514fd759e",
+      "model": {
+        "path": "models/zoid__b15/zoid__b15.glb",
+        "bytes": 946700,
+        "sha256": "7f226f592ab037a82cfd32eaa381328f67cd78cdbeaa6600525cb199bb9c5e91"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b15/textures/texture_00.png",
+          "bytes": 245017,
+          "sha256": "7d277db9c78e6366b20341a7e0955ce5662d508d8716cefa4741a360e0985a88",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 11,
+        "vertices": 11974,
+        "triangles": 5814,
+        "nodes": 134,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b16",
+      "display_name": "B16",
+      "source_asset": "zoid/b16.dat",
+      "source_sha256": "d23fcdd9e4383af72d15b7f1ffee33f084515b50ccdbcd09900e975c33ea5eb5",
+      "model": {
+        "path": "models/zoid__b16/zoid__b16.glb",
+        "bytes": 945044,
+        "sha256": "aeeeb18784886821209ffd10f74369975d2ab862f10d9e170c3392a05bca3d2e"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b16/textures/texture_00.png",
+          "bytes": 266251,
+          "sha256": "2c241713ba5cab50b3b41fe368a4e9c891a755a2b1716ad8ce742107539a10fd",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 8,
+        "vertices": 11592,
+        "triangles": 5242,
+        "nodes": 133,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b17",
+      "display_name": "B17",
+      "source_asset": "zoid/b17.dat",
+      "source_sha256": "15fd0dc7f4731773e0359bfe2a1a2e14437e0cf0e25b3ce9669a2fb65c8bd55b",
+      "model": {
+        "path": "models/zoid__b17/zoid__b17.glb",
+        "bytes": 790036,
+        "sha256": "0729af39deb42e2a9d8683d3689d2b9525869305d76edc8d9304c4d30ef3e4ab"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b17/textures/texture_00.png",
+          "bytes": 178782,
+          "sha256": "88005d0bb25a8793338c0702f5d5779dc3dac8ceb6cb8b75ba68aabc73bf3a56",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 8,
+        "vertices": 10317,
+        "triangles": 4938,
+        "nodes": 131,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b18",
+      "display_name": "B18",
+      "source_asset": "zoid/b18.dat",
+      "source_sha256": "27a1057f01b52ea730391b09cf7650480dc0804bb5ada33332edca969d3e05d4",
+      "model": {
+        "path": "models/zoid__b18/zoid__b18.glb",
+        "bytes": 1008656,
+        "sha256": "f49a1977f82f781fd37aa380243f96b355b96dbf720be829ac1d95b1e7627008"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b18/textures/texture_00.png",
+          "bytes": 227663,
+          "sha256": "3960a4d28a7f7cc4d54bc2a02503645c7a7c4f4ce1d76ae83bc3360d33823d3f",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 14,
+        "vertices": 12983,
+        "triangles": 6383,
+        "nodes": 192,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b19",
+      "display_name": "B19",
+      "source_asset": "zoid/b19.dat",
+      "source_sha256": "9f049820485cd7962f1fefa5c7bf89ca32bf2acb3fef86badbe7d5066fd918b7",
+      "model": {
+        "path": "models/zoid__b19/zoid__b19.glb",
+        "bytes": 646724,
+        "sha256": "1b48a382af9fb24e1e018b16ae566641be6139dfd1692814ddb1d7db8f916974"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b19/textures/texture_00.png",
+          "bytes": 21768,
+          "sha256": "b136a71bbd22c42a10b4449f85c8c30e31bf2fc713d1b98f018955a8bf80bcaf",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 18,
+        "vertices": 10456,
+        "triangles": 4842,
+        "nodes": 116,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b20",
+      "display_name": "B20",
+      "source_asset": "zoid/b20.dat",
+      "source_sha256": "4f3f3cb15cfb9ad62966ad3b8fb9dcbeab0698148bfdf3ef4b3d43e1590e9569",
+      "model": {
+        "path": "models/zoid__b20/zoid__b20.glb",
+        "bytes": 643168,
+        "sha256": "1129e94f21761707ca658ea5bcdde52724a8b7ad1a34f71445e95421fae88c5e"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b20/textures/texture_00.png",
+          "bytes": 18417,
+          "sha256": "36deed32fd0bd75c27757944e48eb8932871000264a6723f28584f92a8e5dab6",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 18,
+        "vertices": 10456,
+        "triangles": 4842,
+        "nodes": 116,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b21",
+      "display_name": "B21",
+      "source_asset": "zoid/b21.dat",
+      "source_sha256": "bb358483ff28f528bca4e77b2c3eb550ac77e24c03288b8e0788e97118b4e741",
+      "model": {
+        "path": "models/zoid__b21/zoid__b21.glb",
+        "bytes": 688408,
+        "sha256": "9c5134496b11168eaed2443dfd5e26d85b57418e48d8ae170fd38b8733365021"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b21/textures/texture_00.png",
+          "bytes": 114027,
+          "sha256": "8ec9f5b3df05642369aa18e5cc23d9f76e24e055482e4525156ed6325735f743",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 9868,
+        "triangles": 4818,
+        "nodes": 103,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b22",
+      "display_name": "B22",
+      "source_asset": "zoid/b22.dat",
+      "source_sha256": "75acfe2335a604c41a00ec1165cd8084e0d0857c9996aee5282076f1af565564",
+      "model": {
+        "path": "models/zoid__b22/zoid__b22.glb",
+        "bytes": 974164,
+        "sha256": "5dbe267ba8d3b5b7449aff84941eddac2b8901cdd15aac5598e7dcaf5b6754b6"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b22/textures/texture_00.png",
+          "bytes": 212676,
+          "sha256": "ccdc64b54c21e20075869ceea27b0122ceb5240c2906b3ce3adb3acd52780707",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 13045,
+        "triangles": 6247,
+        "nodes": 136,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b23",
+      "display_name": "B23",
+      "source_asset": "zoid/b23.dat",
+      "source_sha256": "8751070f0f7de137001516027693408ae2d7acbc5867f75e43833296101240e6",
+      "model": {
+        "path": "models/zoid__b23/zoid__b23.glb",
+        "bytes": 796100,
+        "sha256": "8dcecffdc6ddb467a799f94b6c96c05db1128a155901c59cd976e1a9e06a8e36"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b23/textures/texture_00.png",
+          "bytes": 154790,
+          "sha256": "482d5bebf67bc8c5ab9ae56fda70ebcca662935edf6c23519c352f49cbb3ab1c",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 11036,
+        "triangles": 5356,
+        "nodes": 105,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b24",
+      "display_name": "B24",
+      "source_asset": "zoid/b24.dat",
+      "source_sha256": "7e8030011d618b32a1f32b9cc10579cb21d08cb29fe0f931aadf99dcf4570593",
+      "model": {
+        "path": "models/zoid__b24/zoid__b24.glb",
+        "bytes": 887180,
+        "sha256": "afc4075d3562718f04f1ce7df3d9d7c9a4bf58b754e6c260d62abc47f20e6593"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b24/textures/texture_00.png",
+          "bytes": 225410,
+          "sha256": "bcfba12317d0dbe2fa2177ac2643ec0781c45e313528475a472b972e8009ad15",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 11442,
+        "triangles": 5573,
+        "nodes": 99,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b25",
+      "display_name": "B25",
+      "source_asset": "zoid/b25.dat",
+      "source_sha256": "587e001a229b31c5c105733493cc5c7c8c691c9533156742b2d1bde21915d3f4",
+      "model": {
+        "path": "models/zoid__b25/zoid__b25.glb",
+        "bytes": 751796,
+        "sha256": "68139bbbf30f9f5a140399f94a7df91be8e0e77e1a3aa42a4f377c8bb9631184"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b25/textures/texture_00.png",
+          "bytes": 182524,
+          "sha256": "ce35ef5a639c1024797d4f41ee93334991fd2a6d6ed1ac05befafacdddccb35c",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 9598,
+        "triangles": 4663,
+        "nodes": 119,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b26",
+      "display_name": "B26",
+      "source_asset": "zoid/b26.dat",
+      "source_sha256": "28d89b3af3b283b0b1bea4206194296df0f1fa840fdf3acaa064fc29d766a750",
+      "model": {
+        "path": "models/zoid__b26/zoid__b26.glb",
+        "bytes": 610148,
+        "sha256": "9aade1da32450cfb32d16b0c0067fe8640e51769e1ac8e74d7a8a266e725184e"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b26/textures/texture_00.png",
+          "bytes": 136744,
+          "sha256": "40b36970232b79fe211451b3e84417d5f1b66bf5919f5acdb06fa27a20560104",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 7912,
+        "triangles": 3726,
+        "nodes": 114,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b27",
+      "display_name": "B27",
+      "source_asset": "zoid/b27.dat",
+      "source_sha256": "02e4a8ca24efe7d48f4e849846479d45d624229f219d9d61c6edc4ecff2fd6ba",
+      "model": {
+        "path": "models/zoid__b27/zoid__b27.glb",
+        "bytes": 879420,
+        "sha256": "58d199d1b4055d4e6503760bbe713da65327e1772b6f98b73b28e32a13e60be4"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b27/textures/texture_00.png",
+          "bytes": 225261,
+          "sha256": "cfb119f210331bd8e6a361c04536ae992888885ec7fec46d2c0b1ba971267b57",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 11334,
+        "triangles": 5525,
+        "nodes": 97,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b28",
+      "display_name": "B28",
+      "source_asset": "zoid/b28.dat",
+      "source_sha256": "3328896dfd2afc12dc4af8a58ca1aa000c03987a8ff35582e3bcf7154710b2c1",
+      "model": {
+        "path": "models/zoid__b28/zoid__b28.glb",
+        "bytes": 620684,
+        "sha256": "79b9dc68a60b2f2fed3c776f404d547dd3ad47e21a3ab42ba3260a7d7bb70ae7"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b28/textures/texture_00.png",
+          "bytes": 128940,
+          "sha256": "b745e334ec586738b68d5d9fdf73ae38edb0503c91d7c1ab47b1123d9cfc7ba8",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 8222,
+        "triangles": 4103,
+        "nodes": 111,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b30",
+      "display_name": "B30",
+      "source_asset": "zoid/b30.dat",
+      "source_sha256": "3e76a6c38ad620e164155ec48761a7f54872ad824be2f0d3c2629329fda944da",
+      "model": {
+        "path": "models/zoid__b30/zoid__b30.glb",
+        "bytes": 526764,
+        "sha256": "9f4e3a5245ae48ec6bee549ac3607df8b5db88ad239fc5cd1a982559f4243c36"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b30/textures/texture_00.png",
+          "bytes": 200144,
+          "sha256": "78d0cc15448193ff0b9811cc2c933916610e7c33933d185bc43355c410f52a7f",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 5473,
+        "triangles": 2642,
+        "nodes": 88,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b31",
+      "display_name": "B31",
+      "source_asset": "zoid/b31.dat",
+      "source_sha256": "12f7c993bb28161c83c6b0110fceb4cd93e97e4811fd8a54c63d0f60bcfec210",
+      "model": {
+        "path": "models/zoid__b31/zoid__b31.glb",
+        "bytes": 66596,
+        "sha256": "f3f8f4f9433e8f2661a174f9795cd04a3c1ab7d683b20d87b2f8d49090666969"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b31/textures/texture_00.png",
+          "bytes": 16517,
+          "sha256": "9b2247387653769640f963a69244105c6506cd594bada3ae5a5d7a41361f0e3a",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__b31/textures/texture_01.png",
+          "bytes": 27305,
+          "sha256": "122ac8434a29ddee2bfb89e109e941545fe8209e953f0cf61c72e026256ac136",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 2,
+        "vertices": 268,
+        "triangles": 128,
+        "nodes": 32,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b33",
+      "display_name": "B33",
+      "source_asset": "zoid/b33.dat",
+      "source_sha256": "a2e942141c7c9ce11c6177cf68b2b79c6faf22029449058911d5fe29df6d93a8",
+      "model": {
+        "path": "models/zoid__b33/zoid__b33.glb",
+        "bytes": 539652,
+        "sha256": "db0c8fc3327160e228dba715b1bb3b67ae1e46723230b0667e60ecdb8c4237e4"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b33/textures/texture_00.png",
+          "bytes": 182856,
+          "sha256": "52823e9dd2902fc8d018f847b2598e822518d930e389d462b7f2eda6f20930c9",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 18,
+        "vertices": 5777,
+        "triangles": 2929,
+        "nodes": 73,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b34",
+      "display_name": "B34",
+      "source_asset": "zoid/b34.dat",
+      "source_sha256": "396496d42542b32c88c50f7e8fd39f0f2bd5a161757116b2fc8fbdb8529db8a1",
+      "model": {
+        "path": "models/zoid__b34/zoid__b34.glb",
+        "bytes": 652700,
+        "sha256": "1a80ca4da828fc535c4ea1b02c57d1b0484f1805cb491ba9f4efbfa19de2cd29"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b34/textures/texture_00.png",
+          "bytes": 266559,
+          "sha256": "576d83a900232e8552de0078a36ea6736b9f2a7b938c3d3e29cdb91a2adc4037",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 6340,
+        "triangles": 3276,
+        "nodes": 110,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b35",
+      "display_name": "B35",
+      "source_asset": "zoid/b35.dat",
+      "source_sha256": "7fa93c6324e227a87d7a807e33b13649b37670b5c992481237925a24e9b16f22",
+      "model": {
+        "path": "models/zoid__b35/zoid__b35.glb",
+        "bytes": 419320,
+        "sha256": "051b82ba7cd1814184ce1addb233a9f6dffb807913c879c27035fb1f5cb43689"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b35/textures/texture_00.png",
+          "bytes": 144778,
+          "sha256": "3843a68e4c1d38424c2457b13584869c2a76dd489db76cf3159c62337324e5f2",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 12,
+        "vertices": 4414,
+        "triangles": 2090,
+        "nodes": 74,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b40",
+      "display_name": "B40",
+      "source_asset": "zoid/b40.dat",
+      "source_sha256": "15b236f92bbc78bd9b937b94644a16985b4c096a4eb7ae458a86b774daebb204",
+      "model": {
+        "path": "models/zoid__b40/zoid__b40.glb",
+        "bytes": 763864,
+        "sha256": "d5651e549c0674156e574bbfc8d9efc83deb080c51ac878ba33353b362d18c21"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b40/textures/texture_00.png",
+          "bytes": 9947,
+          "sha256": "798465b7477dbf356605317ec69c486c6a05f3c629beb6b9055db799a2b16499",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__b40/textures/texture_01.png",
+          "bytes": 173972,
+          "sha256": "dfd83c28448ed2ed32fd357d4dcbee71611748ef7f641956a6c5be70a2f93f72",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 9764,
+        "triangles": 4800,
+        "nodes": 127,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b41",
+      "display_name": "B41",
+      "source_asset": "zoid/b41.dat",
+      "source_sha256": "20d85726193dd15bdd13b7dfa9e8281806807a6f4b1fe4c87ac5873b10833352",
+      "model": {
+        "path": "models/zoid__b41/zoid__b41.glb",
+        "bytes": 823608,
+        "sha256": "9fdb248ea6172786759a5bd63a35dc4f35016775b459522f817553749365698c"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b41/textures/texture_00.png",
+          "bytes": 304115,
+          "sha256": "e77379aeb33f6653db39a1577a5c7aae7c2415d39ee9a2485e7d53296aa51a09",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 8858,
+        "triangles": 4328,
+        "nodes": 99,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b42",
+      "display_name": "B42",
+      "source_asset": "zoid/b42.dat",
+      "source_sha256": "4052bb23b123bbf8c1de431f5e02f402cac4464aed99376b2f61568cc64663c4",
+      "model": {
+        "path": "models/zoid__b42/zoid__b42.glb",
+        "bytes": 993320,
+        "sha256": "35b360cdba31bc727dba74d45252a6878e6ec324c13c4d9785ec50a253689e77"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b42/textures/texture_00.png",
+          "bytes": 229778,
+          "sha256": "794413110ed57e088f9681116d9b9eefc026e112f7e234f2586958ba37ee5eb2",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 10,
+        "vertices": 13026,
+        "triangles": 6230,
+        "nodes": 141,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b43",
+      "display_name": "B43",
+      "source_asset": "zoid/b43.dat",
+      "source_sha256": "322f9cfc96dfe9f442133441f38ad41842ad49a58c8825c21664d76d99572912",
+      "model": {
+        "path": "models/zoid__b43/zoid__b43.glb",
+        "bytes": 539652,
+        "sha256": "885490009ee7a0e0ccdfbb13e8fc46a15ba733f75bd62b5ff55aa6b0bedf4df9"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b43/textures/texture_00.png",
+          "bytes": 182856,
+          "sha256": "52823e9dd2902fc8d018f847b2598e822518d930e389d462b7f2eda6f20930c9",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 18,
+        "vertices": 5777,
+        "triangles": 2929,
+        "nodes": 73,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b44",
+      "display_name": "B44",
+      "source_asset": "zoid/b44.dat",
+      "source_sha256": "f490a3100dc6037726f989dd8533d9c20690cd1fe4f0fdd17409843946c64c0e",
+      "model": {
+        "path": "models/zoid__b44/zoid__b44.glb",
+        "bytes": 1056368,
+        "sha256": "b9437ca2aeef6ca17c4258c5b46949f6219fd2700a4af02c92d48e0fa236d3e2"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b44/textures/texture_00.png",
+          "bytes": 309357,
+          "sha256": "874d4f82c521524156ad4a32041f28333f6ea6ab5764d6b85bf942a83d7efa61",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 8,
+        "vertices": 12968,
+        "triangles": 5918,
+        "nodes": 117,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__b45",
+      "display_name": "B45",
+      "source_asset": "zoid/b45.dat",
+      "source_sha256": "ce402ab9f50552f47c3b4a3980501b629a16a80c80b33b1c07cf82a98a2fd59c",
+      "model": {
+        "path": "models/zoid__b45/zoid__b45.glb",
+        "bytes": 891640,
+        "sha256": "ec86f8ad0da26cea1cc715e76556b548f8b2db952647c89fdb9c0541f4ecfe92"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__b45/textures/texture_00.png",
+          "bytes": 265174,
+          "sha256": "b05189e1aa7987013449b7541941ccffaa4f8c2850be479d35400f4e8db7081f",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 10,
+        "vertices": 10592,
+        "triangles": 4904,
+        "nodes": 128,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__c99",
+      "display_name": "C99",
+      "source_asset": "zoid/c99.dat",
+      "source_sha256": "7d6af1b471be6d0756a886236aee2ee7f596d1a2fe7c56a132d00766c4d6ece6",
+      "model": {
+        "path": "models/zoid__c99/zoid__c99.glb",
+        "bytes": 1042660,
+        "sha256": "b0a0b934d50ca356467f9e6573ddf2150ab1fe4e8f403ca08fddd79f1fcb4660"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__c99/textures/texture_00.png",
+          "bytes": 8895,
+          "sha256": "9a82400d168cd18b1c54d2dabe0a9a80c2ba2b1893392b4b38cd9b7ab6eaa037",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__c99/textures/texture_01.png",
+          "bytes": 83595,
+          "sha256": "2c1e7f80d310ee84ee28064d716148ed026f54cbca6964e7dd74c39b6c87b153",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 21,
+        "vertices": 16869,
+        "triangles": 8317,
+        "nodes": 129,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__low__a07",
+      "display_name": "LOW / A07",
+      "source_asset": "zoid/low/a07.dat",
+      "source_sha256": "5edd705b40a64e9f4cb2b14e9c1f000c14133e5e6e95c72cd35294e2965c5df9",
+      "model": {
+        "path": "models/zoid__low__a07/zoid__low__a07.glb",
+        "bytes": 470200,
+        "sha256": "3081dd20c15978d231e8686a25d7940481130881972ebbcd9b7de6755172636c"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__low__a07/textures/texture_00.png",
+          "bytes": 71517,
+          "sha256": "cc5cc05c4b830490aea1fc8ae4decd349af05bae7231a3a667d50eea9b2f6a75",
+          "width": 256,
+          "height": 256,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 6,
+        "vertices": 6567,
+        "triangles": 3072,
+        "nodes": 118,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__low__a09",
+      "display_name": "LOW / A09",
+      "source_asset": "zoid/low/a09.dat",
+      "source_sha256": "174ef4edf29e1a975bebf3b6bb6e4e35e26927a76bd4b7e99c5cd077d05ff1f5",
+      "model": {
+        "path": "models/zoid__low__a09/zoid__low__a09.glb",
+        "bytes": 488552,
+        "sha256": "a105ff932c258689eac071a6787d8c0e490b41ceab62621e37a7443aa3c51d99"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__low__a09/textures/texture_00.png",
+          "bytes": 61568,
+          "sha256": "2ce1913384db05f7bb4ea340db43aa298d4b28ce6d9de05f1de2586c350544e6",
+          "width": 256,
+          "height": 256,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 7,
+        "vertices": 7118,
+        "triangles": 3409,
+        "nodes": 106,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__low__b05",
+      "display_name": "LOW / B05",
+      "source_asset": "zoid/low/b05.dat",
+      "source_sha256": "d5ec9f9a7069a1b6abd654c3c85f04dfad2e29a2bf57026197ba6c52587df67b",
+      "model": {
+        "path": "models/zoid__low__b05/zoid__low__b05.glb",
+        "bytes": 420932,
+        "sha256": "79041e0e89cb9b1a20b4a130da0acf4d616596948a2dab566c11f411af029d90"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__low__b05/textures/texture_00.png",
+          "bytes": 65558,
+          "sha256": "325f00e96144c4a92d07151d6aadbff0228abc2acfadd755f0d7101e551873d9",
+          "width": 256,
+          "height": 256,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 4,
+        "vertices": 5858,
+        "triangles": 2700,
+        "nodes": 110,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__low__b07",
+      "display_name": "LOW / B07",
+      "source_asset": "zoid/low/b07.dat",
+      "source_sha256": "89ddde5d9fde0b4173127dd930dcef81a3cf57503a31b8d2b250ee7e4c981bcb",
+      "model": {
+        "path": "models/zoid__low__b07/zoid__low__b07.glb",
+        "bytes": 492704,
+        "sha256": "8d877ca8cafaccfb39efcf47c255b28aecd263b4474a68ed9577f3caf93d9723"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__low__b07/textures/texture_00.png",
+          "bytes": 65168,
+          "sha256": "8e6715d1a7044276535169a0a9ac27651b65fe44c3f55520e1bab5c18731a65b",
+          "width": 256,
+          "height": 256,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 9,
+        "vertices": 6833,
+        "triangles": 3164,
+        "nodes": 155,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__low__b21",
+      "display_name": "LOW / B21",
+      "source_asset": "zoid/low/b21.dat",
+      "source_sha256": "ddae50bb5d3550e7ff1395c6762ceee5a966ad7d469ebc0b411f51986b57559d",
+      "model": {
+        "path": "models/zoid__low__b21/zoid__low__b21.glb",
+        "bytes": 335636,
+        "sha256": "6475aa803700da9cd89c32fcaff6810412137925e44fc632ee08b1a93e9fbcb9"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__low__b21/textures/texture_00.png",
+          "bytes": 56536,
+          "sha256": "c82c61877e0e802c1bb6c34585ed1f7b4a7f031e28544bcc7985ddbdb144b3bd",
+          "width": 256,
+          "height": 256,
+          "embedded_image_index": 0
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 5,
+        "vertices": 4468,
+        "triangles": 2178,
+        "nodes": 104,
+        "skins": 1,
+        "embedded_images": 1,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    },
+    {
+      "id": "zoid__y99",
+      "display_name": "Y99",
+      "source_asset": "zoid/y99.dat",
+      "source_sha256": "ac073988f886382f9c2f76125a37fc40c6ee4760aaf941519f2a89284a46652e",
+      "model": {
+        "path": "models/zoid__y99/zoid__y99.glb",
+        "bytes": 1042656,
+        "sha256": "9a511ba9e1f9b6132a09a60d2404889b109b7d2debf592e9de1bef75da1bdcfd"
+      },
+      "textures": [
+        {
+          "path": "models/zoid__y99/textures/texture_00.png",
+          "bytes": 8895,
+          "sha256": "9a82400d168cd18b1c54d2dabe0a9a80c2ba2b1893392b4b38cd9b7ab6eaa037",
+          "width": 128,
+          "height": 128,
+          "embedded_image_index": 0
+        },
+        {
+          "path": "models/zoid__y99/textures/texture_01.png",
+          "bytes": 83595,
+          "sha256": "2c1e7f80d310ee84ee28064d716148ed026f54cbca6964e7dd74c39b6c87b153",
+          "width": 512,
+          "height": 512,
+          "embedded_image_index": 1
+        }
+      ],
+      "validation": {
+        "status": "passed-read-only-structure-checks",
+        "meshes": 21,
+        "vertices": 16869,
+        "triangles": 8317,
+        "nodes": 129,
+        "skins": 1,
+        "embedded_images": 2,
+        "animations": [],
+        "generator": "Khronos glTF Blender I/O v5.1.20"
+      },
+      "animation_status": "no animation clips"
+    }
+  ]
+}

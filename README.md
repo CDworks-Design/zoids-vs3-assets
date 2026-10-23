@@ -1,17 +1,27 @@
-# Zoids VS III Assets
+# Zoids VS. III model and texture assets
 
-An unofficial collection of converted models and textures extracted from **Zoids VS III**. This repository is not a game executable, a port, or a complete decompilation.
+An initial, organized collection of **92 GLB model variants covering 87 source IDs**, including **5 low-detail variants**. The pack also includes **102 texture images** extracted byte-for-byte from the GLBs.
 
-## Current status
+## Use the models
 
-This initial publication contains only this README and a `.gitignore`. Model and texture packages will be added after validation; no assets are included yet.
+1. Find an asset in [the model index](INDEX.md).
+2. Download its `.glb` file. Each GLB contains its textures, so it can be moved independently.
+3. Import it into a glTF 2.0-compatible application. The separate `textures/` folder is available when you want the image files directly.
 
-## Rights and reuse
+The filenames preserve the game's source IDs. They are not a researched mapping to commercial Zoid names. The `low` variants are listed separately.
 
-Original game assets, characters, names, and trademarks remain the property of their respective rights holders. This project does not claim ownership of the original game IP and is not an official release.
+## Scope and limitations
 
-No additional reuse rights are granted beyond applicable permissions. This repository does not grant a general asset license, commercial-use permission, or permission to sublicense. Consult the applicable rights holders and permissions before reusing or redistributing assets.
+This is a model/texture release, not a game, ROM, emulator, source-code release, or complete game-asset dump. Weapons, stage objects, and character portraits from the broader conversion catalog are not included in this initial pack.
 
-## Publication scope
+GLB is the only model format in this release. OBJ and FBX alternatives have not been packaged or validated here. Units, orientation, rig behavior, materials in a particular engine, and visual fidelity should be checked in the destination application.
 
-Only reviewed, converted models, textures, and their accompanying documentation belong here. ROMs, disc images, game executables, raw game archives, secrets, private project history, and third-party source snapshots are excluded.
+Most models have no animation clips. A01 preserves 102 accessory/reference clips, which are not authenticated body animations. A07 preserves two measured clips, `idle` and `walk_forward`; do not assume they are seamless loops. This release does not claim complete or gameplay-correct animation.
+
+## Validation and provenance
+
+All 92 GLBs passed the read-only checks described in [VALIDATION.md](VALIDATION.md). No model rendering or game execution was performed for this release. Original GLB bytes are preserved.
+
+[The machine-readable catalog](catalog.json) records source asset IDs, source hashes, export hashes, sizes, mesh counts, embedded images, and animation caveats. [SHA256SUMS.txt](SHA256SUMS.txt) covers the public package files other than itself.
+
+Please read [ASSET_RIGHTS.md](ASSET_RIGHTS.md) before reuse. Publication does not imply an unrestricted, commercial-use, or open-source license for the original game content.
