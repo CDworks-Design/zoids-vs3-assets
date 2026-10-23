@@ -1,0 +1,5 @@
+# Initial publication allowlist: documentation only.
+# Expand only for exact, validated asset paths from the reviewed manifest.
+*
+!/.gitignore
+!/README.md
