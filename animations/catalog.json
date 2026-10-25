@@ -1,0 +1,454 @@
+{
+  "title": "Zoids VS. III animation downloads",
+  "standard_model_count": 11,
+  "standard_take_records": 103,
+  "optional_overlapping_a21_take_records": 56,
+  "counting_notes": "Published collection: 11 standard model IDs and 103 take records, not 103 moving animations. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006.",
+  "packages": [
+    {
+      "model": "A04",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "A04-blender-compat-1-takes.zip",
+      "bytes": 488273,
+      "sha256": "f3b90c783f7554590eae7a7f60d48764c90016641bcb4f3f3f67149b4060cf82",
+      "git_blob_sha1": "0c93c90c7b5f976fc82a85d6c08cee1338c3cb99",
+      "contents": [
+        {
+          "file": "A04_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 566348,
+          "sha256": "89f558e1d230a4dbb4cbf8768efd254a0025b73e5570cb4333334a17db690095",
+          "git_blob_sha1": "af4bfca21a559ae88d4501f9f09378b8defe417d"
+        },
+        {
+          "file": "A04_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 154035,
+          "sha256": "1eeb526dbbf5b2a06e6655d27c03d3c595707ab060672f7e9db882bc505a3f38",
+          "git_blob_sha1": "2cb066e2cd30a1cfb33e15256ed4b507f8bcecd3"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1443,
+          "sha256": "b061c4e5469860b1b63698772cadef0b4e34ba974390fe9b212fa65d858e758c",
+          "git_blob_sha1": "170d72663ebf5a205e91c04c73651fed01412243"
+        }
+      ],
+      "download_path": "downloads/A04-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "A05",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "A05-blender-compat-1-takes.zip",
+      "bytes": 408852,
+      "sha256": "948a556ed5eb54e726c78d86f3fd0199b86bf59c075f005dd342533c7e4c4c0b",
+      "git_blob_sha1": "bef0a7ff256fbba97d500717737762f991175f87",
+      "contents": [
+        {
+          "file": "A05_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 526348,
+          "sha256": "1bae8fc06616d998af66f66ba4a16627dedcfab9ba130d6a98a7191dfa6fdcae",
+          "git_blob_sha1": "2be0462d77936435341a41748ce950ee01dbb9f3"
+        },
+        {
+          "file": "A05_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 112570,
+          "sha256": "ee62e4461f1f967ac271129cbb598207b7f0945c7622e0330db13879d41c051b",
+          "git_blob_sha1": "bb9a59a2c958595ff20db18739345a4e56624643"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1518,
+          "sha256": "66ab1c043abe53abe1869967c8be06d12f50e79abda6a68518dcbd86ccf91317",
+          "git_blob_sha1": "1625472cc1158f14c33013f2a3041a3996f36327"
+        }
+      ],
+      "download_path": "downloads/A05-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "A06",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "A06-blender-compat-1-takes.zip",
+      "bytes": 551374,
+      "sha256": "81e93743b8c8006369a0059232874e0181eec8bfb4139356b0cbf9bb0aa2c28b",
+      "git_blob_sha1": "748e3c552cf546b47f790d055382c497cc34593e",
+      "contents": [
+        {
+          "file": "A06_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 710636,
+          "sha256": "9af71a06baf5da1a9da5c5e38c7fdb086e14415ba48e1b364b945057dc96344f",
+          "git_blob_sha1": "f30e757542ebb9e680932a5cdc6ea44a795e04d8"
+        },
+        {
+          "file": "A06_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 166420,
+          "sha256": "30a628274aef60e8a94116f4b2d20c3ab3d4ccd853ebf1e06c9385d2a7a9bcea",
+          "git_blob_sha1": "66a504a67d941b8c410fb624c6ff1f276cb5c019"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1534,
+          "sha256": "50dc97d370a152bfa7d6d056d90d7de4f0e2a2d83e37a0b9634be4fbe652b748",
+          "git_blob_sha1": "0dbfb967fbb0471a6ba87518253fc9e600b027cc"
+        }
+      ],
+      "download_path": "downloads/A06-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "A21",
+      "variant": "blender-compat",
+      "take_records": 55,
+      "overlaps_standard": false,
+      "file": "A21-blender-compat-55-takes.zip",
+      "bytes": 2094422,
+      "sha256": "9f750c47a9bff1cac860c271a3f711fd84c4441327564119dceffd10358da207",
+      "git_blob_sha1": "e3218ecfb5b193fd96b98e0a95e11b0c8c6f125f",
+      "contents": [
+        {
+          "file": "A21_BLENDER_GEOMETRIC_NORMALS_COMPAT_55_TAKES.fbx",
+          "bytes": 9520300,
+          "sha256": "c6c07755030a8aaa360e0ea37c01e219a97143b88f8298178f34c50399f43da5",
+          "git_blob_sha1": "d16ff94cfe860ed0303660f8b6385b0e2b2a00f2"
+        },
+        {
+          "file": "A21_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 154779,
+          "sha256": "2325247e561f5d58ebc6d7d00bfc9b548e8914674646c465bca679abb59f8391",
+          "git_blob_sha1": "1b248172098a3638229e52fcf8a3692ad52f1db6"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 3638,
+          "sha256": "c2324348a1c20f300a531914c3f7d0422efdab3f55dde23633209c56bd65d62b",
+          "git_blob_sha1": "ad1da2c40b45c01389325a83f2780c6572de96c5"
+        }
+      ],
+      "download_path": "downloads/A21-blender-compat-55-takes.zip"
+    },
+    {
+      "model": "A21",
+      "variant": "mixed56-approximation",
+      "take_records": 56,
+      "overlaps_standard": true,
+      "file": "A21-mixed56-approximation-56-takes.zip",
+      "bytes": 2172128,
+      "sha256": "29e3124a6bef8c4ecff6848ef08fa5fbeff1b40548cf2204c2c7acfbf3a080b9",
+      "git_blob_sha1": "68564ac6dfc4d64f302356c6932c0f5b8b03001b",
+      "contents": [
+        {
+          "file": "A21_BLENDER_MIXED_PROFILE_56_TAKES.fbx",
+          "bytes": 9802492,
+          "sha256": "1b178a6cd55acd517037bbf974e996ee00a93e41ab6da5ff0aca357dca2dd908",
+          "git_blob_sha1": "bc77d89bde5b4d778a4203ce55595a102f55782e"
+        },
+        {
+          "file": "A21_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 154779,
+          "sha256": "2325247e561f5d58ebc6d7d00bfc9b548e8914674646c465bca679abb59f8391",
+          "git_blob_sha1": "1b248172098a3638229e52fcf8a3692ad52f1db6"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 4008,
+          "sha256": "8109878aec090d05a20a037a8b2c3277c26900db8ac41b30b3f4b249b13b8e4c",
+          "git_blob_sha1": "1ea62bdf91ed5aee81876e08d55f13f1c9d924de"
+        }
+      ],
+      "download_path": "downloads/A21-mixed56-approximation-56-takes.zip"
+    },
+    {
+      "model": "A24",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "A24-blender-compat-1-takes.zip",
+      "bytes": 512500,
+      "sha256": "eb766303e4db26c4df6bffa951f69da6f0cd49c8ef7215ca648c8e8f5a191c83",
+      "git_blob_sha1": "c12b031741e7fb411a1a10188b9ce1e28cf1310f",
+      "contents": [
+        {
+          "file": "A24_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 690956,
+          "sha256": "999b1fa93814d0143474e657e2694a9c51ad1491b853e62293961f3e1b634465",
+          "git_blob_sha1": "b7e4b82e92ab599157af65669d2e8e317a2fab88"
+        },
+        {
+          "file": "A24_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 146727,
+          "sha256": "655eaf1ea0448428be34416d3f61447b1d0d5e224eec2aae1ed5c5a54a8ae255",
+          "git_blob_sha1": "bdf2f393d9399328a2ff863fb1aa39448affcb84"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1534,
+          "sha256": "b3045b00c426f9d5d4593266fa4a980bce50bdafa2b9b3d511f2dab6dbaba763",
+          "git_blob_sha1": "b9261378d8499d3465d335d9efcc6d557ea45ebf"
+        }
+      ],
+      "download_path": "downloads/A24-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "A25",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "A25-blender-compat-1-takes.zip",
+      "bytes": 538860,
+      "sha256": "f2f5e3c616fa8ed056cb804e9b73b3dfd1b9b0a2667a3a724c962225969d2a42",
+      "git_blob_sha1": "6c4e0de2b9c5c2851c11d7f95a09d1eb6a33fbe6",
+      "contents": [
+        {
+          "file": "A25_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 183617,
+          "sha256": "130c718c506df7f8f841712042c00d224ac842767d06dae448955b29e505d317",
+          "git_blob_sha1": "9d892a8cb470547a3e66f34e4c7121fd375d7d78"
+        },
+        {
+          "file": "A25_SLOT001_DEFAULT_VISIBLE_BLENDER_COMPAT.fbx",
+          "bytes": 644124,
+          "sha256": "da094e75233f762dbeaf14dd422e17bdeaae3f014fe6f1b874f774fb32f00576",
+          "git_blob_sha1": "33b273bfd41806f9fec535df804c0bb966fe2b8f"
+        },
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1566,
+          "sha256": "af9e6098f2e8ad8728fc74d12ad7b3149691c0eb92b30449d6c9fc3a53709a19",
+          "git_blob_sha1": "b6093340ebe0b4d467d9b4963102715de8902b1c"
+        }
+      ],
+      "download_path": "downloads/A25-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "B03",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "B03-blender-compat-1-takes.zip",
+      "bytes": 664474,
+      "sha256": "d0b3303ab04df9ea3cbf2263204057d58f627128bebe1dc4326bdb4667e2da58",
+      "git_blob_sha1": "f65399b49e240006f3c61af539cc9a3cf3376fa6",
+      "contents": [
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "B03_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 662284,
+          "sha256": "3c8accd0ea8597c2cfacba13b4ce25e4e93ec9f1ef84f4b794043888d331a6b6",
+          "git_blob_sha1": "d3180a8b914d4c586fc6cde4a762b4ff339cb583"
+        },
+        {
+          "file": "B03_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 247879,
+          "sha256": "ee070b75b61d44b5c95155b47211a0d2eb6e6a0c4a29e66f0b2a9c9bb28a39c1",
+          "git_blob_sha1": "a887279048e84d1c83eb987fdbf1f4eeb8e5df13"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1518,
+          "sha256": "02eecb874b49e22d4b5f6ea4f00d18d4be185d5a7abcdd3aeae4abecca88bbb5",
+          "git_blob_sha1": "c7238f8e2a782020a34f59bc5384212bf4ec2c61"
+        }
+      ],
+      "download_path": "downloads/B03-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "B24",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "B24-blender-compat-1-takes.zip",
+      "bytes": 622178,
+      "sha256": "625ce184b7a6a8e5e5e65fe4172676ce842c95250fd3b0ca1adde6986d6e1585",
+      "git_blob_sha1": "ee7ae30119cf6259d996aa79aa699080465f6c3c",
+      "contents": [
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "B24_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 651948,
+          "sha256": "60d5ed978ce85e170ca2fb3b1f3890d227332442296dbb9fb845c509fbb43c68",
+          "git_blob_sha1": "cdbf3d14477488264cf20f534485de4665d446b2"
+        },
+        {
+          "file": "B24_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 225410,
+          "sha256": "bcfba12317d0dbe2fa2177ac2643ec0781c45e313528475a472b972e8009ad15",
+          "git_blob_sha1": "a6f4bc8dff6a271c0ff8174319262100f877c417"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1518,
+          "sha256": "ad254273fad4c9602b8e651a07d3173d467ee0fd70d91393bc4cb49c1af5c131",
+          "git_blob_sha1": "f7b581f8fc6ea1a7394b412396cd3bb276489097"
+        }
+      ],
+      "download_path": "downloads/B24-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "B26",
+      "variant": "blender-compat",
+      "take_records": 20,
+      "overlaps_standard": false,
+      "file": "B26-blender-compat-20-takes.zip",
+      "bytes": 3995875,
+      "sha256": "e2dca3143669479ae8d4a9ef8b6c59f0539d6784adcd082e0fa1478b0e6ebc31",
+      "git_blob_sha1": "f7ba7884d09be56a93881f92b85db511c60d0215",
+      "contents": [
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "B26_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 11278604,
+          "sha256": "1f277d0201a2fa5c65f0735f8567b6071ea5c3454aa72a2f8b12e3c590a29e7f",
+          "git_blob_sha1": "c480a311c2fb6a29f7f80996b7ec577fde6d2be9"
+        },
+        {
+          "file": "README.md",
+          "bytes": 2276,
+          "sha256": "2d05c84756400245b423d8be92a8a4a2b97fd4b062699fcda30ebcab42aa18ef",
+          "git_blob_sha1": "db50ef7e9e9d80b3ae46a58bfd91bad708b543f1"
+        },
+        {
+          "file": "b26_tex_01B740_cmpr.png",
+          "bytes": 136744,
+          "sha256": "40b36970232b79fe211451b3e84417d5f1b66bf5919f5acdb06fa27a20560104",
+          "git_blob_sha1": "7322f2e0ff56f5c7b7e9e51673a5fcd534a2bafe"
+        }
+      ],
+      "download_path": "downloads/B26-blender-compat-20-takes.zip"
+    },
+    {
+      "model": "B27",
+      "variant": "blender-compat",
+      "take_records": 1,
+      "overlaps_standard": false,
+      "file": "B27-blender-compat-1-takes.zip",
+      "bytes": 619453,
+      "sha256": "e0a5c7f2d3b58293318bb8b7caa22d9b9aec65da8af619e024ac14d97f646891",
+      "git_blob_sha1": "d005c0776d124b9c8700ac6b4a3bb523eee50ff0",
+      "contents": [
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "B27_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 639660,
+          "sha256": "949724ab398d75065774b08a862790af192a4fd84b6c67c50e8b34b7a792cd26",
+          "git_blob_sha1": "9456bd9527a1e7bfd6a8ae7469e07c6ecd6a3d23"
+        },
+        {
+          "file": "B27_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 225261,
+          "sha256": "cfb119f210331bd8e6a361c04536ae992888885ec7fec46d2c0b1ba971267b57",
+          "git_blob_sha1": "ffc2c9741dcb56cd663661d1c90710801220e985"
+        },
+        {
+          "file": "README.md",
+          "bytes": 1518,
+          "sha256": "8a926a07d632cf494f2c0c76dfd1efcd45a9ee6b4453e11a4a8dc14525621602",
+          "git_blob_sha1": "6d8c6dc8d9b5662f1579d965528fdb97cc191218"
+        }
+      ],
+      "download_path": "downloads/B27-blender-compat-1-takes.zip"
+    },
+    {
+      "model": "B33",
+      "variant": "blender-compat",
+      "take_records": 20,
+      "overlaps_standard": false,
+      "file": "B33-blender-compat-20-takes.zip",
+      "bytes": 12434083,
+      "sha256": "1aa5ae1220569239a230614cd224a737a7fa8c5aab3a98e12fc07def0862654e",
+      "git_blob_sha1": "d784c42fb0d9ce2123eaafbfa7743a32c51e8b3b",
+      "contents": [
+        {
+          "file": "ASSET_RIGHTS.md",
+          "bytes": 921,
+          "sha256": "423501ff29999a13f211723c2bcd4882b94adf04cdaa535db504b2b35491ddef",
+          "git_blob_sha1": "727a01f012c339d532e2279e0830504f78a9a9a6"
+        },
+        {
+          "file": "B33_BLENDER_GEOMETRIC_NORMALS_COMPAT.fbx",
+          "bytes": 22014876,
+          "sha256": "90fcdc7bdaae4361aa6caa6a3400f7d0629cecbbd85a4e7cd3a4e8ee81ca9ebe",
+          "git_blob_sha1": "c165a2d963ef62270e995c3bcf779cb6b8706040"
+        },
+        {
+          "file": "README.md",
+          "bytes": 2503,
+          "sha256": "fcc777763c1e1daa388ed3a591d55eeb6cdc3d1d780a04b609e783c1e900fe2d",
+          "git_blob_sha1": "ac07d5643e20a8623709e3b11254095640c9a4f0"
+        }
+      ],
+      "external_texture": {
+        "file": "b33_tex_014560_cmpr.png",
+        "bytes": 182856,
+        "sha256": "52823e9dd2902fc8d018f847b2598e822518d930e389d462b7f2eda6f20930c9",
+        "git_blob_sha1": "81d248e0f08747f9ba5ee823a9228eb8d7737a91"
+      },
+      "download_path": "downloads/B33-blender-compat-20-takes.zip"
+    }
+  ]
+}
+

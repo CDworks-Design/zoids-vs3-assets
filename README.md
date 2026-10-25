@@ -10,18 +10,25 @@ An initial, organized collection of **92 GLB model variants covering 87 source I
 
 The filenames preserve the game's source IDs. They are not a researched mapping to commercial Zoid names. The `low` variants are listed separately.
 
+## Baked FBX animation downloads
+
+[Download the checked animation packages](animations/README.md): **11 standard model IDs and 103 take records**, plus an optional overlapping A21 mixed56 approximation. Packages contain a multi-take FBX with embedded textures and documented limitations. This is not a complete roster export, and take records are not all distinct moving animations.
+
+The [animation download page](https://cdworks-design.github.io/zoids-vs3-assets/animations/) is separate from the existing GLB viewer. The original GLBs remain byte-for-byte unchanged.
+
 ## Scope and limitations
 
 This is a model/texture release, not a game, ROM, emulator, source-code release, or complete game-asset dump. Weapons, stage objects, and character portraits from the broader conversion catalog are not included in this initial pack.
 
-GLB is the only model format in this release. OBJ and FBX alternatives have not been packaged or validated here. Units, orientation, rig behavior, materials in a particular engine, and visual fidelity should be checked in the destination application.
+The original model collection uses GLB. Selected baked FBX animation packages are now provided separately; OBJ alternatives are not packaged. Units, orientation, rig behavior, materials in a particular engine, and visual fidelity should be checked in the destination application.
 
-Most models have no animation clips. A01 preserves 102 accessory/reference clips, which are not authenticated body animations. A07 preserves two measured clips, `idle` and `walk_forward`; do not assume they are seamless loops. This release does not claim complete or gameplay-correct animation.
+Most original GLBs have no animation clips. A01 preserves 102 accessory/reference clips, which are not authenticated body animations. A07 preserves two measured clips, `idle` and `walk_forward`; do not assume they are seamless loops. This release does not claim complete or gameplay-correct animation.
 
 ## Validation and provenance
 
 All 92 GLBs passed the read-only checks described in [VALIDATION.md](VALIDATION.md). No model rendering or game execution was performed for this release. Original GLB bytes are preserved.
 
-[The machine-readable catalog](catalog.json) records source asset IDs, source hashes, export hashes, sizes, mesh counts, embedded images, and animation caveats. [SHA256SUMS.txt](SHA256SUMS.txt) covers the public package files other than itself.
+[The machine-readable catalog](catalog.json) records source asset IDs, source hashes, export hashes, sizes, mesh counts, embedded images, and animation caveats. [SHA256SUMS.txt](SHA256SUMS.txt) retains the original package checksums and includes the added animation downloads and changed documentation. [Animation checksums](animations/SHA256SUMS) cover the new animation package files and catalog.
 
 Please read [ASSET_RIGHTS.md](ASSET_RIGHTS.md) before reuse. Publication does not imply an unrestricted, commercial-use, or open-source license for the original game content.
+
