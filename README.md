@@ -18,6 +18,10 @@ A01's new 102-slot baked package is separate from the original accessory/referen
 
 The [animation download page](https://cdworks-design.github.io/zoids-vs3-assets/animations/) is separate from the existing GLB viewer. The original GLBs remain byte-for-byte unchanged.
 
+## Game decoding progress
+
+[Game decoding progress dashboard](https://cdworks-design.github.io/zoids-vs3-assets/decoding-progress/) tracks asset families, decoder systems, current exports and unresolved identification. It publishes summary metadata only, not private research or additional game files.
+
 ## Scope and limitations
 
 This is a model/texture release, not a game, ROM, emulator, source-code release, or complete game-asset dump. Weapons, stage objects, and character portraits from the broader conversion catalog are not included in this initial pack.
