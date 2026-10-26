@@ -2,6 +2,8 @@
 
 This unofficial static gallery presents the original v0.1.0 selection: 92 GLB variants covering 87 source IDs, including 5 low-detail variants, and 102 PNG textures. Source IDs are preserved rather than assigning unverified commercial character names.
 
+The separate [asset inventory](inventory/) covers weapons, maps, characters and other extractor resources. It distinguishes locally verified conversion records from public downloads; inventory-only entries do not add models to this gallery.
+
 ## Previews and downloads
 
 Every thumbnail is a presentation render of its corresponding included GLB, generated with the pinned Three.js renderer. Previews apply a display-only 90-degree X rotation and scale/centering to present these exports upright; the downloaded files retain their original transforms and bytes. The gallery uses lazy-loaded WebP images in the grid and creates only one active WebGL model inspector. Closing it releases the renderer and model resources. Search, variant filters, sorting, keyboard controls, touch orbit/zoom, and direct GLB/PNG download links work without an account.

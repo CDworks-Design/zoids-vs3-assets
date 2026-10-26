@@ -20,13 +20,23 @@ A02 adds a qualified 102-slot body-animation export with three exact atlases and
 
 The [animation download page](https://cdworks-design.github.io/zoids-vs3-assets/animations/) is separate from the existing GLB viewer. The original GLBs remain byte-for-byte unchanged.
 
+## Complete asset inventory
+
+Browse the [searchable asset inventory](https://cdworks-design.github.io/zoids-vs3-assets/inventory/) or the [inventory summary](INVENTORY.md) for **627 historical model conversion records**: **224 weapons, 207 stage assets, 108 character assets, and 88 Zoid entries**. All 627 exports were found locally and matched against the decoding catalog's source and export hashes in this refresh.
+
+The inventory also lists **12,609 source files across 21 categories**, including audio, voices, menus, HUD, effects, particles, projectiles, textures, movies, and gameplay data. It separates **12,572 files matching the compared translated disc image** from **37 local generated files**. File counts include related data and copies; they are not counts of unique decoded objects. Stage exports include scenery, skyboxes, objects, and variants, not 207 distinct playable maps.
+
+[Model records (JSON)](inventory/assets.json) · [Model records (CSV)](inventory/assets.csv) · [All source files (JSON)](inventory/sources.json) · [All source files (CSV)](inventory/sources.csv) · [Category totals](inventory/sections.json)
+
+Inventory coverage and public downloads are tracked separately. The 92 GLBs in the existing gallery remain the published model collection; local weapon, stage, and character exports are inventoried here with their availability and validation status.
+
 ## Game decoding progress
 
 [Game decoding progress dashboard](https://cdworks-design.github.io/zoids-vs3-assets/decoding-progress/) tracks asset families, decoder systems, current exports and unresolved identification. It publishes summary metadata only, not private research or additional game files.
 
 ## Scope and limitations
 
-This is a model/texture release, not a game, ROM, emulator, source-code release, or complete game-asset dump. Weapons, stage objects, and character portraits from the broader conversion catalog are not included in this initial pack.
+This is a model/texture release and metadata inventory, not a game, ROM, emulator, source-code release, or complete game-asset dump. Weapons, stage objects, and character assets from the broader conversion catalog are covered by the inventory; their binary payloads are not included in the initial model pack.
 
 The original model collection uses GLB. Selected baked FBX animation packages are now provided separately; OBJ alternatives are not packaged. Units, orientation, rig behavior, materials in a particular engine, and visual fidelity should be checked in the destination application.
 

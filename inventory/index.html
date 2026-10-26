@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Search the Zoids VS III extractor inventory: weapons, maps, characters, Zoids, audio and other source resources, with provenance and export availability.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Zoids VS III · Asset inventory</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#browse">Skip to inventory</a>
+  <header>
+    <nav aria-label="Main navigation"><a href="../">Model gallery</a><a href="../animations/">Animation downloads</a><a href="../decoding-progress/">Decoding progress</a><a href="https://github.com/CDworks-Design/zoids-vs3-assets">GitHub ↗</a></nav>
+    <p class="eyebrow">CDWORKS / ZOIDS VS III</p>
+    <h1>The asset inventory.</h1>
+    <p class="intro">Weapons, maps, characters, Zoids and the resources around them. Explore the extractor files and see which model conversions are available locally or published for download.</p>
+    <p id="snapshot" class="muted">Loading inventory snapshot…</p>
+    <div id="metrics" class="metrics" aria-label="Inventory totals"></div>
+    <p class="notice">Source file counts include supporting data and duplicate content. Model records are historical conversions, not a count of complete game objects. Local availability does not mean an asset is published.</p>
+  </header>
+  <main>
+    <section aria-labelledby="families-title">
+      <div class="section-heading"><div><p class="eyebrow">ALL RESOURCE FAMILIES</p><h2 id="families-title">Find a category.</h2></div><p class="muted">Select a family to browse its source files.</p></div>
+      <div id="families" class="families"></div>
+    </section>
+    <section id="browse" aria-labelledby="browse-title">
+      <div class="section-heading"><div><p class="eyebrow">SEARCH THE INVENTORY</p><h2 id="browse-title" tabindex="-1">Explore the records.</h2></div><div class="downloads"><a id="csv-download" href="assets.csv" download>Download CSV ↓</a><a id="json-download" href="assets.json" download>Download JSON ↓</a></div></div>
+      <div class="modes" role="group" aria-label="Inventory view"><button type="button" data-mode="models" aria-pressed="true" disabled>Model conversions</button><button type="button" data-mode="sources" aria-pressed="false" disabled>All source files</button></div>
+      <p id="mode-note" class="muted">Historical model conversion records, with current local checks and links to published models where available.</p>
+      <div class="filters"><div class="search-field"><label for="search">Search ID, path or resource code</label><input id="search" type="search" placeholder="Try wa0104, stage, A07 or audio…" autocomplete="off" disabled></div><div><label for="category">Category</label><select id="category" disabled><option value="all">All categories</option></select></div><button id="clear" type="button" disabled>Clear filters</button></div>
+      <p id="result-count" class="muted" role="status" aria-live="polite">Loading model records…</p>
+      <div id="load-error" class="error" role="alert" hidden><h3>The inventory could not load.</h3><p>Try again, or use the CSV and JSON links above to inspect the snapshot directly.</p><button id="retry" type="button">Try again</button></div>
+      <div id="empty" class="empty" hidden><h3>No matching records.</h3><p>Try a broader search or choose another category.</p><button id="empty-clear" type="button">Clear filters</button></div>
+      <div id="table-wrap" class="table-wrap" tabindex="0" role="region" aria-label="Inventory results; scroll horizontally on small screens" aria-busy="true"><table><caption id="table-caption" class="sr-only">Model conversion records</caption><thead id="table-head"></thead><tbody id="records"></tbody></table></div>
+      <div class="pagination" aria-label="Results pagination"><button type="button" id="previous" disabled>← Previous</button><span id="page-count">Page 1 of 1</span><button type="button" id="next" disabled>Next →</button></div>
+    </section>
+    <section class="notes" aria-labelledby="notes-title"><h2 id="notes-title">Reading this inventory</h2><div class="note-grid"><div><h3>Source provenance</h3><p>“Image-identical” means the extractor file matched the compared translated disc image. “Local generated” identifies a file produced locally. Neither label establishes original retail provenance or a resource's in-game purpose.</p></div><div><h3>Conversion availability</h3><p>“Verified locally” means an export matches its recorded hash. Header and structure checks have a bounded scope; they do not establish visual fidelity or runtime behavior. A download appears only for an explicitly published model.</p></div><div><h3>Names and maps</h3><p>Labels preserve source IDs. Weapon resource joins are evidence links, not verified commercial weapon names. Stage records can be separate objects or backdrops rather than complete assembled maps.</p></div></div></section>
+    <noscript><p class="notice">JavaScript enables search and filters. Download the <a href="assets.csv">model inventory CSV</a>, <a href="sources.csv">source file CSV</a> or <a href="sections.json">category summary JSON</a> to browse the metadata without it.</p></noscript>
+  </main>
+  <footer><p>Independent asset research · <a href="../ASSET_RIGHTS.md">Rights and reuse</a> · <a href="../INVENTORY.md">Inventory documentation</a></p><p>No raw game files are distributed through this inventory. Counts describe this snapshot, not completion of the game.</p></footer>
+</body>
+</html>

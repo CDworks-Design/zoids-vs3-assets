@@ -1,198 +1,198 @@
 {
-  "snapshot_date": "26 October 2026",
-  "scope_note": "21 source sections tracked; historical conversions and current structural checks shown separately.",
+  "snapshot_date": "25 October 2026",
+  "scope_note": "21 source sections reconciled with current extractor files; local model exports and public downloads shown separately.",
   "metrics": [
     {
       "value": 627,
       "label": "Historical model conversion records",
-      "note": "88 Zoids + 224 weapons + 207 stages + 108 characters. Not a unique-object or current-availability count."
+      "note": "88 Zoids + 224 weapons + 207 stage assets + 108 characters. Includes variants and objects, not unique playable maps or named weapons."
     },
     {
-      "value": 12178,
-      "label": "Archived source files inventoried",
-      "note": "Source inventory includes undecoded and unclassified material. It is not a count of converted assets."
+      "value": 12609,
+      "label": "Extractor source files inventoried",
+      "note": "12,572 match the retained translated-image comparison; 37 local generated files. Includes undecoded files and copies."
     },
     {
-      "value": 230,
-      "label": "Non-Zoid models structurally checked",
-      "note": "108 character + 122 stage outputs currently available. Headers, lengths and JSON validated; not a visual or runtime pass."
+      "value": 539,
+      "label": "Non-Zoid models verified locally",
+      "note": "108 character + 207 stage + 224 weapon exports match recorded SHA-256 and pass bounded container, JSON and embedding checks."
     }
   ],
   "sections": [
     {
       "name": "Zoid models and related parameters",
       "purpose": "Geometry for playable machines; rig and animation work is tracked separately.",
-      "status": "Historical conversion · published exports tracked separately",
-      "coverage": "944 source-family files. 88 historical model conversion records.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification. Historical geometry conversion report.",
-      "limits": "This source-inventory pass did not revalidate Zoid models; current published model and qualified animation results are shown above. Static counts do not imply complete animations."
+      "status": "Converted · hashes and bounded structure verified",
+      "coverage": "944 source-family files: 907 image-identical and 37 local generated. 88 historical model records; 88 exports verified locally.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based. Export hashes match the historical conversion catalog. GLB 2 headers, chunk and buffer-view bounds, JSON, and embedded image references checked; all are static exports.",
+      "limits": "Structural checks do not establish visual fidelity, application import or runtime behavior. Local availability is separate from published downloads; existing animation packages have their own qualification. The 88 historical Zoid exports overlap the 92 published gallery variants and must not be added as new assets."
     },
     {
       "name": "Weapons",
       "purpose": "Weapon geometry and associated data; exact weapon names, mounts, combat roles and parameters require cross-reference.",
-      "status": "Historical conversion · validation pending",
-      "coverage": "2,793 source-family files. 224 historical model conversion records.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification. Historical geometry conversion report.",
-      "limits": "No current models from this family were revalidated in this inventory pass; this is not a claim of global loss. Historical conversion is not visual or runtime verification."
+      "status": "Converted · hashes and bounded structure verified",
+      "coverage": "3,215 source-family files: 3,215 image-identical and 0 local generated. 224 historical model records; 224 exports verified locally. 217 exports have verified resource-code/part-ID links.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based. Export hashes match the historical conversion catalog. GLB 2 headers, chunk and buffer-view bounds, JSON, and embedded image references checked; all are static exports.",
+      "limits": "Structural checks do not establish visual fidelity, application import or runtime behavior. Local availability is separate from published downloads; existing animation packages have their own qualification. Resource codes are not verified weapon names; mounting and runtime identity remain unverified."
     },
     {
       "name": "Maps and stages",
       "purpose": "Environment and backdrop geometry; complete map assembly, collision, spawn points and gameplay behavior are not yet validated.",
-      "status": "Converted · structure validated",
-      "coverage": "457 source-family files. 207 historical model conversion records. 122 currently available models structurally checked.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification. Historical geometry conversion report. Current SHA-256 recording, version-2 model header, byte length and JSON checks passed; no animations in these checked models.",
-      "limits": "Structural checks are not visual import or runtime verification. Historical counts and current local availability are separate."
+      "status": "Converted · hashes and bounded structure verified",
+      "coverage": "457 source-family files: 457 image-identical and 0 local generated. 207 historical model records; 207 exports verified locally.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based. Export hashes match the historical conversion catalog. GLB 2 headers, chunk and buffer-view bounds, JSON, and embedded image references checked; all are static exports.",
+      "limits": "Structural checks do not establish visual fidelity, application import or runtime behavior. Local availability is separate from published downloads; existing animation packages have their own qualification. Stage exports include skies, objects, variants and backups; 207 exports do not mean 207 complete maps. Map assembly and collision remain separate."
     },
     {
       "name": "Characters",
       "purpose": "Character-related geometry. Source labels are not verified character identities.",
-      "status": "Converted · structure validated",
-      "coverage": "296 source-family files. 108 historical model conversion records. 108 currently available models structurally checked.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification. Historical geometry conversion report. Current SHA-256 recording, version-2 model header, byte length and JSON checks passed; no animations in these checked models.",
-      "limits": "Structural checks are not visual import or runtime verification. Historical counts and current local availability are separate."
+      "status": "Converted · hashes and bounded structure verified",
+      "coverage": "296 source-family files: 296 image-identical and 0 local generated. 108 historical model records; 108 exports verified locally.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based. Export hashes match the historical conversion catalog. GLB 2 headers, chunk and buffer-view bounds, JSON, and embedded image references checked; all are static exports.",
+      "limits": "Structural checks do not establish visual fidelity, application import or runtime behavior. Local availability is separate from published downloads; existing animation packages have their own qualification."
     },
     {
       "name": "Audio and music",
       "purpose": "Music/audio containers; decoding and playback status not established by geometry conversion report.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "419 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "419 source-family files: 419 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Debug resources",
       "purpose": "Debug-labeled resources; precise usage unverified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "4 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "4 source-family files: 4 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Disc metadata and program binaries",
       "purpose": "Metadata and executable source inventory only. Raw executables and disc images are excluded from publishing.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "8 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "8 source-family files: 8 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Effects",
       "purpose": "Effect/light resources; visual effect identity and behavior need validation.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "2 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "2 source-family files: 2 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Ending and credits",
       "purpose": "Ending/credit resources, inferred from filenames; presentation not verified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "5 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "5 source-family files: 5 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Filters",
       "purpose": "Filter-labeled resource; precise rendering role unverified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "1 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "1 source-family files: 1 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Gameplay data and miscellaneous",
       "purpose": "Mixed parameter and AI/gameplay tables; not thousands of identified gameplay assets.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "4,413 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "4,416 source-family files: 4,416 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "HUD and display",
       "purpose": "Display and HUD-like resources; inferred from directory and filenames, not runtime verified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "117 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "117 source-family files: 117 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Interface layouts",
       "purpose": "Picture/layout resources; precise purpose unverified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "2 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "2 source-family files: 2 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Menus and UI",
       "purpose": "Menu and map-information resources; UI layout and interaction meaning need classification.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "1,421 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "1,427 source-family files: 1,427 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Movies",
       "purpose": "THP video containers; movie contents and playback not newly verified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "3 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "3 source-family files: 3 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Particles",
       "purpose": "Particle bank and supporting resource files; effects behavior not runtime verified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "12 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "12 source-family files: 12 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Projectiles",
       "purpose": "Projectile/missile resource bank; projectile-to-weapon links require evidence.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "1 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "1 source-family files: 1 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Standalone textures",
       "purpose": "Standalone texture-labeled resource; use and decoding not newly verified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "1 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "1 source-family files: 1 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim. Embedded textures are not counted by this standalone family."
     },
     {
       "name": "Text rendering",
       "purpose": "Likely text/glyph resources, inferred from labels; full format/purpose unverified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "5 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "5 source-family files: 5 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Unclassified resources",
       "purpose": "Purpose unknown; retain as unclassified rather than inventing a role.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "2 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "2 source-family files: 2 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     },
     {
       "name": "Voices",
       "purpose": "Voice banks; speaker identity and line transcription remain unverified.",
       "status": "Inventoried · decode status unestablished",
-      "coverage": "1,272 source-family files.",
-      "evidence": "Archived source-family inventory. Purpose is category/filename-based, not comprehensive semantic identification.",
+      "coverage": "1,272 source-family files: 1,272 image-identical and 0 local generated.",
+      "evidence": "Current local source bytes rehashed against the extractor census and retained translated-image comparison; individual paths and hashes are available in the asset inventory. Family purpose is category/filename-based.",
       "limits": "Individual names and functions remain unverified; no full decoding or runtime-completeness claim."
     }
   ],
   "priorities": [
-    "Reconcile each historical conversion record against currently available output; record missing files rather than counting them as delivered.",
-    "Map stages, weapons and characters to verified in-game identities and purposes, with confidence levels.",
-    "Separate decoded structures from converted geometry, application import checks and actual runtime behavior.",
-    "Continue animation verification in model order while documenting remaining non-model asset families."
+    "Identify additional model-bearing source files beyond the 627 historical conversions and record conversion failures separately.",
+    "Map stage codes, weapon resource codes and character IDs to verified in-game names and functions.",
+    "Verify full map assembly, collision, weapon mounts and gameplay behavior independently of static model conversion.",
+    "Continue animation qualification and decoding of audio, UI, particles, effects and other source families."
   ],
   "exports": [
     {
@@ -224,26 +224,26 @@
     {
       "name": "HSD geometry & skinning",
       "status": "Decoded · model-specific validation",
-      "detail": "Geometry and skin decoding has model-specific validation. Historical records cover 627 model conversions; 230 available non-Zoid outputs also passed current structural checks.",
+      "detail": "627 historical model exports are currently available and hash-verified, including 539 non-Zoid outputs. All passed bounded container and embedding checks; detailed records are in the asset inventory.",
       "limits": "Per-model results do not prove every format variant, visual detail, map assembly or original-game behavior."
     },
     {
       "name": "Textures",
       "status": "Decoded · embedded texture evidence",
-      "detail": "Embedded texture decoding is supported. The current non-Zoid inventory counts 3,396 texture records referencing 478 embedded images across 230 structurally checked models, with no external resource URIs.",
+      "detail": "The 539 verified non-Zoid outputs contain 12,832 texture records referencing 1,322 embedded images, with no external resource URIs.",
       "limits": "Coverage is bounded to inspected outputs; image presence alone does not prove every UV, color-space or rendering detail."
     },
     {
       "name": "Materials & render states",
       "status": "Partial identification · runtime work needed",
-      "detail": "Material and rendering-state behavior is partially identified. Current structural inspection found 4,885 material records in the 230 non-Zoid outputs.",
+      "detail": "Material and rendering-state behavior is partially identified. Current structural inspection found 16,327 material records across 539 non-Zoid outputs.",
       "limits": "Record presence does not establish material equivalence or original rendering correctness. Some rendering behavior needs runtime integration."
     },
     {
       "name": "Rigs & skeletal animation",
       "status": "Decoded · per-model qualified exports",
       "detail": "Rig and animation work has per-model qualification, including A01’s actual Blender import of the published 102-take package.",
-      "limits": "This is bounded export evidence, not universal rig compatibility or native-game equivalence. The 230 non-Zoid models checked by the inventory are static, with zero animation tracks."
+      "limits": "This is bounded export evidence, not universal rig compatibility or native-game equivalence. All 627 historical GLBs checked in the refreshed inventory are static, with zero animation clips; separately published animation packages are independent."
     },
     {
       "name": "Animation curves & source timing",
@@ -271,4 +271,3 @@
     }
   ]
 }
-

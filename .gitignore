@@ -1,5 +1,20 @@
-# Initial publication allowlist: documentation only.
-# Expand only for exact, validated asset paths from the reviewed manifest.
+# Publication allowlist for new files; existing tracked assets stay tracked.
+# Add exact reviewed metadata paths; raw extractor payloads stay excluded.
 *
 !/.gitignore
 !/README.md
+!/INVENTORY.md
+!/inventory/
+/inventory/*
+!/inventory/index.html
+!/inventory/app.js
+!/inventory/style.css
+!/inventory/assets.json
+!/inventory/assets.csv
+!/inventory/sources.json
+!/inventory/sources.csv
+!/inventory/sections.json
+!/scripts/
+/scripts/*
+!/scripts/build_inventory.py
+!/scripts/validate_inventory.py
