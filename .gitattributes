@@ -1,0 +1,2 @@
+# Preserve CR/LF characters inside quoted source labels in generated CSVs.
+inventory/*.csv -text whitespace=cr-at-eol
