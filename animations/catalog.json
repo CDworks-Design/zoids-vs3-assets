@@ -1,10 +1,61 @@
 {
   "title": "Zoids VS. III animation downloads",
-  "standard_model_count": 11,
-  "standard_take_records": 103,
+  "standard_model_count": 12,
+  "standard_take_records": 205,
   "optional_overlapping_a21_take_records": 56,
-  "counting_notes": "Published collection: 11 standard model IDs and 103 take records, not 103 moving animations. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006.",
+  "counting_notes": "Published collection: 12 standard model IDs and 205 take records, not 205 unique moving animations. A01 adds 102 finite source slots, including static poses and short fragments; this is a separate baked FBX bank, not a change to the original GLB's 102 accessory/reference clips. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006.",
   "packages": [
+    {
+      "model": "A01",
+      "variant": "blender-compat-importclock30000",
+      "take_records": 102,
+      "overlaps_standard": false,
+      "file": "A01_102_TAKES_IMPORTCLOCK30000.zip",
+      "bytes": 10292567,
+      "sha256": "782620b7daf708820ff4c88e87a80de748bb75c0d606cc4a473a7517eec85662",
+      "git_blob_sha1": "f860ff63e7c2fd9fbecd3f684438d481d3d90484",
+      "contents": [
+        {
+          "file": "A01_102_TAKES_IMPORTCLOCK30000.fbx",
+          "bytes": 42171660,
+          "sha256": "05252f3aeacf0a3ca1bb8d5abe8e7f50810d0aa969ff48479639a3a3bc5debff",
+          "git_blob_sha1": "be80ef6f5722868d9760391442c7fd4a759cda7c"
+        },
+        {
+          "file": "A01_SOURCE_ATLAS.png",
+          "bytes": 154121,
+          "sha256": "2ca6f8d1fbdea0317c7c8c7da935782727bc8a3ea2794527a53e81b7b6f40416",
+          "git_blob_sha1": "d6174ec47fe924f221c85be6387ea583de780360"
+        },
+        {
+          "file": "A01_RUNTIME_COMPANION.json",
+          "bytes": 18402,
+          "sha256": "898407455ad2970b91ec54482aaeace54746fc6b5f23f177c8f79540317de0af",
+          "git_blob_sha1": "27b533afe82e53d30798347192e65c29214aaa1b"
+        },
+        {
+          "file": "README.txt",
+          "bytes": 3416,
+          "sha256": "9a6be9003045bde7fd7140b6c097557eba493b4421fcb5d83070bbb546b71e99",
+          "git_blob_sha1": "400512a3b9eae334ea329d3dd298b2fffba020f8"
+        },
+        {
+          "file": "NOTICE.txt",
+          "bytes": 477,
+          "sha256": "0579d43d9e9e871cf3e976f428aa36c1b5c3dfb30bd2eea4b74a63cf9d18c8a8",
+          "git_blob_sha1": "ce4bd1805f21c715d6f111a9d46281406e7586a6"
+        }
+      ],
+      "download_path": "downloads/A01_102_TAKES_IMPORTCLOCK30000.zip",
+      "import_clock_fps": 30000,
+      "physical_seconds_preserved": true,
+      "runtime_companion": "Data, formulas and instructions only; four billboard strips require camera/material implementation in the target runtime. Not executable integration. Four rigid strips are already in the FBX; do not duplicate them.",
+      "limitations": [
+        "Import changes global Blender scene FPS; use an isolated scene or separately validated clock normalization.",
+        "102 slots include static poses and short fragments, not 102 uniquely named gameplay animations.",
+        "Engine resampling, Unreal import and native-game equivalence are not certified."
+      ]
+    },
     {
       "model": "A04",
       "variant": "blender-compat",

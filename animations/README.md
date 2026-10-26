@@ -1,9 +1,10 @@
 # Baked animation downloads
 
-11 standard model IDs, 103 take records. This is an incomplete, experimental collection, not 103 unique moving animations or a complete roster export.
+12 standard model IDs, 205 take records. This is an incomplete, experimental collection, not 205 unique moving animations or a complete roster export.
 
 | Source ID | Edition | Take records | Download |
 | --- | --- | ---: | --- |
+| A01 | Converted asset · 30,000-FPS import clock | 102 | [Download ZIP](downloads/A01_102_TAKES_IMPORTCLOCK30000.zip) |
 | A04 | Blender compatibility | 1 | [Download ZIP](downloads/A04-blender-compat-1-takes.zip) |
 | A05 | Blender compatibility | 1 | [Download ZIP](downloads/A05-blender-compat-1-takes.zip) |
 | A06 | Blender compatibility | 1 | [Download ZIP](downloads/A06-blender-compat-1-takes.zip) |
@@ -18,9 +19,17 @@
 | B33 | Blender compatibility | 20 | [Download ZIP](downloads/B33-blender-compat-20-takes.zip) |
 
 ## What is included
-Each ZIP contains one multi-take FBX, a README and the original asset-rights notice. Exact texture atlases are embedded in every FBX. All ZIPs except B33 also contain a standalone atlas. For B33, [download its separate exact atlas](downloads/b33_tex_014560_cmpr.png) and place it beside the extracted FBX if your importer needs external textures.
+Each ZIP contains one multi-take FBX, a README and a rights notice. A01 includes its NOTICE.txt; the repository's ASSET_RIGHTS.md remains applicable and unchanged. Exact texture atlases are embedded in every FBX. All ZIPs except B33 also contain a standalone atlas. For B33, [download its separate exact atlas](downloads/b33_tex_014560_cmpr.png) and place it beside the extracted FBX if your importer needs external textures.
 
 The existing GLBs and their viewer remain unchanged. These FBX downloads are not played in the browser gallery.
+
+## A01: qualified converted asset, not engine-ready integration
+
+A01 adds a separate 102-slot baked FBX bank. The old A01 GLB and its 102 accessory/reference clips are unchanged; they are not the same deliverable and are not added again to the FBX count. The new slots include static poses, a body-static slot000 with effect motion, and short fragments, not 102 uniquely named gameplay animations.
+
+Import uses a **30,000-FPS compatibility clock and changes the global Blender scene FPS**. Physical take seconds are preserved. Use an isolated scene or separately validated clock normalization; do not silently retime or mix clocks. All 102 actions passed 17,956 deterministic actual-Blender witness queries (87,032,732 vertex comparisons, maximum position error 0.002316012 against the unchanged 0.005 gate). Sampled success does not certify engine resampling or native-game equivalence.
+
+The runtime companion is **data, formulas and instructions, not executable integration**. Four billboard strips need camera-facing geometry and material/render-state implementation in the target runtime; the FBX supplies their animated anchors, not rendered camera-facing effects. Four ordinary rigid strips are already included in the FBX and must not be duplicated. The additive source-alpha-plus-destination contract and depth/cull settings are documented in the package, but target-engine camera/material/pass integration remains unverified. Body/attachment and atlas diagnostics were inspected; that does not certify billboard additive rendering. Unreal and native-game playback are not certified.
 
 ## Important limits
 - The standard A21 package has 55 takes. The optional mixed56 package overlaps all 55 and adds only slot006, a fixed-120-Hz approximation. Do not add 55 and 56 together. Slot006 was checked at nominal 30/60/120-Hz samples; arbitrary-time interpolation remains unqualified and off-grid error was substantially higher.
@@ -34,4 +43,5 @@ The existing GLBs and their viewer remain unchanged. These FBX downloads are not
 [Machine-readable catalog](catalog.json) · [SHA-256 checksums](SHA256SUMS) · [Asset rights](../ASSET_RIGHTS.md)
 
 Publication does not imply unrestricted, commercial-use or open-source rights to original game content.
+
 
