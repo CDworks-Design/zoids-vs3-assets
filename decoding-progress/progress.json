@@ -208,9 +208,15 @@
       "limits": "Compatibility-qualified export, not standard-engine or original-game equivalence. Runtime billboard behavior is documented in a companion, not delivered as an executable engine integration."
     },
     {
+      "name": "A02 animation package",
+      "status": "Published · qualified Blender body export",
+      "detail": "A02's 102-slot body-animation package is published with three embedded/external atlases, sanitized validation and four diagnostic previews. Actual Blender checks passed 102,330 queries at a 30,000 FPS global import clock preserving seconds.",
+      "limits": "Qualified body export, not full native rendering. Source-hidden helpers are omitted; runtime visibility, node3 auxiliary effects, dynamic materials and original shaders/pass behavior remain unqualified. Unreal/other-engine equivalence is not certified."
+    },
+    {
       "name": "Animation conversion queue",
       "status": "Partial coverage · ongoing",
-      "detail": "The public animation catalog contains 12 model IDs and 205 take records across full and partial banks. A02–A05 are in progress.",
+      "detail": "The public animation catalog contains 13 model IDs and 307 take records across full and partial banks. A03–A05 are in progress; A06 is next in sequence.",
       "limits": "Catalog records are not a complete game animation total. Optional A21 overlap is separate and must not be double-counted; conversion and qualification continue in model order."
     }
   ],
@@ -265,3 +271,4 @@
     }
   ]
 }
+

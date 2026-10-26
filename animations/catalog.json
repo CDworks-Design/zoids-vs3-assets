@@ -1,9 +1,9 @@
 {
   "title": "Zoids VS. III animation downloads",
-  "standard_model_count": 12,
-  "standard_take_records": 205,
+  "standard_model_count": 13,
+  "standard_take_records": 307,
   "optional_overlapping_a21_take_records": 56,
-  "counting_notes": "Published collection: 12 standard model IDs and 205 take records, not 205 unique moving animations. A01 adds 102 finite source slots, including static poses and short fragments; this is a separate baked FBX bank, not a change to the original GLB's 102 accessory/reference clips. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006.",
+  "counting_notes": "Published collection: 13 standard model IDs and 307 take records, not 307 unique moving animations. A01 adds 102 finite source slots, including static poses and short fragments; this is a separate baked FBX bank, not a change to the original GLB's 102 accessory/reference clips. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006. A02 adds 102 finite body-animation slots, including short fragments and poses; source-hidden helpers, auxiliary effects and native rendering remain outside its qualification.",
   "packages": [
     {
       "model": "A01",
@@ -54,6 +54,99 @@
         "Import changes global Blender scene FPS; use an isolated scene or separately validated clock normalization.",
         "102 slots include static poses and short fragments, not 102 uniquely named gameplay animations.",
         "Engine resampling, Unreal import and native-game equivalence are not certified."
+      ]
+    },
+    {
+      "model": "A02",
+      "variant": "blender-compat-importclock30000",
+      "take_records": 102,
+      "overlaps_standard": false,
+      "file": "A02_102_TAKES_IMPORTCLOCK30000.zip",
+      "bytes": 7326309,
+      "sha256": "5b06d3cd57b759156fdb850f420b534a5211194b6ee977e76d74f54060505ee7",
+      "git_blob_sha1": "97baad1f3418b46582657e509cae2481a6991581",
+      "contents": [
+        {
+          "file": "A02_102_TAKES_IMPORTCLOCK30000.fbx",
+          "bytes": 28236668,
+          "sha256": "8e7c10bac6d4e5b01b8f6fe82233e13ab19a170201b9738f26f8369cf88dbdd0",
+          "git_blob_sha1": "b2903a77e4dc738b1b67093ebaf34e8cdcb512f6"
+        },
+        {
+          "file": "A02_SOURCE_ATLAS_0.png",
+          "bytes": 139328,
+          "sha256": "f5a68a71ceb6894387b6ffab5cf3ae4f2139e5843181c8794bcaa12658f01ec1",
+          "git_blob_sha1": "cfa8ccadff77c078428c3a433d91f959982f83ae"
+        },
+        {
+          "file": "A02_SOURCE_ATLAS_1.png",
+          "bytes": 6472,
+          "sha256": "40f6cb7a0fb792caccf919bbb7a43dfa12060bb9c9c328b0b73bf37ad635808d",
+          "git_blob_sha1": "00932ec6ae56ea701529a73d3925d45091a8d00b"
+        },
+        {
+          "file": "A02_SOURCE_ATLAS_2.png",
+          "bytes": 3838,
+          "sha256": "76c746e38f4d85305816c9257b2852d47135fdbb19fe04b8b8abb3868b4a071d",
+          "git_blob_sha1": "e57fd6b0b739493ee940aa445771cd7f156792b0"
+        },
+        {
+          "file": "NOTICE.txt",
+          "bytes": 477,
+          "sha256": "0579d43d9e9e871cf3e976f428aa36c1b5c3dfb30bd2eea4b74a63cf9d18c8a8",
+          "git_blob_sha1": "ce4bd1805f21c715d6f111a9d46281406e7586a6"
+        },
+        {
+          "file": "README.txt",
+          "bytes": 3329,
+          "sha256": "127184c4e11a4caf1ff08dd6c60e51fb6e023bd7485f92b2953ca46854773a7b",
+          "git_blob_sha1": "85fab35315d6189280a86e3f2680924913fe01b2"
+        },
+        {
+          "file": "SHA256SUMS",
+          "bytes": 1028,
+          "sha256": "1b80826a3af489124fa7ecbc7727ecb9a8b70b96e2113f47ad7deb8538597e8d",
+          "git_blob_sha1": "7137be7f33b9a4e9838cb342583209af6e22b2a0"
+        },
+        {
+          "file": "VALIDATION.json",
+          "bytes": 26307,
+          "sha256": "257a4d0265291a89ab607135d7a35544cdee9ed45e62e4468ec98efef7444001",
+          "git_blob_sha1": "a9e9319e9d5550bb65930dcb5a42986b9b490054"
+        },
+        {
+          "file": "previews/full-bank-qa-000-back.png",
+          "bytes": 200311,
+          "sha256": "319690161888288d5f1499d0869ef7a82f6550ebf5f27a2d00d49071bacbd693",
+          "git_blob_sha1": "42690958806e8d790ba54096f0c8f6846a9e05d4"
+        },
+        {
+          "file": "previews/full-bank-qa-000-front.png",
+          "bytes": 192794,
+          "sha256": "f5c118f01da0f22b768521d7f04aa06c7f7fd7fd5af48f6936221e14e2c3b5a5",
+          "git_blob_sha1": "6ff24cfe533bae4827c7ea517221ddd1ae1a38ef"
+        },
+        {
+          "file": "previews/full-bank-qa-005-former-held.png",
+          "bytes": 185840,
+          "sha256": "c788cd5f6416bd2be83e063af1cee23463ba25841add405d04c04e6eeb988a21",
+          "git_blob_sha1": "c126b8c314295fcf346286d3a12a45b56dc059a3"
+        },
+        {
+          "file": "previews/full-bank-qa-048-affine-alignment.png",
+          "bytes": 199201,
+          "sha256": "10b4cff0b6bc60b14456519f466271301de9e9e43ae2b4c780c4e80fc5c55ea7",
+          "git_blob_sha1": "0d7429b2b7f4cc338813d35f46d9e8839ba49f32"
+        }
+      ],
+      "download_path": "downloads/A02_102_TAKES_IMPORTCLOCK30000.zip",
+      "import_clock_fps": 30000,
+      "physical_seconds_preserved": true,
+      "limitations": [
+        "Import changes global Blender scene FPS; use an isolated scene or separately validated clock normalization, not FPS reset alone.",
+        "Body export with six retained draw meshes and three exact embedded/external atlases; source-hidden helpers omitted.",
+        "Runtime visibility, node3 auxiliary effects, dynamic materials, original shaders/pass behavior and Unreal/other-engine equivalence remain unqualified.",
+        "102 finite slots include short fragments and poses, not 102 uniquely named gameplay animations."
       ]
     },
     {
