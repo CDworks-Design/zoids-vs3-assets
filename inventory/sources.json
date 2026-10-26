@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-25",
   "provenance": {
     "extractor_commit": "6bfa292704e5218b742a3fe2fa4e025e503c8f9c",
-    "decoding_catalog_commit": "895c94212fddab0e91df53764cb07f65417d1790",
+    "decoding_catalog_commit": "32f2a6cf7f969f63b1ee92fab0d7e14bd3c848f7",
     "decoding_catalog_recorded_date": "2026-10-26",
     "date_note": "Snapshot date uses the requested America/New_York date; upstream recorded dates are preserved as evidence, not substituted for this verification date.",
     "inputs": [
@@ -21,7 +21,7 @@
       },
       {
         "name": "decoding/catalog/assets.json",
-        "sha256": "fb8b2dc23b62c41307fd4fcefa4864773da9724ee9529131e2756918ecc66045"
+        "sha256": "7e8f0364e4466b62b0ca75185900a622dfc3db65cd17b86828a2c1d284b999ef"
       },
       {
         "name": "decoding/catalog/sections.json",
@@ -32,11 +32,31 @@
         "sha256": "305b2f83c95c8048321ad104b15ead5de1414f86edbe1dd5d422dfce30d72365"
       },
       {
+        "name": "decoding/catalog/weapon-ui-label-census.json",
+        "sha256": "0f7d6c0a6cfc9d977a0326675b0a23149fc37534246afccfc61f740fa790f066"
+      },
+      {
+        "name": "decoding/catalog/weapon-display-consumer-proof.json",
+        "sha256": "34d89083820485fc8a4af25f01987f6922015b71c3b90816ea96b84a0c8b5d30"
+      },
+      {
+        "name": "decoding/catalog/map-info-label-census.json",
+        "sha256": "5a875632298a03b0596fc92fbc368b52b2126ac27dadfa8992fcbbba2a253a73"
+      },
+      {
+        "name": "decoding/catalog/stage54-name-link.json",
+        "sha256": "b80e4e1d5a0482acad64d78a3600d4fc2f409a929487c784854282b34ee63e86"
+      },
+      {
+        "name": "decoding/catalog/packages.json",
+        "sha256": "2cf33c24b8270b9f99ad10e1d06aba173909dc093f01d14703e85296356c1d15"
+      },
+      {
         "name": "catalog.json",
         "sha256": "47187b06eb84a895064c9fd1fbd9070f9877f48e2db23a25307b0ab328627ffa"
       }
     ],
-    "verification": "Current local source bytes rehashed against the census and retained image comparison. Local GLBs rehashed against historical conversion records. The disc image itself was not rerun or independently authenticated in this pass.",
+    "verification": "Current local source bytes rehashed against the census and retained image comparison. Historical extractor exports and preserved public GLBs rehashed against current catalog records. Retained labels rechecked at bounded source offsets. Static consumer links inherit the pinned catalog analysis; this pass checks its source ELF hash, not runtime behavior. The disc image itself was not rerun or independently authenticated in this pass.",
     "image_provenance": "The image-comparison evidence concerns the locally held translated game image; it does not establish unmodified retail provenance."
   },
   "summary": {
@@ -49390,7 +49410,20 @@
       "bytes": 13056,
       "sha256": "216e619d7f49cab7f6b33dfdb7f417dac0237b085662ede3797a6ed5dd1894c4",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "ゾイドコロシアム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドコロシアム　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B001.mg",
@@ -49399,7 +49432,20 @@
       "bytes": 13056,
       "sha256": "396562d34495f70a46f9ba480d64e99f080267d1ff178abd6ced6972ae282b15",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "開拓地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "開拓地　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B002.mg",
@@ -49408,7 +49454,20 @@
       "bytes": 13056,
       "sha256": "976fc79e8ef71805bdc49b16c0cb3c6fa3616acca971552bb95fdb906cefd27f",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "開拓地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "開拓地　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B003.mg",
@@ -49417,7 +49476,20 @@
       "bytes": 13056,
       "sha256": "e091c5bd266c05fd2a9a3baa43c3fbcfdfefb67968bb6e35eb407f646c7603a0",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 4,
+        "stage_info_source_path": "stage/st04.i",
+        "entry_zero_label": "航空基地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "航空基地　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B004.mg",
@@ -49426,7 +49498,20 @@
       "bytes": 13056,
       "sha256": "73c354beffe67f465d5e79b187390dd543e5082a5a574db0363707a87184409d",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 4,
+        "stage_info_source_path": "stage/st04.i",
+        "entry_zero_label": "航空基地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "航空基地　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B005.mg",
@@ -49435,7 +49520,20 @@
       "bytes": 13056,
       "sha256": "1d4f9195990324ecc3d07541f43e235a748c002fb2c88a9042a79e39049ab8aa",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "ゾイドコロシアム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドコロシアム　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B006.mg",
@@ -49444,7 +49542,20 @@
       "bytes": 13056,
       "sha256": "f8b29bacb376dc8b4ea0e1f9def08940e5246b465b756fc45b335585b368e4a9",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B007.mg",
@@ -49453,7 +49564,20 @@
       "bytes": 13056,
       "sha256": "e4b94009774a408c3c66b3d37b2b0597ccbf283143758bce5a132ae2f3ad99e5",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "龍の谷",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "龍の谷　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B008.mg",
@@ -49462,7 +49586,20 @@
       "bytes": 13056,
       "sha256": "41be058e63308f5b0d38487ed5cfe4cd809f920a5785b7d1b59179928c205bc7",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "開拓地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "開拓地　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B009.mg",
@@ -49471,7 +49608,20 @@
       "bytes": 13056,
       "sha256": "491c7631a78a254e3e6d0c1e5e3c75fa5340d006d6ba907ab07cfdd20216f078",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B010.mg",
@@ -49480,7 +49630,20 @@
       "bytes": 13056,
       "sha256": "ef93c5f3bd3392bf28c5082ea5052b69e435ef038aa46ba2ee3c02d2dad5fa23",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "龍の谷",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "龍の谷　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B011.mg",
@@ -49489,7 +49652,20 @@
       "bytes": 13056,
       "sha256": "72a7ec0b6f541b8abac08275ce888f8069a92bc04cdd315645955217eef3ce50",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B012.mg",
@@ -49498,7 +49674,20 @@
       "bytes": 13056,
       "sha256": "8498ed6cbc7a81851ed72133bbecc3cabfa1ba4bcc6c7fe4bd3c5b855d4ad1d4",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "雪山",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "雪山　　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B013.mg",
@@ -49507,7 +49696,20 @@
       "bytes": 13056,
       "sha256": "6ac222a10544021dc87c6f4bc591ea63a3732807ef9065319ec438aca8b8dce1",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "雪山",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "雪山　　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B014.mg",
@@ -49516,7 +49718,20 @@
       "bytes": 13056,
       "sha256": "e1666cdcf6290f598c184434f233145532c02c21ac0f6554afed82add3480fb0",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "ゾイドロード",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドロード　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B015.mg",
@@ -49525,7 +49740,20 @@
       "bytes": 13056,
       "sha256": "540519c3bc3a720b63b31c2ec8cdfbe4b6d3fc2f1aaff33d6319415dfa56de3a",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "砂漠地帯",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "砂漠地帯　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B016.mg",
@@ -49534,7 +49762,20 @@
       "bytes": 13056,
       "sha256": "bc014fb5025d60d5b9b5a37b3c997ad1c5334c0a7913c3d90c3f618e81d8e098",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "ゾイドロード",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドロード　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B017.mg",
@@ -49543,7 +49784,20 @@
       "bytes": 13056,
       "sha256": "1c1a80c49b0fd1d9459f8e7b05449de442ff025bc8c6820b38748f047f9e5ef6",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "龍の谷",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "龍の谷　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B018.mg",
@@ -49552,7 +49806,20 @@
       "bytes": 13056,
       "sha256": "8f7e4e07f8099c13aa4a2af02e91534c5159dce62a87e3513a0b2fd5aa0e8b02",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 6,
+        "stage_info_source_path": "stage/st06.i",
+        "entry_zero_label": "市街地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "市街地　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B019.mg",
@@ -49561,7 +49828,20 @@
       "bytes": 13056,
       "sha256": "d95e1c09ff01eff4a01755a223986154b42f9df233c4da0e5ea0f7987222b417",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "ゾイドコロシアム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドコロシアム　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B020.mg",
@@ -49570,7 +49850,20 @@
       "bytes": 13056,
       "sha256": "69c71d92f3b2483ae0ce51625245027e8c7c925fc14662edd3e5c148b4f4e662",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "砂漠地帯",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "砂漠地帯　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B021.mg",
@@ -49579,7 +49872,20 @@
       "bytes": 13056,
       "sha256": "e7fe12a0c4e6dd1cdbdd9bfec8e9a64433314aeb6d94fd50e957d6052d14a647",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "砂漠地帯",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "砂漠地帯　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B022.mg",
@@ -49588,7 +49894,20 @@
       "bytes": 13056,
       "sha256": "a6a31c04269f463d1ef54cdd6fb4e4f77ea76278eb1086375a34b2e77852f06c",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "ゾイドコロシアム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドコロシアム　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B023.mg",
@@ -49597,7 +49916,20 @@
       "bytes": 13056,
       "sha256": "550c633825fca7058ec99060bd03282098f77384caa825b0b4fb1723a1aea7fa",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "雪山",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "雪山　　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B024.mg",
@@ -49606,7 +49938,20 @@
       "bytes": 13056,
       "sha256": "c20c71e3814a8dec559f802d91a8a9ac1af13f972003518a9c411b566eb77717",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B025.mg",
@@ -49615,7 +49960,20 @@
       "bytes": 13056,
       "sha256": "72e3d9145612397338b992bbb49373d70efa4c7b26b9bf8da2124df1fe68b3ce",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 6,
+        "stage_info_source_path": "stage/st06.i",
+        "entry_zero_label": "市街地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "市街地　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B026.mg",
@@ -49624,7 +49982,20 @@
       "bytes": 13056,
       "sha256": "811c64a0e6d6597634b6657c6ba71460076bfdaf8aa953192db7cf09724c2b5e",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "砂漠地帯",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "砂漠地帯　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B027.mg",
@@ -49633,7 +50004,20 @@
       "bytes": 13056,
       "sha256": "ce571450ce1a3ee7e715a648ea6e0ea9b89224fe50836968f33517f89c133023",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "デザートヒル",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "デザートヒル　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B028.mg",
@@ -49642,7 +50026,20 @@
       "bytes": 13056,
       "sha256": "bcbe3cafbe025d061e17a838013d184fe7cbdfc5468e52aa21978a522dea4717",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "デザートヒル",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "デザートヒル　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B029.mg",
@@ -49651,7 +50048,20 @@
       "bytes": 13056,
       "sha256": "0613dfa7856230ae2a868f6a0e8ae7df33e1927746997b1609ab7f0feaae89a8",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "ゾイドロード",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドロード　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B030.mg",
@@ -49660,7 +50070,20 @@
       "bytes": 13056,
       "sha256": "1b5aa94026d87e1b94c3141e8d3f55d70fca665c9799991f3e566a95ed68de84",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "雪山",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "雪山　　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B031.mg",
@@ -49669,7 +50092,20 @@
       "bytes": 13056,
       "sha256": "5543c372398bdf95ab8479e846e1060508076bbb9afce38b9c5de0745f1400a0",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "ゾイドロード",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドロード　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B032.mg",
@@ -49678,7 +50114,20 @@
       "bytes": 13056,
       "sha256": "e833d5473244fc9be78ae31847b914ac2cfcb86f8e7ebf9ff839a071e4e003ca",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "龍の谷",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "龍の谷　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B033.mg",
@@ -49687,7 +50136,20 @@
       "bytes": 13056,
       "sha256": "50a58f58ae8bbec7ac96a4e4faefafae03e75e0e7affebb59e2b12b9f26d6e7d",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "デザートヒル",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "デザートヒル　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B034.mg",
@@ -49696,7 +50158,20 @@
       "bytes": 13056,
       "sha256": "975f8bfd1123c1711ae0bce1b43b5edf9fadb01d4e0eb9c4f233e61884aec8a6",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "デザートヒル",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "デザートヒル　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B035.mg",
@@ -49705,7 +50180,20 @@
       "bytes": 13056,
       "sha256": "801268fe1e260ddaff2c41370703cfd1fc407185384f4ac7a9615ef4b8626030",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 6,
+        "stage_info_source_path": "stage/st06.i",
+        "entry_zero_label": "市街地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "市街地　　　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B036.mg",
@@ -49714,7 +50202,20 @@
       "bytes": 13056,
       "sha256": "04f7f790e2ef62326faedf0649d20fe90e25212c5fe380c15ea9115204d3c587",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "巨大ハッチ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "巨大ハッチ　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B037.mg",
@@ -49723,7 +50224,20 @@
       "bytes": 13056,
       "sha256": "bc46dd3448d368aaccfe8a072565902acefcf73f0a560879c9c9dc22c79abfdf",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "巨大ハッチ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "巨大ハッチ　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B038.mg",
@@ -49732,7 +50246,20 @@
       "bytes": 13056,
       "sha256": "3d71bfafaca80b9938d721cad83141caf6d23efbe4e42c554ee4e5a14565cc35",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "巨大ハッチ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "巨大ハッチ　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B039.mg",
@@ -49741,7 +50268,20 @@
       "bytes": 13056,
       "sha256": "dd6d0edc40e9568a74d71f946f71818679efd5acbeb33f95ac9f7996207c8686",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "巨大ハッチ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "巨大ハッチ　　　　　　　\r\n　　　　　　　　　　　",
+        "label_source_byte_length": 48,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/D000.mg",
@@ -49957,7 +50497,20 @@
       "bytes": 13056,
       "sha256": "4409bbdce321e24902b3d650c53350edeae61c0c52b782e640162682edeaaee2",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 77,
+        "stage_info_source_path": "stage/st77.i",
+        "entry_zero_label": "ゾイド開発研究所",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイド開発研究所　　　　",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M000.msg",
@@ -49975,7 +50528,20 @@
       "bytes": 13056,
       "sha256": "fa0781c4a2520b7b5c4a76a76ee7fb1b1ad769e8d6b325b8ba14b989361b4aa2",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 8,
+        "stage_info_source_path": "stage/st08.i",
+        "entry_zero_label": "ゾイド開発研究所",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイド開発研究所　　　　",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M002.mg",
@@ -49984,7 +50550,20 @@
       "bytes": 13056,
       "sha256": "eb663e76a507443efafce4e138196548f1bb97885b5e6d738fc7229a3d782a68",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 61,
+        "stage_info_source_path": "stage/st61.i",
+        "entry_zero_label": "ゾイド開発研究所",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイド開発研究所　　　　\r\n",
+        "label_source_byte_length": 26,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M003.mg",
@@ -49993,7 +50572,20 @@
       "bytes": 13056,
       "sha256": "1c67cd94e85d8ad43fe9b976f00f6b6defefeb612de55b0fa28d69ac87b1dfd2",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 69,
+        "stage_info_source_path": "stage/st69.i",
+        "entry_zero_label": "ゾイド開発研究所\r\n正門と道路",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイド開発研究所\r\n正門と道路",
+        "label_source_byte_length": 28,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": false,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M004.mg",
@@ -50002,7 +50594,20 @@
       "bytes": 13056,
       "sha256": "2960a15a8127a2d768198f830eff766bce4deb6c5b6d80e405a1526c1fb1bd58",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 68,
+        "stage_info_source_path": "stage/st68.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M005.mg",
@@ -50011,7 +50616,20 @@
       "bytes": 13056,
       "sha256": "dcdc39ceab2016cae03d179204f59ebd0d1488a429e0014afa441c2983875798",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 76,
+        "stage_info_source_path": "stage/st76.i",
+        "entry_zero_label": "ジャンクゾーン",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ジャンクゾーン\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M005z.mg",
@@ -50038,7 +50656,20 @@
       "bytes": 13056,
       "sha256": "bce5ee49b62adac8fd9aec12322a44f78d077665ce237b8539a6eeda04a4dd48",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 58,
+        "stage_info_source_path": "stage/st58.i",
+        "entry_zero_label": "ゾイドバトル練習場",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドバトル練習場\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M008.mg",
@@ -50047,7 +50678,20 @@
       "bytes": 13056,
       "sha256": "40cd11ae869bf7c5263edcd9b3ac67f53b11abffd524cbacdc74dd1fb7434579",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 78,
+        "stage_info_source_path": "stage/st78.i",
+        "entry_zero_label": "閉鎖された基地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "閉鎖された基地\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M009.mg",
@@ -50056,7 +50700,20 @@
       "bytes": 13056,
       "sha256": "7461dc701525648fb932fcbeca329d43ccd9b54bef46edf96a916cde7c9f3d7f",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 55,
+        "stage_info_source_path": "stage/st55.i",
+        "entry_zero_label": "閉鎖された基地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "閉鎖された基地\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M010.mg",
@@ -50065,7 +50722,20 @@
       "bytes": 13056,
       "sha256": "72b76a640b994bcd5ba445e2059578556239322e94d9fed445398bca029f63b3",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 63,
+        "stage_info_source_path": "stage/st63.i",
+        "entry_zero_label": "街中交差点",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "街中交差点\r\n",
+        "label_source_byte_length": 12,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M011.mg",
@@ -50074,7 +50744,20 @@
       "bytes": 13056,
       "sha256": "a21c798415fcd905043cd598569bdf3b480ef62b4e4cf62f48921e3924837306",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "山岳地帯",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "山岳地帯\r\n",
+        "label_source_byte_length": 10,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M012.mg",
@@ -50083,7 +50766,20 @@
       "bytes": 13056,
       "sha256": "51aa7de276de6134d1a710992cbcfa994420be8eb329569e576534eae83e5b85",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 59,
+        "stage_info_source_path": "stage/st59.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M016.mg",
@@ -50092,7 +50788,20 @@
       "bytes": 13056,
       "sha256": "282c0744f4ea11aca7b1715a0ab3fbf8a1f63db884dcab4b1fb4e9c5b3226a12",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "シティ西側開拓地",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "シティ西側開拓地\r\n",
+        "label_source_byte_length": 18,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M017.mg",
@@ -50101,7 +50810,20 @@
       "bytes": 13056,
       "sha256": "d4e5e50f255e5cf577e0cf92d693286c313ce54300f5827000cdb56a1df128bd",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 73,
+        "stage_info_source_path": "stage/st73.i",
+        "entry_zero_label": "峡谷渡り通路",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "峡谷渡り通路\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M018.mg",
@@ -50110,7 +50832,20 @@
       "bytes": 13056,
       "sha256": "ceff2646e9729c021bf39fcd8344e79e1ef961c76f9cedfa31781730355ddc90",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 70,
+        "stage_info_source_path": "stage/st70.i",
+        "entry_zero_label": "ホエールキング内部",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ホエールキング内部\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M020.mg",
@@ -50119,7 +50854,20 @@
       "bytes": 13056,
       "sha256": "50c8638fb52ad28e46b240dd5816814388d8e2f96455bb8a977aea12e84f7085",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 19,
+        "stage_info_source_path": "stage/st19.i",
+        "entry_zero_label": "荒野",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野\r\n",
+        "label_source_byte_length": 6,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M020.msg",
@@ -50137,7 +50885,20 @@
       "bytes": 13056,
       "sha256": "bb0532a49a999e94e5280ad6b976c3b1bd1ded9d971bebd38c731e020326e42c",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "ゾイドロード",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドロード\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M033.mg",
@@ -50146,7 +50907,20 @@
       "bytes": 13056,
       "sha256": "597e9b0f6ec26fc17d3e857ee52a6f19c7cdc63ff1e10e37aebef1027805c133",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 64,
+        "stage_info_source_path": "stage/st64.i",
+        "entry_zero_label": "エネルギー供給施設",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "エネルギー供給施設\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M034.mg",
@@ -50155,7 +50929,20 @@
       "bytes": 13056,
       "sha256": "c7bfad88d47482c9c42d0e1d04259ccac5be3a14b0d1ff7587a56a3721732855",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "雪山",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "雪山\r\n",
+        "label_source_byte_length": 6,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M035.mg",
@@ -50164,7 +50951,20 @@
       "bytes": 13056,
       "sha256": "adc654298e01c1482ff45af8cd5ce962e4d0fd6d09c70feb3279a3f31bea10ac",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 79,
+        "stage_info_source_path": "stage/st79.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M035x.mg",
@@ -50182,7 +50982,20 @@
       "bytes": 13056,
       "sha256": "1722eaace53284d0e26e2b9eb72c9690eb91428f25619d3fbe4c01c45d512d97",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 70,
+        "stage_info_source_path": "stage/st70.i",
+        "entry_zero_label": "ホエールキング内部",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ホエールキング内部\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M038.mg",
@@ -50191,7 +51004,20 @@
       "bytes": 13056,
       "sha256": "cd037ec1bb9e0dfedba3dc5fbca2455b476432ebcd6386c545959ef21ed4a57b",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 65,
+        "stage_info_source_path": "stage/st65.i",
+        "entry_zero_label": "ホエールキング甲板",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ホエールキング甲板\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M041.mg",
@@ -50200,7 +51026,20 @@
       "bytes": 13056,
       "sha256": "73abafeb478ee2e93e277f41dc5133f2013ca634be5f5d79dde80e3406ae1bb9",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "ゾイドロード",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ゾイドロード\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M043.mg",
@@ -50209,7 +51048,20 @@
       "bytes": 13056,
       "sha256": "9415058f96a87e7c747dc0c41df9cc8d2a5298e97d79786a9b6061a57a6492ec",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 72,
+        "stage_info_source_path": "stage/st72.i",
+        "entry_zero_label": "雪山",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "雪山\r\n",
+        "label_source_byte_length": 6,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M043z.mg",
@@ -50227,7 +51079,20 @@
       "bytes": 13056,
       "sha256": "b91db1477dfc6d9f4c94aefbfb8f43d504b457616b1fe249e3e39da89ac668e6",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 68,
+        "stage_info_source_path": "stage/st68.i",
+        "entry_zero_label": "荒野ハイウェイ",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野ハイウェイ\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M045.mg",
@@ -50236,7 +51101,20 @@
       "bytes": 13056,
       "sha256": "ca89890202c5ea6e20935c8fc5ac32256a1f0e4dbafd45f2617a4966a402664f",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 64,
+        "stage_info_source_path": "stage/st64.i",
+        "entry_zero_label": "エネルギー供給施設",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "エネルギー供給施設\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M047.mg",
@@ -50245,7 +51123,20 @@
       "bytes": 13056,
       "sha256": "0537d4cc81573bfe508fd1ab43bb0a4194945b522dbd3d2da54018403e7c4e85",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 70,
+        "stage_info_source_path": "stage/st70.i",
+        "entry_zero_label": "ホエールキング内部",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ホエールキング内部\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M048.mg",
@@ -50254,7 +51145,20 @@
       "bytes": 13056,
       "sha256": "1cd13d4aec73bf1064fb25e0eac8c64a0bfee4a80e2716391f99fbf9c58e4976",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 65,
+        "stage_info_source_path": "stage/st65.i",
+        "entry_zero_label": "ホエールキング甲板",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "ホエールキング甲板\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M048x.mg",
@@ -50272,7 +51176,20 @@
       "bytes": 13056,
       "sha256": "c73737401b975827bc69b260424956ce3adca6eb279fe458959215be69ef8ff8",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 19,
+        "stage_info_source_path": "stage/st19.i",
+        "entry_zero_label": "荒野",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野\r\n",
+        "label_source_byte_length": 6,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M049x.mg",
@@ -50290,7 +51207,20 @@
       "bytes": 13056,
       "sha256": "68042e01e190610065455ab7c26ba3b3d394fe1ed60353bcf1d5e1b5267a2005",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 19,
+        "stage_info_source_path": "stage/st19.i",
+        "entry_zero_label": "荒野",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "荒野\r\n",
+        "label_source_byte_length": 6,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M071.mg",
@@ -50299,7 +51229,20 @@
       "bytes": 13056,
       "sha256": "b618b568c311bd737ae8a3a14f6b720a301b829011fd804ebd1b5ac3162ff262",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 66,
+        "stage_info_source_path": "stage/st66.i",
+        "entry_zero_label": "移動テストルーム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "移動テストルーム　　　　",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M071.msg",
@@ -50317,7 +51260,20 @@
       "bytes": 13056,
       "sha256": "388ab85845360a039701e5d2f0ae2139d55d650bd296b5892f12a082dfef354c",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 77,
+        "stage_info_source_path": "stage/st77.i",
+        "entry_zero_label": "砲撃テストルーム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "砲撃テストルーム　　　\r\n",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M072.msg",
@@ -50335,7 +51291,20 @@
       "bytes": 13056,
       "sha256": "bece36566a9974c993d78ccca407b7c2a336653f9cdca07af8b5218e66ac5ccb",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 67,
+        "stage_info_source_path": "stage/st67.i",
+        "entry_zero_label": "格闘テストルーム",
+        "version_kind": "Japanese-backup",
+        "retained_source_label": "格闘テストルーム　　　\r\n",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M073.msg",
@@ -50920,7 +51889,20 @@
       "bytes": 13056,
       "sha256": "1b5b9bffb1a3b66a7ae8857689bdc2c318a7aee7793c4e0c5a39b21665991559",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "Zoid Colosseum",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Colosseum\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B001.mg",
@@ -50929,7 +51911,20 @@
       "bytes": 13056,
       "sha256": "9fe547bf33693ed6026ce203a7cff94b53a25f5f1b1febb94a69ca996021bd6a",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "Cleared Land",
+        "version_kind": "working",
+        "retained_source_label": "Cleared Land　　　　　",
+        "label_source_byte_length": 22,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B002.mg",
@@ -50938,7 +51933,20 @@
       "bytes": 13056,
       "sha256": "df46281e489bffb9fdda24c61851fd093c5032ae2e48d800eb911b8e25ec00d6",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "Cleared Land",
+        "version_kind": "working",
+        "retained_source_label": "Cleared Land　　　　　",
+        "label_source_byte_length": 22,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B003.mg",
@@ -50947,7 +51955,20 @@
       "bytes": 13056,
       "sha256": "dcae582bcc0272d6606b05cd5807f416d1db70e006d8db118f74dcf29a3ddad5",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 4,
+        "stage_info_source_path": "stage/st04.i",
+        "entry_zero_label": "Airport Base",
+        "version_kind": "working",
+        "retained_source_label": "Airport Base\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B004.mg",
@@ -50956,7 +51977,20 @@
       "bytes": 13056,
       "sha256": "67f12e35219f03ea6c9efd8ff65709aa03d453a31c2d21feae204c956f5c7720",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 4,
+        "stage_info_source_path": "stage/st04.i",
+        "entry_zero_label": "Airport Base",
+        "version_kind": "working",
+        "retained_source_label": "Airport Base\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B005.mg",
@@ -50965,7 +51999,20 @@
       "bytes": 13056,
       "sha256": "8ee42a9fefae4efaa8a616feb9bed2ce76b28376e3ffbfa2d1df691cccef5ab5",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "Zoid Colosseum",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Colosseum\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B006.mg",
@@ -50974,7 +52021,20 @@
       "bytes": 13056,
       "sha256": "cff96a2e74901ae22d755b28306e4d92f40b99366f3ad2f00d80df149790e628",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B007.mg",
@@ -50983,7 +52043,20 @@
       "bytes": 13056,
       "sha256": "48822c0f263c8af1ec539d762ed2bc636180ef51705ad424403ce030138fee1a",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "Dragon Valley",
+        "version_kind": "working",
+        "retained_source_label": "Dragon Valley\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B008.mg",
@@ -50992,7 +52065,20 @@
       "bytes": 13056,
       "sha256": "095bb2c3f1e37bbc2157f5682c66406527927c3bb6b011f8fb8c6e108914526b",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "Cleared Land",
+        "version_kind": "working",
+        "retained_source_label": "Cleared Land　　　　　",
+        "label_source_byte_length": 22,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B009.mg",
@@ -51001,7 +52087,20 @@
       "bytes": 13056,
       "sha256": "8be8b2d1dd85d809fc765d17bf2a011d04172d7ef3428ca35109e0bbf20787d0",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B010.mg",
@@ -51010,7 +52109,20 @@
       "bytes": 13056,
       "sha256": "ac2f94842afa9b671d7fba51c9a9a52ddb1b15143a4e61679644f41ba745b1eb",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "Dragon Valley",
+        "version_kind": "working",
+        "retained_source_label": "Dragon Valley\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B011.mg",
@@ -51019,7 +52131,20 @@
       "bytes": 13056,
       "sha256": "6c02ac2faa7df003b6073491b129bdc13617733de42bfb916c68ef2411196fc2",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B012.mg",
@@ -51028,7 +52153,20 @@
       "bytes": 13056,
       "sha256": "15ca9b1795337399bb3dbadc83b85b4eeb6b2366cf26f719510186c0a78c1b88",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "Snowy Mountain",
+        "version_kind": "working",
+        "retained_source_label": "Snowy Mountain\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B013.mg",
@@ -51037,7 +52175,20 @@
       "bytes": 13056,
       "sha256": "e3829103eb06b0fbfb94b6278aa0fa291e26dbb87a54cbe44e76189483f601f7",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "Snowy Mountain",
+        "version_kind": "working",
+        "retained_source_label": "Snowy Mountain\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B014.mg",
@@ -51046,7 +52197,20 @@
       "bytes": 13056,
       "sha256": "cdff7676df942e5621829ca981296ed9c1f6554598e3c738d88d68376b48bc49",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "Zoid Road",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Road    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B015.mg",
@@ -51055,7 +52219,20 @@
       "bytes": 13056,
       "sha256": "8748ce9e78155c4532448f60814d6fe2a6b2f68c040cfce78d4d2d6dc8645935",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "Desert Region",
+        "version_kind": "working",
+        "retained_source_label": "Desert Region\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B016.mg",
@@ -51064,7 +52241,20 @@
       "bytes": 13056,
       "sha256": "a0301883af6aeaaf2ee47bc13b83679292685604b87e7ab12ecd55d7f8e91ccf",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "Zoid Road",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Road    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B017.mg",
@@ -51073,7 +52263,20 @@
       "bytes": 13056,
       "sha256": "e9d92985e8d9382d1eb8b70c4f9b10f205c94a0fec9cd4d02f0c5fd51ba70b80",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "Dragon Valley",
+        "version_kind": "working",
+        "retained_source_label": "Dragon Valley\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B018.mg",
@@ -51082,7 +52285,20 @@
       "bytes": 13056,
       "sha256": "5d2afd3daf8d9245bdb8871aebd8212613d49bdc78b9ff5a277f83722c6f9d92",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 6,
+        "stage_info_source_path": "stage/st06.i",
+        "entry_zero_label": "City Grounds",
+        "version_kind": "working",
+        "retained_source_label": "City Grounds\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B019.mg",
@@ -51091,7 +52307,20 @@
       "bytes": 13056,
       "sha256": "3d63de8aea9dbe997613fec9b05bb51acd60cbeada6a1d5d16d588ae7fd281a7",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "Zoid Colosseum",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Colosseum\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B020.mg",
@@ -51100,7 +52329,20 @@
       "bytes": 13056,
       "sha256": "1801019282abf086e27a0eecb4682602436bf539e3a8420d82a8784268da7645",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "Desert Region",
+        "version_kind": "working",
+        "retained_source_label": "Desert Region\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B021.mg",
@@ -51109,7 +52351,20 @@
       "bytes": 13056,
       "sha256": "2a40d77e534faa79329e32f05384d19b52c48673845753dfe0644f1a360961ce",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "Desert Region",
+        "version_kind": "working",
+        "retained_source_label": "Desert Region\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B022.mg",
@@ -51118,7 +52373,20 @@
       "bytes": 13056,
       "sha256": "3869d3a9245f2c66b6a2c3d3b3ce93051caa7fe6efd55eb4abf22a3ea733228c",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 62,
+        "stage_info_source_path": "stage/st62.i",
+        "entry_zero_label": "Zoid Colosseum",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Colosseum\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B023.mg",
@@ -51127,7 +52395,20 @@
       "bytes": 13056,
       "sha256": "b570fb1052c923b395ca23277d36d3c58a374e132e7dda6079238fd4c9910349",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "Snowy Mountain",
+        "version_kind": "working",
+        "retained_source_label": "Snowy Mountain\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B024.mg",
@@ -51136,7 +52417,20 @@
       "bytes": 13056,
       "sha256": "8d9db65c616c52b5427e2a36ea28c73049ef87b91e8b30d1454dee892393cae2",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 56,
+        "stage_info_source_path": "stage/st56.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B025.mg",
@@ -51145,7 +52439,20 @@
       "bytes": 13056,
       "sha256": "a4978ece9ae17ecbd1afd7c3ca88ffe98409d95b9dcb8e183d69efe76961a994",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 6,
+        "stage_info_source_path": "stage/st06.i",
+        "entry_zero_label": "City Grounds",
+        "version_kind": "working",
+        "retained_source_label": "City Grounds\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B026.mg",
@@ -51154,7 +52461,20 @@
       "bytes": 13056,
       "sha256": "a7aee348cde0535cd95cb67409fe18609b0d5c5f36d1315cc954c53509c5ac77",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 26,
+        "stage_info_source_path": "stage/st26.i",
+        "entry_zero_label": "Desert Region",
+        "version_kind": "working",
+        "retained_source_label": "Desert Region\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B027.mg",
@@ -51163,7 +52483,20 @@
       "bytes": 13056,
       "sha256": "b6323919717c9a8418324436aff1603f4a184615b1766e7babb2d1ccece6037a",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "Desert Hill",
+        "version_kind": "working",
+        "retained_source_label": "Desert Hill\r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B028.mg",
@@ -51172,7 +52505,20 @@
       "bytes": 13056,
       "sha256": "e939c2848f78682edcdc8874d84f52785da8cbbc238d19136fd237a929b2d64a",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "Desert Hill",
+        "version_kind": "working",
+        "retained_source_label": "Desert Hill\r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B029.mg",
@@ -51181,7 +52527,20 @@
       "bytes": 13056,
       "sha256": "93791c5b36adb3d7e628141122aa9f413371fae201e0a38a589ef643c9d50915",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "Zoid Road",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Road    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B030.mg",
@@ -51190,7 +52549,20 @@
       "bytes": 13056,
       "sha256": "923a6451c6ad6e5223840ad3f233746547ba3bae9c3db0a0fa61783a58f78183",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "Snowy Mountain",
+        "version_kind": "working",
+        "retained_source_label": "Snowy Mountain\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B031.mg",
@@ -51199,7 +52571,20 @@
       "bytes": 13056,
       "sha256": "8061447c09e4a8e4f5e439137eeb9959f6c49e65eb68291871a2aeec25592957",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "Zoid Road",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Road    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B032.mg",
@@ -51208,7 +52593,20 @@
       "bytes": 13056,
       "sha256": "8874962747a27a452740d628e2f6234a63dcfdacb1c383504d4aa662beb9baf5",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "Dragon Valley",
+        "version_kind": "working",
+        "retained_source_label": "Dragon Valley\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B033.mg",
@@ -51217,7 +52615,20 @@
       "bytes": 13056,
       "sha256": "315cd5b37caf5a110e864cb459f9feacd6627fa92cdb80423349951de6f0693f",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "Desert Hill",
+        "version_kind": "working",
+        "retained_source_label": "Desert Hill\r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B034.mg",
@@ -51226,7 +52637,20 @@
       "bytes": 13056,
       "sha256": "d8570445eb7fe9556d27eceb8869397d99ec28550df15e41a5121480bf6a4820",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 5,
+        "stage_info_source_path": "stage/st05.i",
+        "entry_zero_label": "Desert Hill",
+        "version_kind": "working",
+        "retained_source_label": "Desert Hill\r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B035.mg",
@@ -51235,7 +52659,20 @@
       "bytes": 13056,
       "sha256": "0a8d261b7ef583900b8267cb184b3aba3f8560ccd4e8bbd1145a00db3ca200e9",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 6,
+        "stage_info_source_path": "stage/st06.i",
+        "entry_zero_label": "City Grounds",
+        "version_kind": "working",
+        "retained_source_label": "City Grounds\r\n",
+        "label_source_byte_length": 14,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B036.mg",
@@ -51244,7 +52681,20 @@
       "bytes": 13056,
       "sha256": "c59d57c9e658883e1f26c80fd1509f8424d028e7e3097a2cb2515dd40ab76fd3",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "Giant Hatch",
+        "version_kind": "working",
+        "retained_source_label": "Giant Hatch  ",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B037.mg",
@@ -51253,7 +52703,20 @@
       "bytes": 13056,
       "sha256": "da9a8e2c08fd056deb64a5046981dc9f3b2ee9e30556b28d2b9d06bd7458e308",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "Giant Hatch",
+        "version_kind": "working",
+        "retained_source_label": "Giant Hatch  ",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B038.mg",
@@ -51262,7 +52725,20 @@
       "bytes": 13056,
       "sha256": "3bad0b561930c5717088302d4035f2ee68975132bdef3f5f8e3b91146fb0f5a0",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "Giant Hatch",
+        "version_kind": "working",
+        "retained_source_label": "Giant Hatch  ",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/B039.mg",
@@ -51271,7 +52747,20 @@
       "bytes": 13056,
       "sha256": "ccb9f76107f1aa28cb827116c4b635a21dd8a471dae5df23adbf83409a1c70b8",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 57,
+        "stage_info_source_path": "stage/st57.i",
+        "entry_zero_label": "Giant Hatch",
+        "version_kind": "working",
+        "retained_source_label": "Giant Hatch  ",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/D000.mg",
@@ -52639,7 +54128,20 @@
       "bytes": 13056,
       "sha256": "5e2a514af40cb0af720963f8acd8dc144913a071aa0fba27f476a54548d761ee",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 77,
+        "stage_info_source_path": "stage/st77.i",
+        "entry_zero_label": "Zoid research facility",
+        "version_kind": "working",
+        "retained_source_label": "Zoid research facility\r\n",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M000.msg",
@@ -52657,7 +54159,20 @@
       "bytes": 13056,
       "sha256": "4537ee4c82967d2497138f21f7ac996d035040145bcf1f95801e70d2b693c46d",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 8,
+        "stage_info_source_path": "stage/st08.i",
+        "entry_zero_label": "Zoid research facility",
+        "version_kind": "working",
+        "retained_source_label": "Zoid research facility\r\n",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M002.mg",
@@ -52666,7 +54181,20 @@
       "bytes": 13056,
       "sha256": "92aacfc368ab0f764c5479ecb5e66ca4f0b9f38de39fab9a0eff4ef509001dc6",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 61,
+        "stage_info_source_path": "stage/st61.i",
+        "entry_zero_label": "Zoid Research Facility",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Research Facility\r\n",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M003.mg",
@@ -52675,7 +54203,20 @@
       "bytes": 13056,
       "sha256": "dc44ca98aaf17941a992442577ca66902920413c9631ae526e6d35a49e1a1b1c",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 69,
+        "stage_info_source_path": "stage/st69.i",
+        "entry_zero_label": "Zoid Research Facility\r\nFront Entrance",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Research Facility\r\nFront Entrance",
+        "label_source_byte_length": 38,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": false,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M004.mg",
@@ -52684,7 +54225,20 @@
       "bytes": 13056,
       "sha256": "d50449cb2fbd091cc4799cdafacf20fae5c47ad660340a744e7287843ec1f45f",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 68,
+        "stage_info_source_path": "stage/st68.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M005.mg",
@@ -52693,7 +54247,20 @@
       "bytes": 13056,
       "sha256": "62c62140b684a75ab732dffda9c8dc649801a0f969c5f67eea9fd98798439dbe",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 76,
+        "stage_info_source_path": "stage/st76.i",
+        "entry_zero_label": "Junk Zone",
+        "version_kind": "working",
+        "retained_source_label": "Junk Zone    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M005z.mg",
@@ -52720,7 +54287,20 @@
       "bytes": 13056,
       "sha256": "6da220ba05aebea4594b5f768b07ebd141e413592d7fb6ae7b7f0a6c53a77374",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 58,
+        "stage_info_source_path": "stage/st58.i",
+        "entry_zero_label": "Zoid Battle Practice Arena",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Battle Practice Arena\r\n",
+        "label_source_byte_length": 28,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M008.mg",
@@ -52729,7 +54309,20 @@
       "bytes": 13056,
       "sha256": "7c64881329da047e836dbb0dd68ac7f96ae23195515b3d10e267705bc9e902fd",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 78,
+        "stage_info_source_path": "stage/st78.i",
+        "entry_zero_label": "Sealed Base",
+        "version_kind": "working",
+        "retained_source_label": "Sealed Base\r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M009.mg",
@@ -52738,7 +54331,20 @@
       "bytes": 13056,
       "sha256": "cbee2f4c4ad3a06d24bacb6de5a43bc0148e985d4959276a826de5ffe8eec88d",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 55,
+        "stage_info_source_path": "stage/st55.i",
+        "entry_zero_label": "Sealed Base",
+        "version_kind": "working",
+        "retained_source_label": "Sealed Base\r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M010.mg",
@@ -52747,7 +54353,20 @@
       "bytes": 13056,
       "sha256": "167cdbf3607f3bac002cc5df974a9c40273a7cce7377f684a466247f7d547183",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 63,
+        "stage_info_source_path": "stage/st63.i",
+        "entry_zero_label": "City Intersection",
+        "version_kind": "working",
+        "retained_source_label": "City Intersection\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M011.mg",
@@ -52756,7 +54375,20 @@
       "bytes": 13056,
       "sha256": "c9639ee4a64fbd0bd6e05b5f6424737e370780e0ef89e75e4fcb01f9af0fddb1",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 24,
+        "stage_info_source_path": "stage/st24.i",
+        "entry_zero_label": "Mountain Area",
+        "version_kind": "working",
+        "retained_source_label": "Mountain Area\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M012.mg",
@@ -52765,7 +54397,20 @@
       "bytes": 13056,
       "sha256": "bb622fe6424450f2c7dabcf5a4378833660d61b145e237e2172147ba126f1b7c",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 59,
+        "stage_info_source_path": "stage/st59.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M016.mg",
@@ -52774,7 +54419,20 @@
       "bytes": 13056,
       "sha256": "f16e43f93f135b3b25e6ca8ce28e7c330700c538666a6aad3fdc64672f2c340c",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 75,
+        "stage_info_source_path": "stage/st75.i",
+        "entry_zero_label": "Cleared Land: City West",
+        "version_kind": "working",
+        "retained_source_label": "Cleared Land: City West\r\n",
+        "label_source_byte_length": 25,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M017.mg",
@@ -52783,7 +54441,20 @@
       "bytes": 13056,
       "sha256": "690bee92fcd561470ad5f221df4b7406e296831037c5896f1e1b2af971188f7f",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 73,
+        "stage_info_source_path": "stage/st73.i",
+        "entry_zero_label": "Ravine Crossing Route",
+        "version_kind": "working",
+        "retained_source_label": "Ravine Crossing Route\r\n",
+        "label_source_byte_length": 23,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M018.mg",
@@ -52792,7 +54463,20 @@
       "bytes": 13056,
       "sha256": "aec9c34e85de5ea49ed823a846db73280e83503eb37f4ac640dd204e97463029",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 70,
+        "stage_info_source_path": "stage/st70.i",
+        "entry_zero_label": "Mission Tips:",
+        "version_kind": "working",
+        "retained_source_label": "Mission Tips:\r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M020.mg",
@@ -52801,7 +54485,20 @@
       "bytes": 13056,
       "sha256": "f3f0dea9a59f1c2c47e755cd37613c03077fd64ab7f0f14abd784894c99af6ed",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 19,
+        "stage_info_source_path": "stage/st19.i",
+        "entry_zero_label": "Wasteland",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland  \r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M020.msg",
@@ -52819,7 +54516,20 @@
       "bytes": 13056,
       "sha256": "e17f4c89e9672521038e8dfd57956da161e97b6b8422095353e8cb792b192fde",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "Zoid Road",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Road    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M033.mg",
@@ -52828,7 +54538,20 @@
       "bytes": 13056,
       "sha256": "83d335b869d4a4ca430babc07bc73c787b70eacf547e2c2c671481a6f57b9041",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 64,
+        "stage_info_source_path": "stage/st64.i",
+        "entry_zero_label": "Energy Facility",
+        "version_kind": "working",
+        "retained_source_label": "Energy Facility\r\n",
+        "label_source_byte_length": 17,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M034.mg",
@@ -52837,7 +54560,20 @@
       "bytes": 13056,
       "sha256": "c3d4adfc87e1a58261cfd20a2bf2a41d4e63d64cac144c2922012357ea5f7e3b",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 71,
+        "stage_info_source_path": "stage/st71.i",
+        "entry_zero_label": "Snowy Mountain",
+        "version_kind": "working",
+        "retained_source_label": "Snowy Mountain\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M035.mg",
@@ -52846,7 +54582,20 @@
       "bytes": 13056,
       "sha256": "8f8618ab565f18709467e9c5c11f988c09dc9c677e361e50383bd18ea470d65f",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 79,
+        "stage_info_source_path": "stage/st79.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M035x.mg",
@@ -52864,7 +54613,20 @@
       "bytes": 13056,
       "sha256": "7a7472bebf6d43d13aa6b3091e5547b88da6179d21f16977700e832cb67686df",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 70,
+        "stage_info_source_path": "stage/st70.i",
+        "entry_zero_label": "Whale King Interior",
+        "version_kind": "working",
+        "retained_source_label": "Whale King Interior\r\n",
+        "label_source_byte_length": 21,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M038.mg",
@@ -52873,7 +54635,20 @@
       "bytes": 13056,
       "sha256": "fdba3673c507db52d89a679df8084325f7a7d23fa72af4cf6d79a67272548aad",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 65,
+        "stage_info_source_path": "stage/st65.i",
+        "entry_zero_label": "Whale King Deck",
+        "version_kind": "working",
+        "retained_source_label": "Whale King Deck\r\n",
+        "label_source_byte_length": 17,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M041.mg",
@@ -52882,7 +54657,20 @@
       "bytes": 13056,
       "sha256": "bffc80ef0cc39e57244e2adfb291089544f2a802d90caa525f6e9dd1502d50f6",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 54,
+        "stage_info_source_path": "stage/st54.i",
+        "entry_zero_label": "Zoid Road",
+        "version_kind": "working",
+        "retained_source_label": "Zoid Road    \r\n",
+        "label_source_byte_length": 15,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M043.mg",
@@ -52891,7 +54679,20 @@
       "bytes": 13056,
       "sha256": "b6b928ae92d4329b2cb9ef6958125df51acbc765a4c19c1a091984b884228de8",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 72,
+        "stage_info_source_path": "stage/st72.i",
+        "entry_zero_label": "Snowy Mountain",
+        "version_kind": "working",
+        "retained_source_label": "Snowy Mountain\r\n",
+        "label_source_byte_length": 16,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M043z.mg",
@@ -52909,7 +54710,20 @@
       "bytes": 13056,
       "sha256": "bd95ba001205b65bf5946bd3a2d2b3ebe2eceddd723c899bbde4f5219772b0fa",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 68,
+        "stage_info_source_path": "stage/st68.i",
+        "entry_zero_label": "Wasteland Highway",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland Highway\r\n",
+        "label_source_byte_length": 19,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M045.mg",
@@ -52918,7 +54732,20 @@
       "bytes": 13056,
       "sha256": "ef762042089a0e1698d97b5def79f60694439cb39cf001672a4a0a080633ceac",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 64,
+        "stage_info_source_path": "stage/st64.i",
+        "entry_zero_label": "Energy Facility",
+        "version_kind": "working",
+        "retained_source_label": "Energy Facility\r\n",
+        "label_source_byte_length": 17,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M047.mg",
@@ -52927,7 +54754,20 @@
       "bytes": 13056,
       "sha256": "6ee69cad6f0a33e0784ff688f1c948b99d7e3c6513902d988184bfd4bfd0fad6",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 70,
+        "stage_info_source_path": "stage/st70.i",
+        "entry_zero_label": "Whale King Interior",
+        "version_kind": "working",
+        "retained_source_label": "Whale King Interior\r\n",
+        "label_source_byte_length": 21,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M048.mg",
@@ -52936,7 +54776,20 @@
       "bytes": 13056,
       "sha256": "2df07945c65853ef093a8a11ca2cb79c233a55444d6710c1c88dc26099a4e138",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 65,
+        "stage_info_source_path": "stage/st65.i",
+        "entry_zero_label": "Whale King Deck",
+        "version_kind": "working",
+        "retained_source_label": "Whale King Deck\r\n",
+        "label_source_byte_length": 17,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M048x.mg",
@@ -52954,7 +54807,20 @@
       "bytes": 13056,
       "sha256": "0cf17a81866dfefa3ecfb659592454a844a6b21d27fceff2ee3050d69dc46fc9",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 19,
+        "stage_info_source_path": "stage/st19.i",
+        "entry_zero_label": "Wasteland",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland  \r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M049x.mg",
@@ -52972,7 +54838,20 @@
       "bytes": 13056,
       "sha256": "74af43223d4d0e89252daf2916fcee3d1b3aa74b74f1fa56c4452b421501d1da",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 19,
+        "stage_info_source_path": "stage/st19.i",
+        "entry_zero_label": "Wasteland",
+        "version_kind": "working",
+        "retained_source_label": "Wasteland  \r\n",
+        "label_source_byte_length": 13,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M071.mg",
@@ -52981,7 +54860,20 @@
       "bytes": 13056,
       "sha256": "43f07fb529d623878cfb5ba6430bb1820897163cce0a470d1c7a179e9d615b9f",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 66,
+        "stage_info_source_path": "stage/st66.i",
+        "entry_zero_label": "Mobility Test Room",
+        "version_kind": "working",
+        "retained_source_label": "Mobility Test Room\r\n",
+        "label_source_byte_length": 20,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M071.msg",
@@ -52999,7 +54891,20 @@
       "bytes": 13056,
       "sha256": "9c538bf7a6ad4620fe19ba9029da2044f1d0b4878d1c6d02a8ec7e0ed73ebd8f",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 77,
+        "stage_info_source_path": "stage/st77.i",
+        "entry_zero_label": "Ranged Weapon Test Room",
+        "version_kind": "working",
+        "retained_source_label": "Ranged Weapon Test Room\r\n",
+        "label_source_byte_length": 25,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M072.msg",
@@ -53017,7 +54922,20 @@
       "bytes": 13056,
       "sha256": "6f89e5faade7a8ff0d1d5dfb237e9da2e68f4e951d3413ed1cd7258ece2fb0ef",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 67,
+        "stage_info_source_path": "stage/st67.i",
+        "entry_zero_label": "Melee Attack Test Room",
+        "version_kind": "working",
+        "retained_source_label": "Melee Attack Test Room\r\n",
+        "label_source_byte_length": 24,
+        "label_absolute_offset": 576,
+        "label_whitespace_normalized": true,
+        "status": "static-B-or-M-reader-renderer-link",
+        "canonical_name": null,
+        "confidence": "retained entry-zero label bytes checked; display label omits trailing spaces, ideographic spaces and CR/LF; static consumer link inherited; runtime display unverified"
+      }
     },
     {
       "path": "menu/map_info_dat/M073.msg",
@@ -63654,7 +65572,29 @@
       "bytes": 96,
       "sha256": "1464204b68776ca606d272c2e1830a7f8c6f3531c3c25f227ae4611b9c459743",
       "provenance": "image-identical",
-      "same_content_files": 45
+      "same_content_files": 45,
+      "map_info": {
+        "stage_info_id": 4,
+        "labels_by_version": {
+          "working": [
+            "Airport Base"
+          ],
+          "Japanese-backup": [
+            "航空基地"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B003.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B004.mg",
+          "menu/map_info_dat/B003.mg",
+          "menu/map_info_dat/B004.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st04.xb",
@@ -63682,7 +65622,33 @@
       "bytes": 96,
       "sha256": "0f40cda1ebe4235c5fbdeba9e59221f36168c240d7a32d4981f52cb89de490c0",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 5,
+        "labels_by_version": {
+          "working": [
+            "Desert Hill"
+          ],
+          "Japanese-backup": [
+            "デザートヒル"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B027.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B028.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B033.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B034.mg",
+          "menu/map_info_dat/B027.mg",
+          "menu/map_info_dat/B028.mg",
+          "menu/map_info_dat/B033.mg",
+          "menu/map_info_dat/B034.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st05.xb",
@@ -63710,7 +65676,31 @@
       "bytes": 96,
       "sha256": "ea811f4f133c882ddb187b7f29b940efd191f747df35ecef417b7969ca990e42",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 6,
+        "labels_by_version": {
+          "working": [
+            "City Grounds"
+          ],
+          "Japanese-backup": [
+            "市街地"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B018.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B025.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B035.mg",
+          "menu/map_info_dat/B018.mg",
+          "menu/map_info_dat/B025.mg",
+          "menu/map_info_dat/B035.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st06.xb",
@@ -63766,7 +65756,27 @@
       "bytes": 96,
       "sha256": "1464204b68776ca606d272c2e1830a7f8c6f3531c3c25f227ae4611b9c459743",
       "provenance": "image-identical",
-      "same_content_files": 45
+      "same_content_files": 45,
+      "map_info": {
+        "stage_info_id": 8,
+        "labels_by_version": {
+          "working": [
+            "Zoid research facility"
+          ],
+          "Japanese-backup": [
+            "ゾイド開発研究所"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M001.mg",
+          "menu/map_info_dat/M001.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st08.xb",
@@ -64094,7 +66104,31 @@
       "bytes": 96,
       "sha256": "b0eb0d52678c4e16b6a4b6ee894264df1e5e829c68709dcc1cee451030faf24d",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 19,
+        "labels_by_version": {
+          "working": [
+            "Wasteland"
+          ],
+          "Japanese-backup": [
+            "荒野"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M020.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M049.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M060.mg",
+          "menu/map_info_dat/M020.mg",
+          "menu/map_info_dat/M049.mg",
+          "menu/map_info_dat/M060.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st19.xb",
@@ -64234,7 +66268,37 @@
       "bytes": 96,
       "sha256": "bcbe56ac518a0e583a6fd59a946f19379dd24cfc980703356a33809627029db4",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 24,
+        "labels_by_version": {
+          "working": [
+            "Dragon Valley",
+            "Mountain Area"
+          ],
+          "Japanese-backup": [
+            "山岳地帯",
+            "龍の谷"
+          ]
+        },
+        "multiple_labels_within_version": true,
+        "status": "context-dependent-or-conflicting-labels",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B007.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B010.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B017.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B032.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M011.mg",
+          "menu/map_info_dat/B007.mg",
+          "menu/map_info_dat/B010.mg",
+          "menu/map_info_dat/B017.mg",
+          "menu/map_info_dat/B032.mg",
+          "menu/map_info_dat/M011.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st24.xb",
@@ -64290,7 +66354,33 @@
       "bytes": 96,
       "sha256": "72c9fec7d74f70838ac9b9d19b7bd8576242f74f1bc826af0aaee9c776b5dbab",
       "provenance": "image-identical",
-      "same_content_files": 6
+      "same_content_files": 6,
+      "map_info": {
+        "stage_info_id": 26,
+        "labels_by_version": {
+          "working": [
+            "Desert Region"
+          ],
+          "Japanese-backup": [
+            "砂漠地帯"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B015.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B020.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B021.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B026.mg",
+          "menu/map_info_dat/B015.mg",
+          "menu/map_info_dat/B020.mg",
+          "menu/map_info_dat/B021.mg",
+          "menu/map_info_dat/B026.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st26.xb",
@@ -65094,7 +67184,37 @@
       "bytes": 96,
       "sha256": "b940c7ab659fb2cc0eaed58cc8106b9e70ab9b55dd370129fe5c1322f63593c0",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 54,
+        "labels_by_version": {
+          "working": [
+            "Zoid Road"
+          ],
+          "Japanese-backup": [
+            "ゾイドロード"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B014.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B016.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B029.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B031.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M031.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M041.mg",
+          "menu/map_info_dat/B014.mg",
+          "menu/map_info_dat/B016.mg",
+          "menu/map_info_dat/B029.mg",
+          "menu/map_info_dat/B031.mg",
+          "menu/map_info_dat/M031.mg",
+          "menu/map_info_dat/M041.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st54.xb",
@@ -65122,7 +67242,27 @@
       "bytes": 96,
       "sha256": "42b0b0163997379821e7a5f6a3424d4ddbf935f712cf163536f934b3379e371b",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 55,
+        "labels_by_version": {
+          "working": [
+            "Sealed Base"
+          ],
+          "Japanese-backup": [
+            "閉鎖された基地"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M009.mg",
+          "menu/map_info_dat/M009.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st55.xb",
@@ -65150,7 +67290,33 @@
       "bytes": 96,
       "sha256": "ed85b544f94dc363687e2c870afa4944af38d44b2412669728b1b4e368a8d247",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 56,
+        "labels_by_version": {
+          "working": [
+            "Wasteland Highway"
+          ],
+          "Japanese-backup": [
+            "荒野ハイウェイ"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B006.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B009.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B011.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B024.mg",
+          "menu/map_info_dat/B006.mg",
+          "menu/map_info_dat/B009.mg",
+          "menu/map_info_dat/B011.mg",
+          "menu/map_info_dat/B024.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st56.xb",
@@ -65178,7 +67344,33 @@
       "bytes": 96,
       "sha256": "124d3eac1186994ad01dd846aeb46a957afa5730d65efc0d53e93523f7bbc15f",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 57,
+        "labels_by_version": {
+          "working": [
+            "Giant Hatch"
+          ],
+          "Japanese-backup": [
+            "巨大ハッチ"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B036.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B037.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B038.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B039.mg",
+          "menu/map_info_dat/B036.mg",
+          "menu/map_info_dat/B037.mg",
+          "menu/map_info_dat/B038.mg",
+          "menu/map_info_dat/B039.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st57.xb",
@@ -65215,7 +67407,27 @@
       "bytes": 96,
       "sha256": "6472a7bc63999410488049d73039004241105cb790a6817a26cf6e485d520267",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 58,
+        "labels_by_version": {
+          "working": [
+            "Zoid Battle Practice Arena"
+          ],
+          "Japanese-backup": [
+            "ゾイドバトル練習場"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M007.mg",
+          "menu/map_info_dat/M007.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st59.dat",
@@ -65234,7 +67446,27 @@
       "bytes": 96,
       "sha256": "1464204b68776ca606d272c2e1830a7f8c6f3531c3c25f227ae4611b9c459743",
       "provenance": "image-identical",
-      "same_content_files": 45
+      "same_content_files": 45,
+      "map_info": {
+        "stage_info_id": 59,
+        "labels_by_version": {
+          "working": [
+            "Wasteland Highway"
+          ],
+          "Japanese-backup": [
+            "荒野ハイウェイ"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M012.mg",
+          "menu/map_info_dat/M012.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st59.xb",
@@ -65299,7 +67531,27 @@
       "bytes": 96,
       "sha256": "4f3532a6bc4157e03f5c164cd18729f22149f8159928ff01be4751a5d6ec06d6",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 61,
+        "labels_by_version": {
+          "working": [
+            "Zoid Research Facility"
+          ],
+          "Japanese-backup": [
+            "ゾイド開発研究所"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M002.mg",
+          "menu/map_info_dat/M002.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st61.xb",
@@ -65327,7 +67579,33 @@
       "bytes": 96,
       "sha256": "f3ad4c0a47258cecb08865f5e8229215727d78b08ef4b57e42a9d5e7d38f3eb1",
       "provenance": "image-identical",
-      "same_content_files": 5
+      "same_content_files": 5,
+      "map_info": {
+        "stage_info_id": 62,
+        "labels_by_version": {
+          "working": [
+            "Zoid Colosseum"
+          ],
+          "Japanese-backup": [
+            "ゾイドコロシアム"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B000.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B005.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B019.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B022.mg",
+          "menu/map_info_dat/B000.mg",
+          "menu/map_info_dat/B005.mg",
+          "menu/map_info_dat/B019.mg",
+          "menu/map_info_dat/B022.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st62.xb",
@@ -65355,7 +67633,27 @@
       "bytes": 96,
       "sha256": "9885a54faaa34303eda0c17fba0c7fab0847850567c05b03799fa8502bd72a89",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 63,
+        "labels_by_version": {
+          "working": [
+            "City Intersection"
+          ],
+          "Japanese-backup": [
+            "街中交差点"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M010.mg",
+          "menu/map_info_dat/M010.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st63.xb",
@@ -65383,7 +67681,29 @@
       "bytes": 96,
       "sha256": "47f4d4dedc8244583cb82c4e0677f79c4ba5c391146de795b0697a22cb27e1fc",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 64,
+        "labels_by_version": {
+          "working": [
+            "Energy Facility"
+          ],
+          "Japanese-backup": [
+            "エネルギー供給施設"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M033.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M045.mg",
+          "menu/map_info_dat/M033.mg",
+          "menu/map_info_dat/M045.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st64.xb",
@@ -65421,7 +67741,29 @@
       "bytes": 96,
       "sha256": "abc662b521f75154dedc5fe89bb4cb6c96e441557ccea77a86d347c2d603deb5",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 65,
+        "labels_by_version": {
+          "working": [
+            "Whale King Deck"
+          ],
+          "Japanese-backup": [
+            "ホエールキング甲板"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M038.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M048.mg",
+          "menu/map_info_dat/M038.mg",
+          "menu/map_info_dat/M048.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st65.xb",
@@ -65449,7 +67791,27 @@
       "bytes": 96,
       "sha256": "124d3eac1186994ad01dd846aeb46a957afa5730d65efc0d53e93523f7bbc15f",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 66,
+        "labels_by_version": {
+          "working": [
+            "Mobility Test Room"
+          ],
+          "Japanese-backup": [
+            "移動テストルーム"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M071.mg",
+          "menu/map_info_dat/M071.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st66.xb",
@@ -65477,7 +67839,27 @@
       "bytes": 96,
       "sha256": "ea3a45f7b6d40fafd4b8f2c766ab63580feb16c79b20be4aa098b593769e9b37",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 67,
+        "labels_by_version": {
+          "working": [
+            "Melee Attack Test Room"
+          ],
+          "Japanese-backup": [
+            "格闘テストルーム"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M073.mg",
+          "menu/map_info_dat/M073.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st67.xb",
@@ -65505,7 +67887,29 @@
       "bytes": 96,
       "sha256": "1464204b68776ca606d272c2e1830a7f8c6f3531c3c25f227ae4611b9c459743",
       "provenance": "image-identical",
-      "same_content_files": 45
+      "same_content_files": 45,
+      "map_info": {
+        "stage_info_id": 68,
+        "labels_by_version": {
+          "working": [
+            "Wasteland Highway"
+          ],
+          "Japanese-backup": [
+            "荒野ハイウェイ"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M004.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M044.mg",
+          "menu/map_info_dat/M004.mg",
+          "menu/map_info_dat/M044.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st68.xb",
@@ -65543,7 +67947,27 @@
       "bytes": 96,
       "sha256": "4dc8c2535d6e0be0ef77bb3498161e9c46fe3cd9ce36e49d0ae8f281560c1951",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 69,
+        "labels_by_version": {
+          "working": [
+            "Zoid Research Facility\r\nFront Entrance"
+          ],
+          "Japanese-backup": [
+            "ゾイド開発研究所\r\n正門と道路"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M003.mg",
+          "menu/map_info_dat/M003.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st69.xb",
@@ -65571,7 +67995,32 @@
       "bytes": 96,
       "sha256": "29f6a10cfc57a50e7968ab7460ea0e964eddc31ac29396514ebb9158cd3a8e08",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 70,
+        "labels_by_version": {
+          "working": [
+            "Mission Tips:",
+            "Whale King Interior"
+          ],
+          "Japanese-backup": [
+            "ホエールキング内部"
+          ]
+        },
+        "multiple_labels_within_version": true,
+        "status": "context-dependent-or-conflicting-labels",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M018.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M037.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M047.mg",
+          "menu/map_info_dat/M018.mg",
+          "menu/map_info_dat/M037.mg",
+          "menu/map_info_dat/M047.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st70.xb",
@@ -65608,7 +68057,35 @@
       "bytes": 96,
       "sha256": "d135f1554a5f41bde806347ffa127f74150fde2c52f927bca57f48cc4e855bfa",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 71,
+        "labels_by_version": {
+          "working": [
+            "Snowy Mountain"
+          ],
+          "Japanese-backup": [
+            "雪山"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B012.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B013.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B023.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B030.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M034.mg",
+          "menu/map_info_dat/B012.mg",
+          "menu/map_info_dat/B013.mg",
+          "menu/map_info_dat/B023.mg",
+          "menu/map_info_dat/B030.mg",
+          "menu/map_info_dat/M034.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st71.xb",
@@ -65636,7 +68113,27 @@
       "bytes": 96,
       "sha256": "d135f1554a5f41bde806347ffa127f74150fde2c52f927bca57f48cc4e855bfa",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 72,
+        "labels_by_version": {
+          "working": [
+            "Snowy Mountain"
+          ],
+          "Japanese-backup": [
+            "雪山"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M043.mg",
+          "menu/map_info_dat/M043.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st72.xb",
@@ -65664,7 +68161,27 @@
       "bytes": 96,
       "sha256": "0603be7bc1ed4b0743743d83ccb969c4b83435bf56bd20e2568f11d39d6c9528",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 73,
+        "labels_by_version": {
+          "working": [
+            "Ravine Crossing Route"
+          ],
+          "Japanese-backup": [
+            "峡谷渡り通路"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M017.mg",
+          "menu/map_info_dat/M017.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st73.xb",
@@ -65720,7 +68237,35 @@
       "bytes": 96,
       "sha256": "47f4d4dedc8244583cb82c4e0677f79c4ba5c391146de795b0697a22cb27e1fc",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 75,
+        "labels_by_version": {
+          "working": [
+            "Cleared Land",
+            "Cleared Land: City West"
+          ],
+          "Japanese-backup": [
+            "シティ西側開拓地",
+            "開拓地"
+          ]
+        },
+        "multiple_labels_within_version": true,
+        "status": "context-dependent-or-conflicting-labels",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B001.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B002.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/B008.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M016.mg",
+          "menu/map_info_dat/B001.mg",
+          "menu/map_info_dat/B002.mg",
+          "menu/map_info_dat/B008.mg",
+          "menu/map_info_dat/M016.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st75.xb",
@@ -65748,7 +68293,27 @@
       "bytes": 96,
       "sha256": "0cf46d0f72b431cb29660b08ca90bbf32e2ea01e7baed38c7bf597c8865817b5",
       "provenance": "image-identical",
-      "same_content_files": 1
+      "same_content_files": 1,
+      "map_info": {
+        "stage_info_id": 76,
+        "labels_by_version": {
+          "working": [
+            "Junk Zone"
+          ],
+          "Japanese-backup": [
+            "ジャンクゾーン"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M005.mg",
+          "menu/map_info_dat/M005.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st76.xb",
@@ -65785,7 +68350,31 @@
       "bytes": 96,
       "sha256": "ea3a45f7b6d40fafd4b8f2c766ab63580feb16c79b20be4aa098b593769e9b37",
       "provenance": "image-identical",
-      "same_content_files": 2
+      "same_content_files": 2,
+      "map_info": {
+        "stage_info_id": 77,
+        "labels_by_version": {
+          "working": [
+            "Ranged Weapon Test Room",
+            "Zoid research facility"
+          ],
+          "Japanese-backup": [
+            "ゾイド開発研究所",
+            "砲撃テストルーム"
+          ]
+        },
+        "multiple_labels_within_version": true,
+        "status": "context-dependent-or-conflicting-labels",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M000.mg",
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M072.mg",
+          "menu/map_info_dat/M000.mg",
+          "menu/map_info_dat/M072.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st77.xb",
@@ -65813,7 +68402,27 @@
       "bytes": 96,
       "sha256": "42b0b0163997379821e7a5f6a3424d4ddbf935f712cf163536f934b3379e371b",
       "provenance": "image-identical",
-      "same_content_files": 3
+      "same_content_files": 3,
+      "map_info": {
+        "stage_info_id": 78,
+        "labels_by_version": {
+          "working": [
+            "Sealed Base"
+          ],
+          "Japanese-backup": [
+            "閉鎖された基地"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M008.mg",
+          "menu/map_info_dat/M008.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st78.xb",
@@ -65841,7 +68450,27 @@
       "bytes": 96,
       "sha256": "1464204b68776ca606d272c2e1830a7f8c6f3531c3c25f227ae4611b9c459743",
       "provenance": "image-identical",
-      "same_content_files": 45
+      "same_content_files": 45,
+      "map_info": {
+        "stage_info_id": 79,
+        "labels_by_version": {
+          "working": [
+            "Wasteland Highway"
+          ],
+          "Japanese-backup": [
+            "荒野ハイウェイ"
+          ]
+        },
+        "multiple_labels_within_version": false,
+        "status": "single-label-per-version; static-link-only",
+        "canonical_name": null,
+        "meaning": "retained entry-zero display labels for this stage-info resource; not necessarily location names",
+        "evidence_source_paths": [
+          "menu/map_info_dat/ACTUAL ACUTAL BACKUPS DO NOT EDIT/map_info_dat/M035.mg",
+          "menu/map_info_dat/M035.mg"
+        ],
+        "confidence": "retained label bytes checked; static consumer link inherited; runtime display and retail provenance unverified"
+      }
     },
     {
       "path": "stage/st79.xb",

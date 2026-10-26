@@ -3,7 +3,7 @@
   "snapshot_date": "2026-10-25",
   "provenance": {
     "extractor_commit": "6bfa292704e5218b742a3fe2fa4e025e503c8f9c",
-    "decoding_catalog_commit": "895c94212fddab0e91df53764cb07f65417d1790",
+    "decoding_catalog_commit": "32f2a6cf7f969f63b1ee92fab0d7e14bd3c848f7",
     "decoding_catalog_recorded_date": "2026-10-26",
     "date_note": "Snapshot date uses the requested America/New_York date; upstream recorded dates are preserved as evidence, not substituted for this verification date.",
     "inputs": [
@@ -21,7 +21,7 @@
       },
       {
         "name": "decoding/catalog/assets.json",
-        "sha256": "fb8b2dc23b62c41307fd4fcefa4864773da9724ee9529131e2756918ecc66045"
+        "sha256": "7e8f0364e4466b62b0ca75185900a622dfc3db65cd17b86828a2c1d284b999ef"
       },
       {
         "name": "decoding/catalog/sections.json",
@@ -32,11 +32,31 @@
         "sha256": "305b2f83c95c8048321ad104b15ead5de1414f86edbe1dd5d422dfce30d72365"
       },
       {
+        "name": "decoding/catalog/weapon-ui-label-census.json",
+        "sha256": "0f7d6c0a6cfc9d977a0326675b0a23149fc37534246afccfc61f740fa790f066"
+      },
+      {
+        "name": "decoding/catalog/weapon-display-consumer-proof.json",
+        "sha256": "34d89083820485fc8a4af25f01987f6922015b71c3b90816ea96b84a0c8b5d30"
+      },
+      {
+        "name": "decoding/catalog/map-info-label-census.json",
+        "sha256": "5a875632298a03b0596fc92fbc368b52b2126ac27dadfa8992fcbbba2a253a73"
+      },
+      {
+        "name": "decoding/catalog/stage54-name-link.json",
+        "sha256": "b80e4e1d5a0482acad64d78a3600d4fc2f409a929487c784854282b34ee63e86"
+      },
+      {
+        "name": "decoding/catalog/packages.json",
+        "sha256": "2cf33c24b8270b9f99ad10e1d06aba173909dc093f01d14703e85296356c1d15"
+      },
+      {
         "name": "catalog.json",
         "sha256": "47187b06eb84a895064c9fd1fbd9070f9877f48e2db23a25307b0ab328627ffa"
       }
     ],
-    "verification": "Current local source bytes rehashed against the census and retained image comparison. Local GLBs rehashed against historical conversion records. The disc image itself was not rerun or independently authenticated in this pass.",
+    "verification": "Current local source bytes rehashed against the census and retained image comparison. Historical extractor exports and preserved public GLBs rehashed against current catalog records. Retained labels rechecked at bounded source offsets. Static consumer links inherit the pinned catalog analysis; this pass checks its source ELF hash, not runtime behavior. The disc image itself was not rerun or independently authenticated in this pass.",
     "image_provenance": "The image-comparison evidence concerns the locally held translated game image; it does not establish unmodified retail provenance."
   },
   "summary": {
@@ -47,13 +67,23 @@
     "duplicate_file_records": 3734,
     "image_identical": 12572,
     "local_only_generated": 37,
+    "model_records": 631,
     "historical_models": 627,
-    "verified_local_models": 627,
+    "preserved_models": 4,
+    "verified_local_models": 631,
     "missing_local_models": 0,
     "hash_mismatch_models": 0,
-    "export_bytes": 379066540,
+    "export_bytes": 386603216,
     "published_models": 92,
-    "weapon_resource_joins": 217
+    "weapon_resource_joins": 217,
+    "weapon_display_labels": 217,
+    "map_info_resources": 31,
+    "map_info_inputs": 146,
+    "ambiguous_map_info_resources": 4,
+    "upstream_included_models": 322,
+    "upstream_pending_models": 309,
+    "upstream_package_count": 11,
+    "upstream_package_bytes": 74605152
   },
   "sections": [
     {
@@ -66,7 +96,9 @@
       "source_bytes": 87668747,
       "image_identical": 419,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -80,7 +112,9 @@
       "source_bytes": 10277264,
       "image_identical": 296,
       "local_generated": 0,
+      "model_records": 108,
       "historical_models": 108,
+      "preserved_models": 0,
       "verified_local_models": 108,
       "published_models": 0
     },
@@ -94,7 +128,9 @@
       "source_bytes": 588356,
       "image_identical": 4,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -108,7 +144,9 @@
       "source_bytes": 3624900,
       "image_identical": 8,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -122,7 +160,9 @@
       "source_bytes": 667995,
       "image_identical": 2,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -136,7 +176,9 @@
       "source_bytes": 3094112,
       "image_identical": 5,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -150,7 +192,9 @@
       "source_bytes": 3919,
       "image_identical": 1,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -164,7 +208,9 @@
       "source_bytes": 4298432,
       "image_identical": 4416,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -178,7 +224,9 @@
       "source_bytes": 5291888,
       "image_identical": 117,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -192,7 +240,9 @@
       "source_bytes": 1680224,
       "image_identical": 2,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -206,7 +256,9 @@
       "source_bytes": 122374890,
       "image_identical": 457,
       "local_generated": 0,
+      "model_records": 207,
       "historical_models": 207,
+      "preserved_models": 0,
       "verified_local_models": 207,
       "published_models": 0
     },
@@ -220,7 +272,9 @@
       "source_bytes": 68089536,
       "image_identical": 1427,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -234,7 +288,9 @@
       "source_bytes": 90173020,
       "image_identical": 3,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -248,7 +304,9 @@
       "source_bytes": 347003,
       "image_identical": 12,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -262,7 +320,9 @@
       "source_bytes": 618528,
       "image_identical": 1,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -276,7 +336,9 @@
       "source_bytes": 2991,
       "image_identical": 1,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -290,7 +352,9 @@
       "source_bytes": 381687,
       "image_identical": 5,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -304,7 +368,9 @@
       "source_bytes": 175666,
       "image_identical": 2,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -318,7 +384,9 @@
       "source_bytes": 343801856,
       "image_identical": 1272,
       "local_generated": 0,
+      "model_records": 0,
       "historical_models": 0,
+      "preserved_models": 0,
       "verified_local_models": 0,
       "published_models": 0
     },
@@ -332,7 +400,9 @@
       "source_bytes": 15679382,
       "image_identical": 3215,
       "local_generated": 0,
+      "model_records": 224,
       "historical_models": 224,
+      "preserved_models": 0,
       "verified_local_models": 224,
       "published_models": 0
     },
@@ -346,8 +416,10 @@
       "source_bytes": 173123398,
       "image_identical": 907,
       "local_generated": 37,
+      "model_records": 92,
       "historical_models": 88,
-      "verified_local_models": 88,
+      "preserved_models": 4,
+      "verified_local_models": 92,
       "published_models": 92
     }
   ]
