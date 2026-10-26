@@ -1,6 +1,6 @@
 # Extractor asset inventory
 
-Verified snapshot: **2026-10-25** (America/New_York).
+Verified snapshot: **2026-10-26** (America/New_York).
 
 [Browse and search the inventory](inventory/) · [Model JSON](inventory/assets.json) · [Model CSV](inventory/assets.csv) · [Source-file JSON](inventory/sources.json) · [Source-file CSV](inventory/sources.csv)
 
@@ -66,7 +66,7 @@ The builder uses the decoding catalog's 631 model records, section descriptions,
 Run with Python 3.11 or newer; only the standard library is needed:
 
 ```text
-python scripts/build_inventory.py --extractor-root <extractor-workspace> --reference-root <decoding-repository> --snapshot-date 2026-10-25
+python scripts/build_inventory.py --extractor-root <extractor-workspace> --reference-root <decoding-repository> --snapshot-date 2026-10-26
 ```
 
 The command checks the complete current source tree against the retained evidence, rehashes local model exports and existing published models, then writes the JSON/CSV files and this document. Source-tree or source-hash drift aborts generation. Missing or changed historical exports are explicitly recorded; invalid matching GLB containers abort generation. Inputs must be the evidence version intended for the new snapshot.

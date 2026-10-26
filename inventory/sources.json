@@ -1,9 +1,9 @@
 {
   "schema": "zoids-source-files-inventory-v1",
-  "snapshot_date": "2026-10-25",
+  "snapshot_date": "2026-10-26",
   "provenance": {
     "extractor_commit": "6bfa292704e5218b742a3fe2fa4e025e503c8f9c",
-    "decoding_catalog_commit": "32f2a6cf7f969f63b1ee92fab0d7e14bd3c848f7",
+    "decoding_catalog_commit": "852dd7fd508d2353deb7ef4095313f88e65a449c",
     "decoding_catalog_recorded_date": "2026-10-26",
     "date_note": "Snapshot date uses the requested America/New_York date; upstream recorded dates are preserved as evidence, not substituted for this verification date.",
     "inputs": [
