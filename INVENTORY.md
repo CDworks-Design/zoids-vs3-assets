@@ -61,7 +61,7 @@ The GLB check covers magic/version, file and chunk lengths/alignment, JSON, buff
 
 ## Provenance and regeneration
 
-The builder uses the decoding catalog's 631 model records, section descriptions, retained-label evidence and package manifest, the extractor source census and image comparison, and the public gallery catalog. Each JSON includes the input hashes and repository commit IDs. Static consumer analysis is inherited from the hashed catalog evidence with its source ELF hash checked; no runtime claim is added. Absolute workstation paths, private package locators, research code and raw game payloads are excluded. Upstream records carry a 2026-10-26 date; that original value is recorded separately from this verification date.
+The builder uses the decoding catalog's 631 model records, section descriptions, retained-label evidence and package manifest, the extractor source census and image comparison, and the public gallery catalog. Each JSON includes the input hashes and repository commit IDs. Input `hash_mode` distinguishes exact evidence bytes from catalog JSON with CRLF normalized to LF, so metadata fingerprints remain consistent across checkouts. Source-file and model hashes always identify exact bytes. Static consumer analysis is inherited from the hashed catalog evidence with its source ELF hash checked; no runtime claim is added. Absolute workstation paths, private package locators, research code and raw game payloads are excluded. Upstream records carry a 2026-10-26 date; that original value is recorded separately from this verification date.
 
 Run with Python 3.11 or newer; only the standard library is needed:
 

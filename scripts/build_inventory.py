@@ -29,6 +29,11 @@ def sha256(path):
         return hashlib.file_digest(handle, "sha256").hexdigest()
 
 
+def sha256_text(path):
+    """Match repository JSON bytes across Windows and LF-only checkouts."""
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
 def relative_path(value):
     path = PurePosixPath(value)
     if not value or "\\" in value or ":" in value or path.is_absolute() or ".." in path.parts:
@@ -170,14 +175,14 @@ def build(extractor, reference, destination, snapshot_date):
         "decoding_catalog_recorded_date": historical["as_of"],
         "date_note": "Snapshot date uses the requested America/New_York date; upstream recorded dates are preserved as evidence, not substituted for this verification date.",
         "inputs": [
-            {"name": source_input, "sha256": sha256(extractor / source_input)},
-            {"name": compare_input, "sha256": sha256(extractor / compare_input)},
-            {"name": conversion_input, "sha256": sha256(extractor / conversion_input)},
-            *({"name": "decoding/" + item, "sha256": sha256(reference / item)} for item in (
+            {"name": source_input, "sha256": sha256(extractor / source_input), "hash_mode": "raw-bytes"},
+            {"name": compare_input, "sha256": sha256(extractor / compare_input), "hash_mode": "raw-bytes"},
+            {"name": conversion_input, "sha256": sha256(extractor / conversion_input), "hash_mode": "raw-bytes"},
+            *({"name": "decoding/" + item, "sha256": sha256_text(reference / item), "hash_mode": "lf-normalized-utf8"} for item in (
                 "catalog/assets.json", "catalog/sections.json", "catalog/identification.json",
                 "catalog/weapon-ui-label-census.json", "catalog/weapon-display-consumer-proof.json",
                 "catalog/map-info-label-census.json", "catalog/stage54-name-link.json", "catalog/packages.json")),
-            {"name": "catalog.json", "sha256": sha256(destination / "catalog.json")},
+            {"name": "catalog.json", "sha256": sha256_text(destination / "catalog.json"), "hash_mode": "lf-normalized-utf8"},
         ],
         "verification": "Current local source bytes rehashed against the census and retained image comparison. Historical extractor exports and preserved public GLBs rehashed against current catalog records. Retained labels rechecked at bounded source offsets. Static consumer links inherit the pinned catalog analysis; this pass checks its source ELF hash, not runtime behavior. The disc image itself was not rerun or independently authenticated in this pass.",
         "image_provenance": "The image-comparison evidence concerns the locally held translated game image; it does not establish unmodified retail provenance.",
@@ -504,7 +509,7 @@ def build(extractor, reference, destination, snapshot_date):
         f"**{model_summary['map_info_resources']} stage-info resources** carry labels from **{model_summary['map_info_inputs']} statically linked B/M map-info files**; **{model_summary['ambiguous_map_info_resources']} resources have multiple labels within a version**. Working translations and retained Japanese backups remain separate. Catalog display text omits trailing ASCII/ideographic spaces and CR/LF; the original bounded source labels are retained as metadata. Labels describe entry-zero display text and may be mission or subarea names. These joins attach to exact `.i` and `.mg` sources. Only `stage/st54.dat` additionally carries the catalog's explicit same-stage-argument association with the retained Zoid Road label; complete map assembly and the battle-selection caller chain remain unverified.", "",
         "The GLB check covers magic/version, file and chunk lengths/alignment, JSON, buffer and buffer-view bounds, embedded image references, and resource URI counts. It records mesh/image/texture/material/animation counts. It does not establish full glTF conformance, topology, visual fidelity, application import, animation correctness, complete map assembly, collision or runtime behavior. The image itself was not independently re-extracted in this pass.", "",
         "## Provenance and regeneration", "",
-        f"The builder uses the decoding catalog's {len(records):,} model records, section descriptions, retained-label evidence and package manifest, the extractor source census and image comparison, and the public gallery catalog. Each JSON includes the input hashes and repository commit IDs. Static consumer analysis is inherited from the hashed catalog evidence with its source ELF hash checked; no runtime claim is added. Absolute workstation paths, private package locators, research code and raw game payloads are excluded. Upstream records carry a {historical['as_of']} date; that original value is recorded separately from this verification date.", "",
+        f"The builder uses the decoding catalog's {len(records):,} model records, section descriptions, retained-label evidence and package manifest, the extractor source census and image comparison, and the public gallery catalog. Each JSON includes the input hashes and repository commit IDs. Input `hash_mode` distinguishes exact evidence bytes from catalog JSON with CRLF normalized to LF, so metadata fingerprints remain consistent across checkouts. Source-file and model hashes always identify exact bytes. Static consumer analysis is inherited from the hashed catalog evidence with its source ELF hash checked; no runtime claim is added. Absolute workstation paths, private package locators, research code and raw game payloads are excluded. Upstream records carry a {historical['as_of']} date; that original value is recorded separately from this verification date.", "",
         "Run with Python 3.11 or newer; only the standard library is needed:", "", "```text",
         f"python scripts/build_inventory.py --extractor-root <extractor-workspace> --reference-root <decoding-repository> --snapshot-date {snapshot_date}", "```", "",
         "The command checks the complete current source tree against the retained evidence, rehashes local model exports and existing published models, then writes the JSON/CSV files and this document. Source-tree or source-hash drift aborts generation. Missing or changed historical exports are explicitly recorded; invalid matching GLB containers abort generation. Inputs must be the evidence version intended for the new snapshot.", "",

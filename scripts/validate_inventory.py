@@ -31,6 +31,10 @@ def digest(path):
         return hashlib.file_digest(handle, "sha256").hexdigest()
 
 
+def text_digest(path):
+    return hashlib.sha256(path.read_bytes().replace(b"\r\n", b"\n")).hexdigest()
+
+
 def sha(value):
     return isinstance(value, str) and re.fullmatch(r"[0-9a-f]{64}", value) is not None
 
@@ -232,7 +236,10 @@ def validate(root=ROOT):
     inputs = {entry["name"]: entry["sha256"] for entry in evidence["inputs"]}
     check(len(inputs) == len(evidence["inputs"]) and all(relative_path(name) and sha(value) for name, value in inputs.items()),
           "Invalid or duplicate provenance input")
-    check(inputs.get("catalog.json") == digest(root / "catalog.json"), "Published catalog provenance hash differs")
+    modes = {entry["name"]: entry.get("hash_mode", "raw-bytes") for entry in evidence["inputs"]}
+    check(set(modes.values()) <= {"raw-bytes", "lf-normalized-utf8"}, "Unknown input hash mode")
+    catalog_digest = text_digest if modes.get("catalog.json") == "lf-normalized-utf8" else digest
+    check(inputs.get("catalog.json") == catalog_digest(root / "catalog.json"), "Published catalog provenance hash differs")
     check(len({row["id"] for row in models}) == len(models), "Duplicate model IDs")
     check(len({row["path"] for row in files}) == len(files), "Duplicate source paths")
     check(len({row["id"] for row in categories}) == len(categories), "Duplicate category IDs")

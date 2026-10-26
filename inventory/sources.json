@@ -3,57 +3,69 @@
   "snapshot_date": "2026-10-26",
   "provenance": {
     "extractor_commit": "6bfa292704e5218b742a3fe2fa4e025e503c8f9c",
-    "decoding_catalog_commit": "852dd7fd508d2353deb7ef4095313f88e65a449c",
+    "decoding_catalog_commit": "b9cb10cd28c4087dc48aa6ace577abb1585dc241",
     "decoding_catalog_recorded_date": "2026-10-26",
     "date_note": "Snapshot date uses the requested America/New_York date; upstream recorded dates are preserved as evidence, not substituted for this verification date.",
     "inputs": [
       {
         "name": "decompilation/source_inventory/inventory.json",
-        "sha256": "4808f14a91b6f07b927cd4a9232958a03dce43a17595b52dc19044c9b8263823"
+        "sha256": "4808f14a91b6f07b927cd4a9232958a03dce43a17595b52dc19044c9b8263823",
+        "hash_mode": "raw-bytes"
       },
       {
         "name": "decompilation/image_compare/image_comparison.json",
-        "sha256": "9c4deb255a0d40c2747004d94801b141a57c17c5501ac3949c9ce455ce8455dd"
+        "sha256": "9c4deb255a0d40c2747004d94801b141a57c17c5501ac3949c9ce455ce8455dd",
+        "hash_mode": "raw-bytes"
       },
       {
         "name": "sandbox_converted/conversion_report.json",
-        "sha256": "ce5c6f1576c2270b5c7a32eff0f3347fa9ef98853e0a8735865a89d76df9ec91"
+        "sha256": "ce5c6f1576c2270b5c7a32eff0f3347fa9ef98853e0a8735865a89d76df9ec91",
+        "hash_mode": "raw-bytes"
       },
       {
         "name": "decoding/catalog/assets.json",
-        "sha256": "7e8f0364e4466b62b0ca75185900a622dfc3db65cd17b86828a2c1d284b999ef"
+        "sha256": "7e8f0364e4466b62b0ca75185900a622dfc3db65cd17b86828a2c1d284b999ef",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/sections.json",
-        "sha256": "7005047f384934cd1abe90d09a046b44d772de36689e811cf51bbdd47344f60d"
+        "sha256": "4e66332a41d7aada537c70832c7fafb3929748c725eb2e786f4eed085156e8c3",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/identification.json",
-        "sha256": "305b2f83c95c8048321ad104b15ead5de1414f86edbe1dd5d422dfce30d72365"
+        "sha256": "ea90ca743733700c7a2f5c2392c4372f7b82d6128c0a71453164e701f00a06b7",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/weapon-ui-label-census.json",
-        "sha256": "0f7d6c0a6cfc9d977a0326675b0a23149fc37534246afccfc61f740fa790f066"
+        "sha256": "0f7d6c0a6cfc9d977a0326675b0a23149fc37534246afccfc61f740fa790f066",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/weapon-display-consumer-proof.json",
-        "sha256": "34d89083820485fc8a4af25f01987f6922015b71c3b90816ea96b84a0c8b5d30"
+        "sha256": "34d89083820485fc8a4af25f01987f6922015b71c3b90816ea96b84a0c8b5d30",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/map-info-label-census.json",
-        "sha256": "5a875632298a03b0596fc92fbc368b52b2126ac27dadfa8992fcbbba2a253a73"
+        "sha256": "5a875632298a03b0596fc92fbc368b52b2126ac27dadfa8992fcbbba2a253a73",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/stage54-name-link.json",
-        "sha256": "b80e4e1d5a0482acad64d78a3600d4fc2f409a929487c784854282b34ee63e86"
+        "sha256": "b80e4e1d5a0482acad64d78a3600d4fc2f409a929487c784854282b34ee63e86",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "decoding/catalog/packages.json",
-        "sha256": "2cf33c24b8270b9f99ad10e1d06aba173909dc093f01d14703e85296356c1d15"
+        "sha256": "2cf33c24b8270b9f99ad10e1d06aba173909dc093f01d14703e85296356c1d15",
+        "hash_mode": "lf-normalized-utf8"
       },
       {
         "name": "catalog.json",
-        "sha256": "47187b06eb84a895064c9fd1fbd9070f9877f48e2db23a25307b0ab328627ffa"
+        "sha256": "f7135e80b1c08eca946dd2dd6a80acf9cd5ce09f2d75dd7bd2f61e70f577f4ed",
+        "hash_mode": "lf-normalized-utf8"
       }
     ],
     "verification": "Current local source bytes rehashed against the census and retained image comparison. Historical extractor exports and preserved public GLBs rehashed against current catalog records. Retained labels rechecked at bounded source offsets. Static consumer links inherit the pinned catalog analysis; this pass checks its source ELF hash, not runtime behavior. The disc image itself was not rerun or independently authenticated in this pass.",
