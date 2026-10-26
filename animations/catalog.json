@@ -1,9 +1,9 @@
 {
   "title": "Zoids VS. III animation downloads",
   "standard_model_count": 13,
-  "standard_take_records": 307,
+  "standard_take_records": 408,
   "optional_overlapping_a21_take_records": 56,
-  "counting_notes": "Published collection: 13 standard model IDs and 307 take records, not 307 unique moving animations. A01 adds 102 finite source slots, including static poses and short fragments; this is a separate baked FBX bank, not a change to the original GLB's 102 accessory/reference clips. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006. A02 adds 102 finite body-animation slots, including short fragments and poses; source-hidden helpers, auxiliary effects and native rendering remain outside its qualification.",
+  "counting_notes": "Published collection: 13 standard model IDs and 408 take records, not 408 unique moving animations. A01 adds 102 finite source slots, including static poses and short fragments; this is a separate baked FBX bank, not a change to the original GLB's 102 accessory/reference clips. Optional A21 mixed56 overlaps the standard55 and adds only slot006. B26 includes three static representatives and targeted-preview slot006. A02 adds 102 finite body-animation slots, including short fragments and poses; source-hidden helpers, auxiliary effects and native rendering remain outside its qualification. A05's full102 bank supersedes its historical one-take standard coverage (307 - 1 + 102 = 408). The retained historical A05 slot001 is excluded from standard totals.",
   "packages": [
     {
       "model": "A01",
@@ -188,9 +188,72 @@
     },
     {
       "model": "A05",
-      "variant": "blender-compat",
-      "take_records": 1,
+      "variant": "blender-compat-importclock30000",
+      "take_records": 102,
       "overlaps_standard": false,
+      "file": "A05_102_TAKES_IMPORTCLOCK30000.zip",
+      "bytes": 5735319,
+      "sha256": "8099e081414f5a08fa4736897fdf08d0b504145562f864dd15e50e02880a59e1",
+      "git_blob_sha1": "a638512e5e037b7e043b39ed75a9ee1aea5c8fad",
+      "contents": [
+        {
+          "file": "A05_102_TAKES_IMPORTCLOCK30000.fbx",
+          "bytes": 20839468,
+          "sha256": "daed9c5169d6cc17cfc439b0705b0b0dc497a00a4403b0dfe1ec58b6fab58188",
+          "git_blob_sha1": "d3e6c34f717a88b86e982864957f1fa2dedbfde1"
+        },
+        {
+          "file": "A05_ORIGINAL_SOURCE_ATLAS.png",
+          "bytes": 112570,
+          "sha256": "ee62e4461f1f967ac271129cbb598207b7f0945c7622e0330db13879d41c051b",
+          "git_blob_sha1": "bb9a59a2c958595ff20db18739345a4e56624643"
+        },
+        {
+          "file": "NOTICE.txt",
+          "bytes": 434,
+          "sha256": "6cea123d482103f9618d3e024fbc969fe4b5810ecb13239c4581ddad8257be50",
+          "git_blob_sha1": "7613b2f749feb576f7ff3d8ada56a4c99c9c8545"
+        },
+        {
+          "file": "README.txt",
+          "bytes": 3306,
+          "sha256": "5732ecc05c202a6e251e56a3420ab6631309123ddc5261a3898cf5b6cd15c215",
+          "git_blob_sha1": "b675185cf47ac4fce79242bb58547e93b67602d5"
+        },
+        {
+          "file": "SHA256SUMS",
+          "bytes": 547,
+          "sha256": "a7e877f5ff89c28e7c8efc4950434bdb306ff76d2e55e845fd242c6399d217b4",
+          "git_blob_sha1": "ecb8cda93f1469f2a5f8b3a2ad71e4daca3daa28"
+        },
+        {
+          "file": "VALIDATION.json",
+          "bytes": 26376,
+          "sha256": "c1e0631bc71380f0acf15d648f545e8932e806008caa523531516e1b820a1d33",
+          "git_blob_sha1": "614f2e1281b6bbff71b0bb6a1934b50aa6bf3626"
+        },
+        {
+          "file": "previews/A05_FULL102_ACTUAL_TEXTURED_REVIEW.png",
+          "bytes": 361257,
+          "sha256": "a8d6db1b9eb002fad0ae0682e4aea5c35d4163ce02bcf6e0f1c557e1d9422897",
+          "git_blob_sha1": "2881f3b6fdf45a9cfd1671117800c72760643b62"
+        }
+      ],
+      "download_path": "downloads/A05_102_TAKES_IMPORTCLOCK30000.zip",
+      "import_clock_fps": 30000,
+      "physical_seconds_preserved": true,
+      "limitations": [
+        "Global Blender scene FPS changes on import; use isolated scene or separately validated clock normalization, not FPS reset alone.",
+        "102 slots include short fragments and poses; no invented gameplay names or seamless loops.",
+        "Source-effective first-weight rule preserved, not the gallery's32 differing vertex weights.",
+        "Default-hidden helpers omitted; runtime visibility, native shaders, dynamic materials and Unreal/engine equivalence remain unqualified."
+      ]
+    },
+    {
+      "model": "A05",
+      "variant": "historical-first-clip",
+      "take_records": 1,
+      "overlaps_standard": true,
       "file": "A05-blender-compat-1-takes.zip",
       "bytes": 408852,
       "sha256": "948a556ed5eb54e726c78d86f3fd0199b86bf59c075f005dd342533c7e4c4c0b",
@@ -221,7 +284,11 @@
           "git_blob_sha1": "1625472cc1158f14c33013f2a3041a3996f36327"
         }
       ],
-      "download_path": "downloads/A05-blender-compat-1-takes.zip"
+      "download_path": "downloads/A05-blender-compat-1-takes.zip",
+      "historical": true,
+      "excluded_from_standard_count": true,
+      "superseded_by": "A05_102_TAKES_IMPORTCLOCK30000.zip",
+      "coverage_note": "Historical one-take download retained unchanged. Slot001 overlaps the full102 bank and is excluded from standard totals."
     },
     {
       "model": "A06",
@@ -593,6 +660,7 @@
       },
       "download_path": "downloads/B33-blender-compat-20-takes.zip"
     }
-  ]
+  ],
+  "historical_overlapping_take_records": 1
 }
 

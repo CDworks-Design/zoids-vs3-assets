@@ -12,11 +12,13 @@ The filenames preserve the game's source IDs. They are not a researched mapping 
 
 ## Baked FBX animation downloads
 
-[Download the checked animation packages](animations/README.md): **13 standard model IDs and 307 take records**, plus an optional overlapping A21 mixed56 approximation. Packages contain a multi-take FBX with embedded textures and documented limitations. This is not a complete roster export, and take records are not all distinct moving animations.
+[Download the checked animation packages](animations/README.md): **13 standard model IDs and 408 take records**, plus an optional overlapping A21 mixed56 approximation. A05's historical first-clip ZIP is retained but excluded from standard totals. Packages contain a multi-take FBX with embedded textures and documented limitations. This is not a complete roster export, and take records are not all distinct moving animations.
 
 A01's new 102-slot baked package is separate from the original accessory/reference GLB. Its 30,000-FPS import clock changes global Blender scene FPS while preserving seconds. Its runtime companion is data and instructions, not completed camera/material integration; [read A01's limits](animations/README.md#a01-qualified-converted-asset-not-engine-ready-integration) before importing.
 
 A02 adds a qualified 102-slot body-animation export with three exact atlases and diagnostic validation. Its 30,000-FPS import also changes global scene FPS; source-hidden helpers, auxiliary effects and native shaders remain outside qualification. [Read A02's limits](animations/README.md#a02-qualified-body-export-not-full-native-rendering).
+
+A05 now supplies its full 102-slot qualified body bank, replacing its earlier one-take coverage without double-counting. Its source-effective weights, 30,000-FPS global import clock and omitted-helper/runtime limits are documented in [A05's notes](animations/README.md#a05-qualified-full-body-bank-with-source-effective-weights).
 
 The [animation download page](https://cdworks-design.github.io/zoids-vs3-assets/animations/) is separate from the existing GLB viewer. The original GLBs remain byte-for-byte unchanged.
 
@@ -51,6 +53,7 @@ All 92 GLBs passed the read-only checks described in [VALIDATION.md](VALIDATION.
 [The machine-readable catalog](catalog.json) records source asset IDs, source hashes, export hashes, sizes, mesh counts, embedded images, and animation caveats. [SHA256SUMS.txt](SHA256SUMS.txt) retains the original package checksums and includes the added animation downloads and changed documentation. [Animation checksums](animations/SHA256SUMS) cover the new animation package files and catalog.
 
 Please read [ASSET_RIGHTS.md](ASSET_RIGHTS.md) before reuse. Publication does not imply an unrestricted, commercial-use, or open-source license for the original game content.
+
 
 
 

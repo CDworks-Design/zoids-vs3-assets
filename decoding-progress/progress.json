@@ -214,10 +214,16 @@
       "limits": "Qualified body export, not full native rendering. Source-hidden helpers are omitted; runtime visibility, node3 auxiliary effects, dynamic materials and original shaders/pass behavior remain unqualified. Unreal/other-engine equivalence is not certified."
     },
     {
+      "name": "A05 animation package",
+      "status": "Published · qualified full Blender body bank",
+      "detail": "A05's full 102-slot package replaces its one-take standard coverage. Actual Blender checks passed 113,135 queries with maximum position error 0.00459733369384 under the fixed 0.005 gate. The 30,000-FPS global import clock preserves seconds.",
+      "limits": "Source-effective first weights are retained, not substituted gallery weights. Default-hidden helpers/runtime visibility, native shaders and engine equivalence remain unqualified. Historical slot001 ZIP remains available but excluded from standard totals."
+    },
+    {
       "name": "Animation conversion queue",
       "status": "Partial coverage · ongoing",
-      "detail": "The public animation catalog contains 13 model IDs and 307 take records across full and partial banks. A03–A06 are active.",
-      "limits": "Catalog records are not a complete game animation total. Optional A21 overlap is separate and must not be double-counted; conversion and qualification continue in model order."
+      "detail": "The public animation catalog contains 13 model IDs and 408 standard take records across full and partial banks. A03 and A04 are held pending decisions; A06 is active; A07 is next, not yet started.",
+      "limits": "Catalog records are not a complete game animation total. Optional A21 and historical A05 first-clip overlaps are excluded from standard totals. Held candidates are not published as qualified full banks."
     },
     {
       "name": "Identification progress",
@@ -283,3 +289,4 @@
     }
   ]
 }
+
