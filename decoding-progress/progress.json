@@ -216,8 +216,20 @@
     {
       "name": "Animation conversion queue",
       "status": "Partial coverage · ongoing",
-      "detail": "The public animation catalog contains 13 model IDs and 307 take records across full and partial banks. A03–A05 are in progress; A06 is next in sequence.",
+      "detail": "The public animation catalog contains 13 model IDs and 307 take records across full and partial banks. A03–A06 are active.",
       "limits": "Catalog records are not a complete game animation total. Optional A21 overlap is separate and must not be double-counted; conversion and qualification continue in model order."
+    },
+    {
+      "name": "Identification progress",
+      "status": "Retained-label links · canonical identity unverified",
+      "detail": "31 stage-information resources are linked to retained labels across 73 supported record pairs. 217 weapon resource codes have retained UI labels, covering 209 distinct labels.",
+      "limits": "These are evidence-backed label associations, not verified canonical retail names or runtime identities. Resource and record counts are not unique maps or weapons."
+    },
+    {
+      "name": "Backup progress",
+      "status": "322 model records backed up · transfer work pending",
+      "detail": "Backup coverage includes 322 model records: 108 characters, 122 stages and 92 Zoids. Another 309 recovered models remain transfer-pending.",
+      "limits": "Model records include variants and are not unique entities. Recovery and structural verification do not mean transfer is complete, and these counts are not additional public downloads."
     }
   ],
   "systems": [
