@@ -3,8 +3,8 @@
   "snapshot_date": "2026-10-26",
   "provenance": {
     "extractor_commit": "6bfa292704e5218b742a3fe2fa4e025e503c8f9c",
-    "decoding_catalog_commit": "b9cb10cd28c4087dc48aa6ace577abb1585dc241",
-    "decoding_catalog_recorded_date": "2026-10-26",
+    "decoding_catalog_commit": "fb1bbfcecbf003b6b76b10a950ea34acf3400766",
+    "decoding_catalog_recorded_date": "2026-10-27",
     "date_note": "Snapshot date uses the requested America/New_York date; upstream recorded dates are preserved as evidence, not substituted for this verification date.",
     "inputs": [
       {
@@ -24,7 +24,7 @@
       },
       {
         "name": "decoding/catalog/assets.json",
-        "sha256": "7e8f0364e4466b62b0ca75185900a622dfc3db65cd17b86828a2c1d284b999ef",
+        "sha256": "7bd7758e73eec9fca3b28115bdad0d4e55630349ce859f552817602f45b42af1",
         "hash_mode": "lf-normalized-utf8"
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "name": "decoding/catalog/packages.json",
-        "sha256": "2cf33c24b8270b9f99ad10e1d06aba173909dc093f01d14703e85296356c1d15",
+        "sha256": "ae3ba12eb5ca07f26059070812f1c12c57db986d4377fcc666edb476e626c76e",
         "hash_mode": "lf-normalized-utf8"
       },
       {
@@ -92,10 +92,10 @@
     "map_info_resources": 31,
     "map_info_inputs": 146,
     "ambiguous_map_info_resources": 4,
-    "upstream_included_models": 322,
-    "upstream_pending_models": 309,
-    "upstream_package_count": 11,
-    "upstream_package_bytes": 74605152
+    "upstream_included_models": 631,
+    "upstream_pending_models": 0,
+    "upstream_package_count": 22,
+    "upstream_package_bytes": 132498427
   },
   "sections": [
     {
